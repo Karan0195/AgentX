@@ -1,0 +1,2001 @@
+Student_ID,Student_Name,Department,Semester,CGPA,BTES203G_Grade,Attendance_Percentage,Backlogs,Credits_Earned,City
+STU0001,Sharad Kulkarni,Computer Engineering,1,6.16,B+,81.7,0,20,Kolhapur
+STU0002,Rahul Patil,Electrical,3,7.49,C,85.8,0,60,Kolhapur
+STU0003,Rahul Patil,Civil,6,7.53,B+,67.6,0,120,Nashik
+STU0004,Rahul Jadhav,Electrical,8,6.99,P,80.8,0,160,Nagpur
+STU0005,Pooja Sharma,Civil,5,6.23,A,83.3,0,100,Aurangabad
+STU0006,Rahul Patil,Electrical,5,6.94,O,100.0,1,96,Nagpur
+STU0007,Rahul Chimurkar,AI&DS,8,7.84,A+,76.2,0,160,Pune
+STU0008,Pooja Bhosale,Electrical,3,8.09,B,72.6,0,60,Mumbai
+STU0009,Aishwarya Gill,Civil,8,8.02,A,92.1,0,160,Nagpur
+STU0010,Vikram Kajgunde,Computer Engineering,1,7.24,O,59.9,0,20,Nashik
+STU0011,Snehal Kulkarni,AI&DS,4,8.22,B+,96.1,0,80,Aurangabad
+STU0012,Rahul Kulkarni,AI&DS,1,7.72,A,65.4,0,20,Aurangabad
+STU0013,Neha Sharma,Computer Engineering,5,7.19,A+,74.3,0,100,Nagpur
+STU0014,Vikram Gill,Electrical,7,7.54,A,72.9,0,140,Mumbai
+STU0015,Aishwarya Deshmukh,Computer Engineering,5,6.66,B+,80.0,0,100,Nagpur
+STU0016,Pooja Chimurkar,Information Technology,7,6.81,B+,75.5,0,140,Nagpur
+STU0017,Aishwarya Gill,Electrical,6,7.67,B,78.2,2,112,Mumbai
+STU0018,Sharad Kajgunde,Mechanical,7,7.02,A+,78.8,0,140,Nashik
+STU0019,Neha Kulkarni,Mechanical,1,7.15,A+,85.5,0,20,Pune
+STU0020,Neha Jadhav,Civil,2,6.72,B+,93.8,1,36,Pune
+STU0021,Aishwarya Sawant,Computer Engineering,1,6.02,B,81.9,0,20,Kolhapur
+STU0022,Rahul Sharma,Computer Engineering,5,8.04,B+,100.0,0,100,Aurangabad
+STU0023,Sharad Kajgunde,Mechanical,5,5.5,B,85.3,0,100,Kolhapur
+STU0024,Pooja Kulkarni,Mechanical,5,6.74,B+,81.6,2,92,Aurangabad
+STU0025,Aishwarya Gill,AI&DS,8,7.1,B+,69.6,0,160,Kolhapur
+STU0026,Aishwarya Kulkarni,Electrical,4,6.32,B+,69.5,0,80,Aurangabad
+STU0027,Tanmay Sawant,Computer Engineering,2,6.64,A,78.6,0,40,Pune
+STU0028,Snehal Deshmukh,Civil,2,7.04,A+,86.4,0,40,Pune
+STU0029,Snehal Sawant,Mechanical,3,7.9,A+,79.6,0,60,Aurangabad
+STU0030,Tanmay Deshmukh,Information Technology,7,6.37,P,71.5,0,140,Nagpur
+STU0031,Pooja Kajgunde,AI&DS,1,8.85,A+,80.5,0,20,Nashik
+STU0032,Amit Deshmukh,Civil,8,8.58,B,85.8,0,160,Pune
+STU0033,Amit Patil,Electrical,3,6.66,A,77.1,1,56,Nashik
+STU0034,Neha Jadhav,Computer Engineering,1,6.4,B,81.7,0,20,Nagpur
+STU0035,Vikram Chimurkar,Mechanical,5,5.57,B+,81.2,0,100,Pune
+STU0036,Vikram Chimurkar,Mechanical,7,8.59,A+,88.1,0,140,Kolhapur
+STU0037,Sharad Patil,Mechanical,7,8.57,A+,90.0,0,140,Mumbai
+STU0038,Amit Patil,Civil,3,4.92,A,83.1,0,60,Nagpur
+STU0039,Vikram Deshmukh,Information Technology,7,6.27,A,88.2,0,140,Pune
+STU0040,Rahul Sawant,Electrical,2,8.47,A+,69.3,0,40,Aurangabad
+STU0041,Pooja Kulkarni,Mechanical,7,8.19,B+,61.6,0,140,Kolhapur
+STU0042,Amit Patil,AI&DS,8,8.07,B+,77.7,2,152,Nagpur
+STU0043,Snehal Kulkarni,Mechanical,5,5.54,FF,100.0,1,96,Aurangabad
+STU0044,Pooja Deshmukh,Information Technology,3,8.07,A,75.6,0,60,Nagpur
+STU0045,Karan Gill,Information Technology,4,8.58,O,77.6,0,80,Mumbai
+STU0046,Sharad Chimurkar,Electrical,1,8.86,B,81.9,0,20,Pune
+STU0047,Tanmay Jadhav,Civil,2,8.36,A+,84.0,0,40,Nagpur
+STU0048,Amit Kulkarni,Civil,8,4.13,B,74.9,0,160,Pune
+STU0049,Karan Deshmukh,Computer Engineering,2,8.55,A,90.9,0,40,Aurangabad
+STU0050,Karan Jadhav,Computer Engineering,2,8.27,B,84.9,0,40,Aurangabad
+STU0051,Aishwarya Kulkarni,Civil,2,8.5,A+,76.8,3,28,Pune
+STU0052,Sharad Chimurkar,Civil,5,7.51,B+,82.8,0,100,Mumbai
+STU0053,Karan Chimurkar,Electrical,5,6.57,C,78.9,4,84,Kolhapur
+STU0054,Amit Bhosale,Information Technology,2,8.11,O,82.5,1,36,Nashik
+STU0055,Aishwarya Bhosale,Mechanical,2,8.12,B,100.0,0,40,Pune
+STU0056,Vikram Jadhav,Electrical,6,7.61,A+,85.5,0,120,Mumbai
+STU0057,Tanmay Chimurkar,Electrical,7,6.64,A,91.7,0,140,Aurangabad
+STU0058,Vikram Sharma,Computer Engineering,8,8.78,O,69.5,0,160,Nashik
+STU0059,Karan Kajgunde,Information Technology,7,7.3,A+,88.3,0,140,Kolhapur
+STU0060,Aishwarya Bhosale,AI&DS,6,6.97,B+,92.4,0,120,Nashik
+STU0061,Pooja Patil,Computer Engineering,8,7.57,C,96.0,0,160,Aurangabad
+STU0062,Vikram Chimurkar,Electrical,5,8.7,B,75.5,1,96,Nagpur
+STU0063,Aishwarya Deshmukh,Electrical,7,5.14,B+,87.1,0,140,Aurangabad
+STU0064,Amit Chimurkar,AI&DS,2,8.54,B+,62.9,0,40,Pune
+STU0065,Pooja Deshmukh,Computer Engineering,8,6.12,B,68.2,0,160,Mumbai
+STU0066,Amit Chimurkar,AI&DS,3,6.63,A+,78.2,0,60,Nagpur
+STU0067,Rahul Kulkarni,Computer Engineering,3,7.72,O,75.7,0,60,Nashik
+STU0068,Rahul Sharma,Electrical,2,6.51,B+,82.9,0,40,Nashik
+STU0069,Snehal Bhosale,Civil,6,8.29,P,88.5,0,120,Pune
+STU0070,Neha Deshmukh,Mechanical,1,7.36,P,83.2,0,20,Nashik
+STU0071,Rahul Kajgunde,Information Technology,1,7.19,A,85.7,1,16,Mumbai
+STU0072,Amit Patil,Electrical,1,6.94,A+,91.4,0,20,Aurangabad
+STU0073,Sharad Gill,Computer Engineering,7,6.43,A,86.2,0,140,Pune
+STU0074,Rahul Deshmukh,Civil,3,8.02,O,73.8,0,60,Kolhapur
+STU0075,Sharad Kajgunde,Mechanical,3,7.57,A+,78.3,0,60,Nagpur
+STU0076,Pooja Kulkarni,Information Technology,2,8.4,A+,81.8,0,40,Mumbai
+STU0077,Vikram Jadhav,AI&DS,6,8.15,B+,91.6,0,120,Nagpur
+STU0078,Pooja Kajgunde,Information Technology,5,6.17,B+,84.9,0,100,Mumbai
+STU0079,Aishwarya Patil,Mechanical,2,9.37,A+,70.9,0,40,Nagpur
+STU0080,Pooja Jadhav,AI&DS,6,7.68,A,87.0,0,120,Mumbai
+STU0081,Vikram Kajgunde,Electrical,1,8.22,A,72.0,0,20,Nashik
+STU0082,Sharad Jadhav,Computer Engineering,4,5.86,A+,71.2,0,80,Aurangabad
+STU0083,Aishwarya Sawant,Information Technology,1,9.19,A+,70.2,0,20,Mumbai
+STU0084,Sharad Jadhav,Civil,8,6.99,A,87.0,0,160,Kolhapur
+STU0085,Vikram Sharma,Civil,1,5.94,B+,80.9,1,16,Aurangabad
+STU0086,Tanmay Kajgunde,Civil,4,6.31,B+,70.4,0,80,Pune
+STU0087,Vikram Deshmukh,AI&DS,3,7.98,A+,89.2,0,60,Kolhapur
+STU0088,Tanmay Deshmukh,Computer Engineering,4,7.6,O,87.3,0,80,Nagpur
+STU0089,Snehal Kajgunde,Information Technology,5,6.65,A,97.8,4,84,Nagpur
+STU0090,Snehal Sharma,Computer Engineering,2,8.51,A+,74.5,0,40,Pune
+STU0091,Amit Sharma,Information Technology,1,6.77,A+,80.4,0,20,Mumbai
+STU0092,Neha Kajgunde,Electrical,5,8.14,A+,83.3,0,100,Nashik
+STU0093,Sharad Bhosale,Electrical,7,7.25,A,98.3,1,136,Nagpur
+STU0094,Sharad Kajgunde,Electrical,4,7.17,B+,100.0,0,80,Pune
+STU0095,Pooja Kajgunde,Electrical,7,6.78,C,64.2,1,136,Mumbai
+STU0096,Aishwarya Patil,Electrical,6,4.78,B+,81.7,0,120,Pune
+STU0097,Aishwarya Sawant,Mechanical,2,6.78,A,88.1,0,40,Mumbai
+STU0098,Neha Bhosale,Civil,7,7.21,A+,71.7,1,136,Kolhapur
+STU0099,Tanmay Gill,Civil,4,7.03,A,84.0,0,80,Pune
+STU0100,Tanmay Deshmukh,Information Technology,4,9.0,A+,78.3,0,80,Aurangabad
+STU0101,Pooja Sawant,AI&DS,4,6.9,B+,79.5,1,76,Pune
+STU0102,Pooja Patil,Electrical,4,6.73,B+,81.8,0,80,Mumbai
+STU0103,Tanmay Bhosale,Information Technology,5,5.57,A,83.7,0,100,Aurangabad
+STU0104,Karan Patil,Information Technology,8,7.25,C,58.2,1,156,Pune
+STU0105,Neha Gill,Information Technology,5,9.16,O,86.8,0,100,Nagpur
+STU0106,Tanmay Jadhav,AI&DS,7,6.86,A+,73.4,1,136,Nashik
+STU0107,Aishwarya Deshmukh,Mechanical,8,6.75,A+,94.4,0,160,Pune
+STU0108,Vikram Sawant,Information Technology,7,7.76,C,84.3,2,132,Aurangabad
+STU0109,Sharad Sawant,Computer Engineering,7,9.18,A+,77.1,0,140,Pune
+STU0110,Snehal Bhosale,Electrical,8,8.06,A+,76.6,0,160,Kolhapur
+STU0111,Karan Gill,Civil,5,7.71,A+,91.8,0,100,Nashik
+STU0112,Tanmay Patil,Civil,5,7.61,P,88.7,2,92,Kolhapur
+STU0113,Rahul Bhosale,AI&DS,4,6.88,B+,95.5,0,80,Nashik
+STU0114,Snehal Kulkarni,Electrical,6,8.29,A+,84.5,0,120,Pune
+STU0115,Aishwarya Patil,Civil,7,6.65,A,98.1,1,136,Nashik
+STU0116,Aishwarya Gill,Electrical,6,5.69,B+,67.7,0,120,Nagpur
+STU0117,Pooja Sawant,AI&DS,2,8.38,B+,74.2,0,40,Mumbai
+STU0118,Rahul Chimurkar,Civil,3,8.04,A+,75.2,0,60,Nashik
+STU0119,Neha Bhosale,Mechanical,5,5.82,B+,88.1,0,100,Nagpur
+STU0120,Vikram Deshmukh,AI&DS,7,9.18,O,70.5,0,140,Mumbai
+STU0121,Rahul Sharma,Mechanical,6,6.0,A+,80.9,0,120,Kolhapur
+STU0122,Neha Jadhav,Mechanical,5,4.72,A,84.3,0,100,Nagpur
+STU0123,Snehal Bhosale,Mechanical,5,8.67,A,71.2,0,100,Pune
+STU0124,Rahul Kulkarni,Mechanical,8,8.67,A+,80.8,0,160,Nashik
+STU0125,Amit Gill,AI&DS,8,6.73,B+,80.4,1,156,Nashik
+STU0126,Pooja Sawant,Civil,5,7.29,B,92.0,0,100,Nagpur
+STU0127,Rahul Gill,Computer Engineering,2,7.2,B+,76.6,0,40,Nashik
+STU0128,Vikram Jadhav,AI&DS,3,9.58,O,73.0,0,60,Nashik
+STU0129,Neha Jadhav,Information Technology,1,7.9,A+,77.4,0,20,Mumbai
+STU0130,Vikram Kulkarni,Information Technology,7,4.61,C,100.0,0,140,Nagpur
+STU0131,Snehal Chimurkar,Electrical,3,6.95,B+,74.9,0,60,Nagpur
+STU0132,Karan Gill,AI&DS,1,8.1,A,73.4,1,16,Pune
+STU0133,Sharad Jadhav,AI&DS,6,8.67,A+,93.0,0,120,Aurangabad
+STU0134,Amit Patil,Computer Engineering,7,7.4,A+,100.0,2,132,Aurangabad
+STU0135,Amit Patil,Electrical,1,7.18,B,91.3,0,20,Pune
+STU0136,Amit Gill,AI&DS,7,8.99,A+,96.2,2,132,Kolhapur
+STU0137,Karan Gill,Computer Engineering,6,7.43,A,83.1,0,120,Kolhapur
+STU0138,Rahul Bhosale,Mechanical,2,7.14,A,83.8,2,32,Nagpur
+STU0139,Tanmay Gill,Electrical,3,7.17,A+,74.1,0,60,Nagpur
+STU0140,Neha Sawant,Electrical,5,5.45,B,72.3,0,100,Nashik
+STU0141,Aishwarya Patil,AI&DS,3,8.47,A+,70.6,3,48,Mumbai
+STU0142,Tanmay Kajgunde,Computer Engineering,3,7.51,A+,84.4,1,56,Mumbai
+STU0143,Amit Chimurkar,Electrical,7,7.62,A,91.8,1,136,Nagpur
+STU0144,Tanmay Chimurkar,Information Technology,8,8.43,A+,92.0,0,160,Nagpur
+STU0145,Karan Jadhav,Mechanical,6,7.47,B+,84.8,0,120,Pune
+STU0146,Neha Kajgunde,Electrical,4,7.03,A+,90.4,0,80,Aurangabad
+STU0147,Neha Jadhav,Computer Engineering,4,6.31,B,77.1,0,80,Kolhapur
+STU0148,Neha Patil,Information Technology,8,8.37,O,91.5,0,160,Kolhapur
+STU0149,Vikram Patil,Computer Engineering,4,7.84,A+,91.1,2,72,Mumbai
+STU0150,Rahul Chimurkar,Information Technology,4,6.73,A+,93.6,0,80,Kolhapur
+STU0151,Neha Kajgunde,Information Technology,3,7.73,P,92.3,1,56,Mumbai
+STU0152,Aishwarya Gill,Mechanical,7,6.97,A+,63.1,0,140,Kolhapur
+STU0153,Rahul Sharma,Information Technology,5,7.23,O,95.5,0,100,Nashik
+STU0154,Aishwarya Chimurkar,Mechanical,5,7.58,B+,100.0,0,100,Pune
+STU0155,Sharad Sawant,Mechanical,2,7.97,B+,65.6,0,40,Nashik
+STU0156,Sharad Kulkarni,Computer Engineering,6,6.0,B+,80.7,0,120,Kolhapur
+STU0157,Tanmay Bhosale,AI&DS,4,8.01,P,73.0,1,76,Pune
+STU0158,Vikram Kulkarni,Civil,8,6.72,B+,97.1,0,160,Mumbai
+STU0159,Rahul Deshmukh,Information Technology,5,6.29,A,84.8,0,100,Mumbai
+STU0160,Neha Deshmukh,Civil,7,6.29,A+,77.7,1,136,Pune
+STU0161,Sharad Sawant,Civil,4,6.51,A,85.0,0,80,Kolhapur
+STU0162,Snehal Jadhav,AI&DS,4,8.92,A,91.0,1,76,Kolhapur
+STU0163,Vikram Sawant,Information Technology,1,8.65,A,82.8,4,4,Aurangabad
+STU0164,Sharad Jadhav,AI&DS,5,6.33,B+,77.1,0,100,Nagpur
+STU0165,Karan Chimurkar,Information Technology,2,5.47,A,92.7,2,32,Nashik
+STU0166,Snehal Sharma,Civil,8,8.03,B+,100.0,0,160,Kolhapur
+STU0167,Vikram Jadhav,Computer Engineering,2,8.15,B,76.8,2,32,Kolhapur
+STU0168,Aishwarya Patil,Information Technology,4,8.02,A,100.0,2,72,Pune
+STU0169,Rahul Bhosale,Electrical,5,9.39,O,77.8,0,100,Aurangabad
+STU0170,Rahul Patil,AI&DS,8,9.35,A+,88.5,3,148,Nashik
+STU0171,Amit Deshmukh,Information Technology,3,7.81,A+,74.5,0,60,Mumbai
+STU0172,Aishwarya Chimurkar,Mechanical,2,6.95,A,93.6,0,40,Nashik
+STU0173,Karan Sharma,Electrical,1,8.9,B,91.8,0,20,Pune
+STU0174,Sharad Kulkarni,Civil,5,4.88,B+,78.1,0,100,Kolhapur
+STU0175,Sharad Kajgunde,Civil,2,7.84,A+,71.8,1,36,Kolhapur
+STU0176,Karan Chimurkar,AI&DS,1,5.46,B,85.6,1,16,Aurangabad
+STU0177,Tanmay Kajgunde,Mechanical,4,9.25,A+,97.7,0,80,Nashik
+STU0178,Neha Jadhav,Electrical,3,6.04,A,80.9,0,60,Mumbai
+STU0179,Rahul Sharma,Electrical,3,6.93,B,83.1,0,60,Nagpur
+STU0180,Pooja Kulkarni,Electrical,5,5.82,B,74.9,0,100,Pune
+STU0181,Sharad Chimurkar,Civil,4,6.85,C,83.8,0,80,Mumbai
+STU0182,Amit Chimurkar,Computer Engineering,1,8.62,B+,79.5,0,20,Aurangabad
+STU0183,Amit Sharma,Civil,1,8.32,B+,87.9,0,20,Aurangabad
+STU0184,Snehal Deshmukh,AI&DS,4,6.57,C,94.1,1,76,Aurangabad
+STU0185,Sharad Chimurkar,Computer Engineering,4,6.46,B+,88.5,0,80,Mumbai
+STU0186,Neha Chimurkar,Computer Engineering,1,8.09,A+,97.5,0,20,Mumbai
+STU0187,Rahul Chimurkar,Information Technology,8,7.55,B,77.2,0,160,Nagpur
+STU0188,Vikram Kajgunde,AI&DS,8,6.91,B+,89.6,0,160,Aurangabad
+STU0189,Tanmay Jadhav,Computer Engineering,8,7.07,B,76.1,0,160,Kolhapur
+STU0190,Amit Patil,Electrical,3,7.96,A,71.5,0,60,Aurangabad
+STU0191,Aishwarya Patil,Civil,2,7.72,B,90.4,0,40,Aurangabad
+STU0192,Sharad Chimurkar,Electrical,7,8.17,A+,92.8,0,140,Mumbai
+STU0193,Snehal Chimurkar,Electrical,5,8.81,C,95.4,1,96,Mumbai
+STU0194,Rahul Sharma,Civil,3,5.19,B,92.2,0,60,Nashik
+STU0195,Aishwarya Sawant,AI&DS,3,9.42,B+,86.9,0,60,Aurangabad
+STU0196,Amit Kajgunde,Mechanical,8,6.7,B+,82.7,0,160,Aurangabad
+STU0197,Amit Jadhav,Electrical,3,6.1,B+,79.2,4,44,Nashik
+STU0198,Sharad Gill,Computer Engineering,7,8.88,B+,76.7,1,136,Mumbai
+STU0199,Snehal Bhosale,Electrical,8,7.2,A,79.0,0,160,Kolhapur
+STU0200,Sharad Gill,Information Technology,1,7.8,P,66.4,0,20,Nagpur
+STU0201,Pooja Patil,Information Technology,7,5.74,FF,96.6,0,140,Nagpur
+STU0202,Sharad Chimurkar,Mechanical,4,7.94,A,55.9,0,80,Nashik
+STU0203,Karan Patil,AI&DS,5,6.83,B,90.4,1,96,Aurangabad
+STU0204,Aishwarya Bhosale,Civil,1,8.22,A+,88.2,0,20,Nagpur
+STU0205,Sharad Chimurkar,Information Technology,7,8.02,B+,99.9,3,128,Kolhapur
+STU0206,Aishwarya Bhosale,Information Technology,5,6.17,C,83.2,0,100,Mumbai
+STU0207,Snehal Bhosale,AI&DS,7,5.36,B+,92.5,2,132,Nagpur
+STU0208,Pooja Kajgunde,Civil,4,7.53,B+,94.6,1,76,Aurangabad
+STU0209,Neha Patil,Computer Engineering,8,6.39,A,75.2,0,160,Mumbai
+STU0210,Karan Kajgunde,Computer Engineering,8,6.53,A,92.2,0,160,Nashik
+STU0211,Karan Jadhav,Electrical,6,8.01,A+,94.1,0,120,Mumbai
+STU0212,Neha Bhosale,AI&DS,5,8.81,O,78.1,0,100,Mumbai
+STU0213,Vikram Bhosale,Mechanical,5,7.75,A,77.4,0,100,Nagpur
+STU0214,Pooja Sawant,Civil,7,6.21,B+,84.5,0,140,Aurangabad
+STU0215,Neha Gill,Mechanical,2,6.94,B,84.3,1,36,Kolhapur
+STU0216,Pooja Bhosale,Electrical,8,7.01,A,77.1,1,156,Mumbai
+STU0217,Snehal Deshmukh,Computer Engineering,2,7.17,C,86.6,0,40,Mumbai
+STU0218,Snehal Bhosale,Civil,3,9.06,A,86.2,0,60,Aurangabad
+STU0219,Sharad Kulkarni,AI&DS,2,8.43,B+,90.3,2,32,Aurangabad
+STU0220,Aishwarya Patil,Electrical,5,8.28,B+,92.5,0,100,Kolhapur
+STU0221,Pooja Sharma,AI&DS,1,9.03,A+,100.0,0,20,Aurangabad
+STU0222,Rahul Bhosale,Electrical,6,7.08,A+,89.9,0,120,Nashik
+STU0223,Aishwarya Chimurkar,AI&DS,4,6.04,B+,83.8,0,80,Nashik
+STU0224,Tanmay Gill,Electrical,2,7.17,A+,81.4,0,40,Mumbai
+STU0225,Karan Bhosale,Electrical,5,6.46,B+,68.3,0,100,Aurangabad
+STU0226,Vikram Chimurkar,Electrical,5,8.89,O,76.9,0,100,Nagpur
+STU0227,Karan Sawant,Civil,3,8.07,A,84.1,0,60,Aurangabad
+STU0228,Sharad Chimurkar,Information Technology,4,7.68,C,72.2,1,76,Nagpur
+STU0229,Sharad Bhosale,Electrical,5,6.76,B+,83.3,0,100,Nagpur
+STU0230,Amit Bhosale,Mechanical,7,6.57,B,98.0,0,140,Kolhapur
+STU0231,Neha Chimurkar,Computer Engineering,8,6.33,B+,86.2,0,160,Pune
+STU0232,Neha Kajgunde,AI&DS,6,7.17,A,68.3,0,120,Pune
+STU0233,Neha Deshmukh,AI&DS,8,7.16,A,82.7,0,160,Kolhapur
+STU0234,Pooja Sharma,Information Technology,7,7.43,A,100.0,0,140,Nashik
+STU0235,Rahul Bhosale,Mechanical,4,6.93,A,70.2,0,80,Mumbai
+STU0236,Amit Kajgunde,Information Technology,8,6.11,B+,75.5,0,160,Nashik
+STU0237,Rahul Patil,Mechanical,3,8.3,A+,61.7,0,60,Nagpur
+STU0238,Aishwarya Sawant,Electrical,8,8.83,A,82.1,1,156,Aurangabad
+STU0239,Karan Bhosale,Civil,3,7.74,P,78.3,0,60,Pune
+STU0240,Vikram Bhosale,Electrical,5,6.76,B,60.6,0,100,Kolhapur
+STU0241,Tanmay Jadhav,Mechanical,2,7.76,B+,89.4,2,32,Pune
+STU0242,Karan Chimurkar,Computer Engineering,1,6.84,B+,77.0,0,20,Nagpur
+STU0243,Sharad Kulkarni,Civil,4,6.5,B+,87.6,0,80,Kolhapur
+STU0244,Karan Kajgunde,Electrical,4,7.58,A+,90.4,0,80,Aurangabad
+STU0245,Snehal Patil,Computer Engineering,7,8.19,B+,100.0,0,140,Pune
+STU0246,Neha Gill,Civil,1,7.16,B,97.9,0,20,Nagpur
+STU0247,Pooja Kajgunde,Electrical,7,8.3,A+,78.4,0,140,Mumbai
+STU0248,Snehal Kajgunde,Civil,2,6.01,A,79.1,0,40,Mumbai
+STU0249,Karan Kulkarni,Civil,3,5.72,B,81.3,1,56,Nagpur
+STU0250,Snehal Gill,Information Technology,3,8.24,A+,80.2,0,60,Mumbai
+STU0251,Snehal Gill,Mechanical,1,7.35,B+,90.2,4,4,Mumbai
+STU0252,Aishwarya Deshmukh,Electrical,2,5.65,A+,79.6,2,32,Kolhapur
+STU0253,Rahul Jadhav,AI&DS,7,6.25,B+,68.1,0,140,Aurangabad
+STU0254,Tanmay Gill,Electrical,2,8.59,B,98.2,0,40,Aurangabad
+STU0255,Neha Deshmukh,Civil,5,5.89,FF,84.1,0,100,Aurangabad
+STU0256,Neha Kulkarni,Civil,1,8.72,A,82.1,0,20,Mumbai
+STU0257,Sharad Sawant,Electrical,5,7.31,C,67.4,0,100,Mumbai
+STU0258,Tanmay Kajgunde,Mechanical,4,7.53,O,80.1,1,76,Aurangabad
+STU0259,Sharad Jadhav,Civil,5,7.22,B+,76.9,0,100,Mumbai
+STU0260,Aishwarya Jadhav,Electrical,3,8.41,P,89.0,0,60,Nashik
+STU0261,Aishwarya Gill,Computer Engineering,2,7.23,B,71.0,0,40,Kolhapur
+STU0262,Vikram Chimurkar,AI&DS,6,8.94,A,79.7,0,120,Pune
+STU0263,Vikram Bhosale,Information Technology,2,7.34,B+,89.5,0,40,Aurangabad
+STU0264,Snehal Kajgunde,Mechanical,5,6.26,A,93.8,0,100,Mumbai
+STU0265,Amit Sharma,Civil,8,4.85,B,89.9,0,160,Aurangabad
+STU0266,Aishwarya Patil,AI&DS,8,8.25,P,81.1,1,156,Aurangabad
+STU0267,Neha Kajgunde,Mechanical,3,7.24,A,83.7,0,60,Nashik
+STU0268,Vikram Sawant,Electrical,6,7.41,C,75.1,0,120,Aurangabad
+STU0269,Vikram Patil,Electrical,8,8.06,A+,83.2,1,156,Nagpur
+STU0270,Aishwarya Gill,Information Technology,2,5.77,C,80.0,0,40,Pune
+STU0271,Pooja Gill,Civil,6,8.3,A+,79.5,0,120,Pune
+STU0272,Pooja Patil,AI&DS,5,7.16,A+,72.4,0,100,Kolhapur
+STU0273,Neha Chimurkar,Computer Engineering,5,7.34,B+,89.5,0,100,Nagpur
+STU0274,Neha Kulkarni,Information Technology,8,6.57,B,86.9,0,160,Pune
+STU0275,Amit Jadhav,Electrical,4,7.35,A,93.8,0,80,Kolhapur
+STU0276,Tanmay Bhosale,AI&DS,7,7.19,P,87.3,0,140,Mumbai
+STU0277,Tanmay Patil,Information Technology,7,8.93,A,78.5,0,140,Mumbai
+STU0278,Karan Chimurkar,Computer Engineering,7,7.48,B+,69.6,0,140,Mumbai
+STU0279,Neha Chimurkar,Electrical,6,8.55,A+,88.1,0,120,Nashik
+STU0280,Pooja Chimurkar,Electrical,1,6.42,A,64.2,0,20,Pune
+STU0281,Pooja Chimurkar,Electrical,4,6.85,A,89.8,0,80,Nashik
+STU0282,Sharad Kulkarni,Electrical,5,5.41,B+,92.1,2,92,Pune
+STU0283,Rahul Kulkarni,AI&DS,7,5.7,A,92.7,0,140,Nagpur
+STU0284,Vikram Sharma,AI&DS,5,7.56,B,85.9,0,100,Mumbai
+STU0285,Sharad Sharma,Civil,6,6.15,B+,77.3,4,104,Nashik
+STU0286,Pooja Sawant,Mechanical,1,5.23,C,86.5,1,16,Nashik
+STU0287,Neha Bhosale,Computer Engineering,4,5.58,A+,76.1,1,76,Nashik
+STU0288,Aishwarya Jadhav,AI&DS,3,8.8,A+,76.7,3,48,Kolhapur
+STU0289,Vikram Kajgunde,Information Technology,4,8.0,A,80.4,0,80,Nagpur
+STU0290,Rahul Sharma,Computer Engineering,4,6.39,B+,88.0,3,68,Kolhapur
+STU0291,Neha Patil,Information Technology,8,6.4,A,55.8,0,160,Pune
+STU0292,Vikram Jadhav,Civil,2,5.01,B+,84.7,0,40,Mumbai
+STU0293,Tanmay Sharma,Information Technology,1,6.69,B,89.2,4,4,Kolhapur
+STU0294,Tanmay Bhosale,Civil,4,7.29,B+,76.7,1,76,Pune
+STU0295,Rahul Sharma,Mechanical,2,7.3,A+,63.6,1,36,Mumbai
+STU0296,Sharad Sawant,Civil,7,8.41,A+,88.5,0,140,Pune
+STU0297,Neha Kulkarni,Mechanical,1,8.54,A,79.1,1,16,Nashik
+STU0298,Pooja Kulkarni,AI&DS,5,8.33,A,79.2,0,100,Aurangabad
+STU0299,Tanmay Gill,AI&DS,7,8.5,B,79.9,0,140,Pune
+STU0300,Karan Kajgunde,AI&DS,6,7.0,C,87.2,0,120,Nashik
+STU0301,Neha Jadhav,Electrical,2,7.37,A,66.0,0,40,Mumbai
+STU0302,Tanmay Chimurkar,AI&DS,7,7.26,A+,88.0,0,140,Kolhapur
+STU0303,Snehal Bhosale,Mechanical,5,4.65,B+,78.6,0,100,Kolhapur
+STU0304,Amit Sawant,Information Technology,6,6.61,B,68.7,0,120,Aurangabad
+STU0305,Karan Kulkarni,Mechanical,2,7.66,B,89.7,0,40,Mumbai
+STU0306,Pooja Kajgunde,Computer Engineering,4,6.69,P,86.9,0,80,Kolhapur
+STU0307,Amit Sawant,Civil,2,8.52,B,100.0,0,40,Mumbai
+STU0308,Aishwarya Chimurkar,Computer Engineering,7,6.73,B,81.3,0,140,Mumbai
+STU0309,Rahul Patil,Mechanical,1,7.35,B,76.7,0,20,Nagpur
+STU0310,Pooja Patil,Information Technology,6,8.22,C,83.9,0,120,Nagpur
+STU0311,Sharad Bhosale,Mechanical,1,8.8,A+,80.2,0,20,Aurangabad
+STU0312,Aishwarya Chimurkar,Mechanical,1,9.78,A+,61.5,0,20,Nagpur
+STU0313,Neha Bhosale,Information Technology,6,5.95,A+,77.2,0,120,Pune
+STU0314,Rahul Kajgunde,Mechanical,3,8.44,A+,78.3,0,60,Nashik
+STU0315,Tanmay Sharma,Mechanical,5,8.44,A,78.0,0,100,Nashik
+STU0316,Aishwarya Patil,Civil,2,6.25,O,77.6,1,36,Mumbai
+STU0317,Vikram Gill,AI&DS,6,7.11,A,89.3,0,120,Mumbai
+STU0318,Vikram Sawant,Mechanical,1,7.33,B,73.7,0,20,Aurangabad
+STU0319,Snehal Bhosale,Computer Engineering,4,6.64,A,82.8,0,80,Nashik
+STU0320,Tanmay Chimurkar,AI&DS,5,7.69,A+,81.9,0,100,Nagpur
+STU0321,Aishwarya Kulkarni,Electrical,8,5.49,B+,78.6,0,160,Pune
+STU0322,Neha Jadhav,Civil,7,7.81,A+,61.6,0,140,Nashik
+STU0323,Karan Sawant,Civil,4,6.4,B,86.2,0,80,Pune
+STU0324,Tanmay Gill,Computer Engineering,3,7.63,O,99.7,0,60,Mumbai
+STU0325,Sharad Sharma,AI&DS,7,8.48,A+,100.0,0,140,Mumbai
+STU0326,Tanmay Gill,Information Technology,6,6.73,B+,87.0,0,120,Nagpur
+STU0327,Neha Gill,Mechanical,7,7.43,B+,73.8,0,140,Pune
+STU0328,Vikram Chimurkar,Computer Engineering,5,6.01,A,67.9,1,96,Mumbai
+STU0329,Pooja Gill,Electrical,4,8.9,B+,70.5,1,76,Aurangabad
+STU0330,Snehal Deshmukh,Computer Engineering,1,8.11,O,76.3,0,20,Nashik
+STU0331,Tanmay Patil,Computer Engineering,8,8.62,B,81.7,0,160,Nagpur
+STU0332,Neha Chimurkar,Computer Engineering,8,7.42,A,80.9,0,160,Aurangabad
+STU0333,Tanmay Patil,Computer Engineering,4,7.22,B+,74.2,0,80,Pune
+STU0334,Amit Chimurkar,Electrical,3,7.47,B+,66.9,2,52,Nagpur
+STU0335,Sharad Kajgunde,Electrical,2,7.15,A+,75.3,0,40,Pune
+STU0336,Snehal Chimurkar,Information Technology,2,5.41,A+,60.9,0,40,Pune
+STU0337,Amit Jadhav,Civil,3,7.2,A,79.9,0,60,Mumbai
+STU0338,Amit Chimurkar,Civil,8,8.15,A+,83.5,0,160,Nagpur
+STU0339,Aishwarya Sharma,Mechanical,5,6.02,B,79.3,0,100,Kolhapur
+STU0340,Vikram Bhosale,Mechanical,7,6.75,C,85.5,0,140,Aurangabad
+STU0341,Karan Kulkarni,Computer Engineering,7,7.52,A,97.9,0,140,Pune
+STU0342,Sharad Sawant,Mechanical,1,8.25,A+,65.2,1,16,Kolhapur
+STU0343,Karan Sawant,Information Technology,8,7.49,P,79.1,0,160,Aurangabad
+STU0344,Neha Deshmukh,Computer Engineering,3,6.98,B,82.8,1,56,Pune
+STU0345,Neha Sharma,Computer Engineering,8,7.85,A+,69.9,0,160,Kolhapur
+STU0346,Rahul Jadhav,Civil,7,7.04,A,94.2,0,140,Pune
+STU0347,Amit Sawant,Information Technology,1,6.91,B,65.5,0,20,Kolhapur
+STU0348,Neha Sawant,Mechanical,5,6.79,B+,80.9,1,96,Aurangabad
+STU0349,Tanmay Patil,AI&DS,2,5.95,A,100.0,0,40,Nagpur
+STU0350,Aishwarya Chimurkar,AI&DS,8,7.49,A,84.6,0,160,Pune
+STU0351,Rahul Sawant,Civil,5,6.03,B+,82.6,0,100,Kolhapur
+STU0352,Pooja Kulkarni,Mechanical,8,6.69,A,86.2,0,160,Aurangabad
+STU0353,Amit Sawant,Information Technology,6,7.46,A+,70.6,0,120,Nagpur
+STU0354,Pooja Sharma,AI&DS,4,8.23,A,100.0,1,76,Aurangabad
+STU0355,Pooja Sawant,Information Technology,5,5.35,B,54.9,0,100,Mumbai
+STU0356,Rahul Kajgunde,Electrical,5,7.51,B,77.8,2,92,Pune
+STU0357,Neha Deshmukh,AI&DS,7,8.13,B,70.6,0,140,Mumbai
+STU0358,Neha Sawant,Civil,8,6.93,A,72.3,2,152,Aurangabad
+STU0359,Sharad Chimurkar,Mechanical,3,6.96,B+,86.9,2,52,Nagpur
+STU0360,Pooja Kajgunde,Mechanical,2,6.75,B+,89.1,0,40,Mumbai
+STU0361,Pooja Sawant,Computer Engineering,7,4.74,B+,86.4,0,140,Mumbai
+STU0362,Amit Chimurkar,Electrical,7,4.81,B+,76.8,0,140,Mumbai
+STU0363,Sharad Deshmukh,Mechanical,6,7.96,B,67.3,0,120,Nagpur
+STU0364,Aishwarya Deshmukh,Information Technology,5,7.59,C,92.0,1,96,Nagpur
+STU0365,Karan Kulkarni,Electrical,7,9.71,A+,74.6,0,140,Kolhapur
+STU0366,Neha Sawant,AI&DS,4,7.33,B,82.0,0,80,Nagpur
+STU0367,Sharad Deshmukh,Civil,1,5.88,A+,92.2,0,20,Nagpur
+STU0368,Neha Bhosale,Mechanical,7,7.1,A,100.0,0,140,Mumbai
+STU0369,Aishwarya Sharma,Computer Engineering,8,5.7,B+,91.7,1,156,Nashik
+STU0370,Neha Jadhav,Electrical,6,6.42,A,90.9,0,120,Mumbai
+STU0371,Karan Bhosale,Civil,4,9.48,O,84.1,0,80,Nagpur
+STU0372,Vikram Kulkarni,AI&DS,4,6.13,B+,76.3,0,80,Aurangabad
+STU0373,Vikram Sharma,AI&DS,4,5.11,A,90.6,0,80,Mumbai
+STU0374,Neha Sawant,Mechanical,2,9.91,A,85.2,0,40,Nagpur
+STU0375,Aishwarya Sawant,AI&DS,1,8.43,B,98.1,0,20,Pune
+STU0376,Snehal Bhosale,Mechanical,1,7.4,B+,82.4,0,20,Kolhapur
+STU0377,Sharad Sawant,Computer Engineering,1,7.24,A+,84.1,1,16,Kolhapur
+STU0378,Neha Sharma,AI&DS,3,5.64,A+,86.5,1,56,Nagpur
+STU0379,Karan Kulkarni,Civil,4,6.0,B+,86.2,0,80,Nashik
+STU0380,Rahul Deshmukh,AI&DS,8,6.28,A,82.9,1,156,Nagpur
+STU0381,Karan Chimurkar,Information Technology,8,5.86,A,93.0,0,160,Aurangabad
+STU0382,Aishwarya Deshmukh,AI&DS,2,6.02,A,84.3,0,40,Nashik
+STU0383,Karan Deshmukh,Information Technology,2,5.66,B+,96.5,2,32,Kolhapur
+STU0384,Rahul Jadhav,Civil,5,7.73,A+,87.4,0,100,Nagpur
+STU0385,Rahul Sawant,AI&DS,6,6.67,B+,95.2,0,120,Mumbai
+STU0386,Tanmay Kulkarni,Computer Engineering,6,7.27,A,90.0,1,116,Nagpur
+STU0387,Vikram Kajgunde,Electrical,3,6.99,A,82.7,0,60,Kolhapur
+STU0388,Sharad Sawant,Computer Engineering,5,6.88,B,91.8,0,100,Mumbai
+STU0389,Amit Gill,Information Technology,5,7.23,B,72.1,1,96,Kolhapur
+STU0390,Rahul Jadhav,Mechanical,3,7.59,A,95.7,0,60,Kolhapur
+STU0391,Snehal Sharma,Mechanical,7,7.1,A,82.4,0,140,Aurangabad
+STU0392,Tanmay Kajgunde,Computer Engineering,7,9.22,O,74.4,0,140,Nagpur
+STU0393,Rahul Sharma,Civil,5,8.47,A+,76.2,0,100,Pune
+STU0394,Karan Patil,Mechanical,1,8.1,B+,80.5,0,20,Mumbai
+STU0395,Amit Bhosale,Information Technology,5,10.0,O,84.4,0,100,Nagpur
+STU0396,Snehal Gill,Civil,2,6.25,FF,80.0,0,40,Nashik
+STU0397,Vikram Gill,Computer Engineering,7,7.23,O,78.9,0,140,Pune
+STU0398,Rahul Deshmukh,Civil,5,6.92,B+,87.8,3,88,Nashik
+STU0399,Amit Patil,Computer Engineering,4,7.26,B,96.7,1,76,Nashik
+STU0400,Aishwarya Sharma,Electrical,6,9.95,A+,78.6,0,120,Pune
+STU0401,Vikram Deshmukh,Computer Engineering,7,5.94,O,79.0,2,132,Pune
+STU0402,Tanmay Sawant,Civil,2,5.4,FF,78.4,0,40,Aurangabad
+STU0403,Pooja Deshmukh,Mechanical,1,7.23,A,72.5,1,16,Aurangabad
+STU0404,Snehal Bhosale,Information Technology,7,8.32,O,86.3,0,140,Aurangabad
+STU0405,Neha Jadhav,Civil,4,9.0,B+,81.5,0,80,Aurangabad
+STU0406,Vikram Sharma,AI&DS,2,7.98,A+,75.8,2,32,Aurangabad
+STU0407,Karan Sawant,Electrical,4,5.01,B+,78.5,0,80,Nashik
+STU0408,Amit Gill,Information Technology,3,8.69,A+,86.1,0,60,Aurangabad
+STU0409,Tanmay Jadhav,Civil,3,6.85,A,82.4,0,60,Nashik
+STU0410,Rahul Bhosale,Information Technology,2,7.17,A+,87.1,1,36,Mumbai
+STU0411,Amit Bhosale,Computer Engineering,8,5.73,C,82.1,0,160,Kolhapur
+STU0412,Tanmay Deshmukh,Mechanical,5,3.54,FF,78.3,1,96,Nagpur
+STU0413,Neha Patil,Information Technology,6,7.04,B,88.3,0,120,Nashik
+STU0414,Neha Kajgunde,Electrical,5,7.64,C,76.3,0,100,Nashik
+STU0415,Tanmay Deshmukh,AI&DS,7,5.52,A,69.8,1,136,Kolhapur
+STU0416,Tanmay Jadhav,Information Technology,4,9.22,B+,86.2,0,80,Kolhapur
+STU0417,Rahul Jadhav,Computer Engineering,6,7.36,A+,82.5,2,112,Nagpur
+STU0418,Rahul Kulkarni,Mechanical,5,5.52,B+,81.1,0,100,Mumbai
+STU0419,Pooja Patil,Mechanical,8,6.81,P,71.6,3,148,Pune
+STU0420,Pooja Sharma,AI&DS,6,7.72,B+,80.2,0,120,Nagpur
+STU0421,Neha Bhosale,Computer Engineering,2,8.4,A,91.5,0,40,Pune
+STU0422,Pooja Sharma,AI&DS,2,7.38,A+,82.9,0,40,Mumbai
+STU0423,Vikram Sawant,Mechanical,8,7.82,A+,89.6,0,160,Aurangabad
+STU0424,Amit Jadhav,Civil,7,7.26,A,87.8,0,140,Pune
+STU0425,Sharad Bhosale,Information Technology,7,8.68,P,81.1,2,132,Aurangabad
+STU0426,Karan Kajgunde,Computer Engineering,1,8.86,B,76.1,0,20,Aurangabad
+STU0427,Rahul Sharma,Information Technology,5,7.87,A,82.4,0,100,Mumbai
+STU0428,Vikram Patil,AI&DS,3,6.59,B,75.1,0,60,Kolhapur
+STU0429,Karan Sharma,Mechanical,6,7.45,A,77.4,1,116,Kolhapur
+STU0430,Rahul Sawant,Mechanical,3,6.28,A,72.3,0,60,Mumbai
+STU0431,Snehal Bhosale,Computer Engineering,2,7.16,A+,84.5,1,36,Nagpur
+STU0432,Tanmay Kulkarni,Information Technology,6,7.73,B+,80.4,3,108,Aurangabad
+STU0433,Snehal Kulkarni,Civil,5,7.32,C,85.9,1,96,Mumbai
+STU0434,Amit Patil,Electrical,1,8.83,O,83.1,0,20,Aurangabad
+STU0435,Sharad Deshmukh,Computer Engineering,8,7.36,O,90.7,0,160,Nagpur
+STU0436,Pooja Sawant,Civil,7,7.36,B+,79.8,1,136,Kolhapur
+STU0437,Tanmay Chimurkar,Computer Engineering,8,7.56,B+,78.8,0,160,Kolhapur
+STU0438,Vikram Sharma,AI&DS,6,7.22,C,94.1,0,120,Nashik
+STU0439,Snehal Patil,Information Technology,8,7.54,C,96.4,0,160,Nashik
+STU0440,Neha Gill,Civil,8,6.66,B,85.2,0,160,Pune
+STU0441,Karan Kajgunde,Civil,2,6.75,B+,71.0,0,40,Mumbai
+STU0442,Amit Kajgunde,Civil,3,6.81,B+,81.9,3,48,Pune
+STU0443,Snehal Chimurkar,AI&DS,3,8.36,B+,70.9,0,60,Kolhapur
+STU0444,Vikram Sharma,Mechanical,4,7.92,B,89.0,0,80,Pune
+STU0445,Tanmay Kajgunde,Mechanical,2,8.02,B,85.8,0,40,Aurangabad
+STU0446,Tanmay Sharma,Electrical,4,6.09,A,74.8,0,80,Nagpur
+STU0447,Aishwarya Sawant,Information Technology,6,6.41,A,83.8,3,108,Pune
+STU0448,Sharad Bhosale,Mechanical,4,8.44,B+,100.0,0,80,Kolhapur
+STU0449,Vikram Deshmukh,Mechanical,2,7.43,C,100.0,0,40,Pune
+STU0450,Aishwarya Patil,Computer Engineering,4,6.26,B,100.0,0,80,Mumbai
+STU0451,Karan Gill,Information Technology,7,7.96,A,86.8,0,140,Mumbai
+STU0452,Aishwarya Gill,Computer Engineering,3,7.22,A,71.6,0,60,Nagpur
+STU0453,Pooja Kulkarni,Computer Engineering,7,7.82,A,60.7,0,140,Nashik
+STU0454,Aishwarya Chimurkar,Information Technology,3,7.39,A,74.2,1,56,Nashik
+STU0455,Aishwarya Bhosale,AI&DS,4,7.08,A,98.0,0,80,Nashik
+STU0456,Vikram Gill,Electrical,3,7.94,B+,72.0,1,56,Nashik
+STU0457,Rahul Chimurkar,Computer Engineering,8,7.34,B+,71.2,0,160,Aurangabad
+STU0458,Snehal Jadhav,Computer Engineering,8,9.42,A+,81.7,0,160,Pune
+STU0459,Karan Bhosale,AI&DS,2,6.39,B,76.1,0,40,Kolhapur
+STU0460,Amit Bhosale,AI&DS,2,6.53,A,73.3,0,40,Nashik
+STU0461,Rahul Sharma,Information Technology,8,6.48,B,88.6,1,156,Pune
+STU0462,Snehal Patil,Civil,3,6.1,A+,93.9,0,60,Aurangabad
+STU0463,Rahul Sawant,Mechanical,2,6.77,B,87.2,1,36,Pune
+STU0464,Pooja Kajgunde,Mechanical,8,5.82,B+,86.9,0,160,Nashik
+STU0465,Snehal Gill,Civil,1,8.31,A,84.6,0,20,Mumbai
+STU0466,Snehal Gill,Computer Engineering,2,6.54,B,78.2,0,40,Nagpur
+STU0467,Snehal Patil,Electrical,2,7.13,B+,95.9,1,36,Aurangabad
+STU0468,Vikram Chimurkar,Mechanical,2,7.09,B+,100.0,0,40,Pune
+STU0469,Rahul Gill,Mechanical,3,7.45,B,82.8,2,52,Kolhapur
+STU0470,Snehal Bhosale,AI&DS,6,7.4,A+,72.4,0,120,Nagpur
+STU0471,Rahul Gill,AI&DS,2,7.66,A+,81.2,0,40,Nashik
+STU0472,Tanmay Sharma,Information Technology,8,6.91,A,79.2,0,160,Kolhapur
+STU0473,Tanmay Sawant,Mechanical,8,7.28,A+,61.7,1,156,Aurangabad
+STU0474,Snehal Sawant,Computer Engineering,6,6.56,A,82.9,1,116,Kolhapur
+STU0475,Snehal Chimurkar,Mechanical,1,6.7,A,72.4,0,20,Nashik
+STU0476,Vikram Kajgunde,Civil,3,8.62,O,79.2,0,60,Mumbai
+STU0477,Rahul Sawant,Civil,6,7.43,B+,100.0,0,120,Nashik
+STU0478,Pooja Deshmukh,Computer Engineering,3,6.06,C,77.2,0,60,Nagpur
+STU0479,Karan Gill,Electrical,1,6.87,B,81.7,2,12,Mumbai
+STU0480,Aishwarya Sawant,AI&DS,6,5.59,A,81.6,2,112,Pune
+STU0481,Aishwarya Sawant,Information Technology,7,6.19,A,100.0,0,140,Nagpur
+STU0482,Pooja Kulkarni,Computer Engineering,7,8.59,A,71.1,0,140,Nagpur
+STU0483,Pooja Kulkarni,Civil,6,8.2,A+,73.7,0,120,Pune
+STU0484,Aishwarya Sharma,AI&DS,8,5.41,C,75.8,0,160,Nagpur
+STU0485,Aishwarya Bhosale,Information Technology,7,7.42,A,73.6,0,140,Pune
+STU0486,Aishwarya Patil,Information Technology,1,7.08,A,72.5,0,20,Nagpur
+STU0487,Aishwarya Sawant,Information Technology,7,8.8,A+,94.7,0,140,Pune
+STU0488,Pooja Chimurkar,Information Technology,2,8.69,A+,88.9,1,36,Pune
+STU0489,Sharad Kajgunde,AI&DS,1,9.25,A+,64.0,0,20,Kolhapur
+STU0490,Tanmay Jadhav,Computer Engineering,4,7.36,B,82.9,0,80,Kolhapur
+STU0491,Karan Bhosale,Mechanical,7,7.75,C,91.0,0,140,Pune
+STU0492,Vikram Kajgunde,Computer Engineering,4,8.11,A+,67.4,0,80,Nagpur
+STU0493,Amit Chimurkar,Computer Engineering,8,8.54,O,63.5,0,160,Pune
+STU0494,Karan Patil,AI&DS,2,7.38,C,82.2,0,40,Nashik
+STU0495,Neha Sawant,Civil,3,7.48,A,77.7,0,60,Nashik
+STU0496,Sharad Gill,Information Technology,2,8.47,B+,71.6,0,40,Pune
+STU0497,Tanmay Patil,AI&DS,6,8.48,B,77.5,1,116,Aurangabad
+STU0498,Pooja Patil,Mechanical,8,7.46,P,88.1,0,160,Mumbai
+STU0499,Pooja Sharma,Information Technology,6,6.72,B+,100.0,1,116,Kolhapur
+STU0500,Vikram Chimurkar,Civil,6,8.36,A,84.5,1,116,Mumbai
+STU0501,Aishwarya Kajgunde,Computer Engineering,2,4.76,C,83.9,0,40,Kolhapur
+STU0502,Pooja Patil,Electrical,6,8.46,A,67.9,0,120,Nagpur
+STU0503,Neha Gill,AI&DS,6,6.72,O,71.6,0,120,Pune
+STU0504,Vikram Bhosale,Information Technology,4,8.86,A+,91.7,1,76,Mumbai
+STU0505,Sharad Sawant,Civil,3,9.22,A+,91.1,0,60,Mumbai
+STU0506,Vikram Sawant,Electrical,5,6.61,A,68.5,0,100,Pune
+STU0507,Karan Sharma,Mechanical,8,5.57,B+,91.1,0,160,Nagpur
+STU0508,Tanmay Bhosale,Electrical,8,7.41,A+,72.9,0,160,Mumbai
+STU0509,Snehal Deshmukh,Electrical,4,5.81,A,74.4,0,80,Aurangabad
+STU0510,Snehal Jadhav,Electrical,8,8.48,A+,88.8,0,160,Kolhapur
+STU0511,Pooja Gill,Civil,4,7.32,A,72.9,0,80,Nashik
+STU0512,Sharad Kajgunde,Information Technology,8,4.71,FF,80.4,1,156,Nagpur
+STU0513,Neha Kajgunde,Mechanical,1,6.9,B+,77.6,1,16,Pune
+STU0514,Tanmay Kulkarni,Information Technology,4,5.05,B+,95.1,0,80,Kolhapur
+STU0515,Neha Sharma,AI&DS,7,5.71,FF,89.0,1,136,Mumbai
+STU0516,Snehal Chimurkar,Mechanical,4,7.3,A+,74.4,1,76,Nagpur
+STU0517,Snehal Jadhav,Information Technology,5,8.54,B+,71.4,0,100,Mumbai
+STU0518,Rahul Kulkarni,Mechanical,8,6.57,A,63.2,0,160,Aurangabad
+STU0519,Sharad Sharma,Computer Engineering,2,6.54,A,90.9,0,40,Mumbai
+STU0520,Pooja Kajgunde,Computer Engineering,6,7.73,B+,85.8,0,120,Nashik
+STU0521,Rahul Jadhav,Computer Engineering,3,7.38,A+,85.1,0,60,Mumbai
+STU0522,Snehal Chimurkar,Mechanical,1,6.83,A,88.3,0,20,Mumbai
+STU0523,Amit Patil,AI&DS,1,8.08,A+,87.6,2,12,Nashik
+STU0524,Vikram Bhosale,Information Technology,7,6.57,A,93.6,2,132,Nagpur
+STU0525,Snehal Jadhav,AI&DS,2,8.82,A,73.7,0,40,Pune
+STU0526,Pooja Patil,Civil,4,7.46,C,89.5,0,80,Pune
+STU0527,Pooja Chimurkar,Civil,3,7.43,A,74.4,0,60,Pune
+STU0528,Aishwarya Bhosale,Computer Engineering,5,8.54,O,80.7,0,100,Pune
+STU0529,Amit Kajgunde,AI&DS,6,7.54,A+,82.7,0,120,Nagpur
+STU0530,Snehal Kulkarni,Information Technology,4,8.2,A,75.6,0,80,Pune
+STU0531,Karan Sawant,Information Technology,7,9.28,B+,89.2,0,140,Aurangabad
+STU0532,Aishwarya Sawant,AI&DS,7,6.09,A,92.9,0,140,Mumbai
+STU0533,Karan Sawant,Information Technology,1,6.79,B+,75.9,1,16,Nashik
+STU0534,Karan Kajgunde,Electrical,4,6.34,B+,97.6,0,80,Kolhapur
+STU0535,Neha Sharma,Civil,5,7.65,B,100.0,0,100,Aurangabad
+STU0536,Tanmay Sharma,Information Technology,6,9.06,O,75.0,0,120,Nagpur
+STU0537,Tanmay Patil,Information Technology,3,5.51,A+,87.3,0,60,Mumbai
+STU0538,Pooja Chimurkar,Computer Engineering,4,8.66,O,94.0,0,80,Nashik
+STU0539,Vikram Jadhav,Mechanical,7,7.3,A+,89.5,0,140,Nagpur
+STU0540,Pooja Deshmukh,Mechanical,7,8.66,A+,89.1,0,140,Kolhapur
+STU0541,Rahul Patil,Mechanical,2,6.48,B,91.5,1,36,Mumbai
+STU0542,Sharad Bhosale,Civil,4,8.71,B+,70.0,0,80,Nashik
+STU0543,Karan Gill,Information Technology,5,9.05,A,79.4,0,100,Aurangabad
+STU0544,Sharad Deshmukh,Computer Engineering,7,6.92,B+,94.9,1,136,Mumbai
+STU0545,Vikram Bhosale,Electrical,8,5.86,C,83.5,0,160,Nagpur
+STU0546,Rahul Chimurkar,Civil,4,8.34,A,100.0,0,80,Mumbai
+STU0547,Amit Sharma,Computer Engineering,4,6.73,A,92.8,0,80,Nashik
+STU0548,Aishwarya Deshmukh,AI&DS,2,7.37,A,100.0,0,40,Mumbai
+STU0549,Tanmay Gill,Computer Engineering,4,9.11,C,75.7,0,80,Nagpur
+STU0550,Tanmay Bhosale,Civil,1,6.69,B,81.2,2,12,Pune
+STU0551,Rahul Chimurkar,Electrical,4,8.54,A,79.4,0,80,Kolhapur
+STU0552,Snehal Deshmukh,AI&DS,4,7.84,C,57.5,1,76,Nashik
+STU0553,Neha Sawant,Mechanical,3,6.87,A+,81.2,2,52,Mumbai
+STU0554,Sharad Patil,AI&DS,6,9.5,A+,85.1,0,120,Pune
+STU0555,Aishwarya Kulkarni,Information Technology,1,5.93,A,95.8,0,20,Aurangabad
+STU0556,Snehal Sharma,Mechanical,4,7.2,B,84.0,3,68,Mumbai
+STU0557,Amit Bhosale,Computer Engineering,3,6.39,A,80.6,1,56,Nagpur
+STU0558,Pooja Kulkarni,Electrical,3,5.59,A+,73.3,0,60,Mumbai
+STU0559,Neha Kulkarni,Electrical,8,7.4,B,100.0,1,156,Kolhapur
+STU0560,Neha Bhosale,Information Technology,6,5.72,B+,82.0,0,120,Kolhapur
+STU0561,Snehal Kajgunde,Mechanical,6,4.8,B,75.4,0,120,Kolhapur
+STU0562,Pooja Jadhav,Mechanical,3,8.28,A+,83.0,0,60,Nagpur
+STU0563,Sharad Bhosale,Civil,3,6.05,B+,79.5,0,60,Nashik
+STU0564,Rahul Sharma,Information Technology,4,3.45,FF,84.7,0,80,Aurangabad
+STU0565,Amit Deshmukh,Civil,3,7.25,B+,83.2,0,60,Kolhapur
+STU0566,Tanmay Sawant,Electrical,1,6.5,C,87.6,0,20,Nashik
+STU0567,Karan Kulkarni,Computer Engineering,4,7.0,B+,73.3,0,80,Kolhapur
+STU0568,Tanmay Deshmukh,Mechanical,6,6.71,A,95.8,0,120,Aurangabad
+STU0569,Rahul Patil,AI&DS,2,5.71,B+,79.1,0,40,Kolhapur
+STU0570,Aishwarya Jadhav,Computer Engineering,7,7.41,B+,76.7,0,140,Kolhapur
+STU0571,Vikram Jadhav,Computer Engineering,6,5.57,B,76.4,0,120,Nashik
+STU0572,Amit Sawant,Mechanical,3,7.43,A+,86.1,0,60,Pune
+STU0573,Pooja Kajgunde,Mechanical,7,8.3,A,77.9,0,140,Nagpur
+STU0574,Amit Gill,Mechanical,6,7.59,B+,83.3,0,120,Kolhapur
+STU0575,Pooja Deshmukh,Information Technology,1,8.57,C,80.9,0,20,Pune
+STU0576,Neha Patil,AI&DS,1,5.98,FF,74.8,0,20,Aurangabad
+STU0577,Tanmay Gill,Electrical,6,7.27,B+,96.7,0,120,Aurangabad
+STU0578,Vikram Sawant,Civil,3,7.81,A,75.1,0,60,Nashik
+STU0579,Amit Deshmukh,AI&DS,7,6.88,B+,98.4,2,132,Aurangabad
+STU0580,Aishwarya Kajgunde,Civil,1,7.2,A+,76.2,0,20,Pune
+STU0581,Amit Jadhav,Mechanical,3,7.62,O,72.3,0,60,Nashik
+STU0582,Aishwarya Bhosale,Computer Engineering,2,6.81,B+,94.4,0,40,Pune
+STU0583,Sharad Sharma,AI&DS,1,6.1,P,100.0,0,20,Aurangabad
+STU0584,Amit Deshmukh,Computer Engineering,1,7.65,A+,59.0,0,20,Nashik
+STU0585,Rahul Chimurkar,Computer Engineering,5,8.19,B+,74.1,0,100,Pune
+STU0586,Karan Deshmukh,Mechanical,3,9.18,A+,73.9,0,60,Kolhapur
+STU0587,Amit Sharma,AI&DS,5,7.2,C,84.2,0,100,Aurangabad
+STU0588,Vikram Sawant,Mechanical,5,5.27,O,96.2,1,96,Pune
+STU0589,Rahul Kulkarni,Information Technology,4,9.73,A+,76.4,0,80,Nagpur
+STU0590,Vikram Jadhav,Computer Engineering,6,7.47,P,69.6,0,120,Mumbai
+STU0591,Amit Sawant,Electrical,5,9.36,A+,82.7,0,100,Nagpur
+STU0592,Neha Gill,Electrical,2,7.93,A,73.1,0,40,Aurangabad
+STU0593,Karan Chimurkar,Electrical,7,7.63,B,84.5,3,128,Kolhapur
+STU0594,Sharad Bhosale,Computer Engineering,1,6.74,O,87.6,0,20,Kolhapur
+STU0595,Karan Bhosale,AI&DS,1,7.88,A+,94.5,1,16,Mumbai
+STU0596,Pooja Bhosale,Computer Engineering,7,6.49,P,81.9,0,140,Nagpur
+STU0597,Sharad Gill,Civil,3,5.6,A,91.0,0,60,Mumbai
+STU0598,Karan Kulkarni,Computer Engineering,2,8.53,B+,80.9,0,40,Nagpur
+STU0599,Aishwarya Sawant,Civil,4,6.97,B+,83.1,2,72,Kolhapur
+STU0600,Pooja Sharma,AI&DS,1,7.24,A,100.0,0,20,Kolhapur
+STU0601,Snehal Gill,Information Technology,5,8.27,A,77.7,3,88,Nashik
+STU0602,Amit Kajgunde,Computer Engineering,6,6.26,B+,100.0,0,120,Kolhapur
+STU0603,Rahul Sharma,Electrical,8,8.02,B,86.5,0,160,Mumbai
+STU0604,Amit Jadhav,AI&DS,8,7.15,B+,85.0,0,160,Kolhapur
+STU0605,Neha Kajgunde,Mechanical,4,6.98,C,99.4,0,80,Kolhapur
+STU0606,Aishwarya Jadhav,AI&DS,7,6.95,A,93.7,0,140,Nashik
+STU0607,Snehal Deshmukh,Civil,2,7.38,C,89.1,0,40,Pune
+STU0608,Pooja Patil,Electrical,2,6.46,A+,73.6,0,40,Nagpur
+STU0609,Aishwarya Kulkarni,Information Technology,5,7.85,B+,100.0,0,100,Pune
+STU0610,Amit Kulkarni,Civil,2,8.44,A+,79.0,0,40,Pune
+STU0611,Pooja Patil,Computer Engineering,8,8.27,B,78.5,0,160,Nashik
+STU0612,Aishwarya Sawant,AI&DS,4,7.77,B+,69.5,0,80,Nashik
+STU0613,Rahul Gill,Computer Engineering,8,6.85,A+,88.8,0,160,Mumbai
+STU0614,Karan Deshmukh,Information Technology,2,7.24,B+,89.3,0,40,Nagpur
+STU0615,Karan Bhosale,Electrical,7,7.99,A,74.9,0,140,Nashik
+STU0616,Neha Gill,Information Technology,4,6.52,B+,84.9,0,80,Kolhapur
+STU0617,Vikram Chimurkar,Civil,5,7.95,A,86.5,0,100,Kolhapur
+STU0618,Rahul Kulkarni,Civil,2,5.05,B,86.8,1,36,Nashik
+STU0619,Amit Kulkarni,Civil,2,9.06,C,100.0,0,40,Pune
+STU0620,Pooja Kulkarni,Information Technology,3,6.37,A+,88.5,0,60,Aurangabad
+STU0621,Tanmay Kajgunde,Information Technology,2,6.59,A+,83.8,0,40,Nashik
+STU0622,Karan Bhosale,Computer Engineering,3,6.69,B,72.4,0,60,Aurangabad
+STU0623,Pooja Jadhav,Information Technology,4,8.5,B,76.0,0,80,Nagpur
+STU0624,Tanmay Patil,Information Technology,3,7.46,A+,88.1,0,60,Pune
+STU0625,Sharad Chimurkar,Computer Engineering,1,8.41,B+,85.5,0,20,Nashik
+STU0626,Neha Sharma,Electrical,7,7.73,A+,60.7,0,140,Kolhapur
+STU0627,Sharad Gill,AI&DS,5,8.55,A+,91.9,0,100,Aurangabad
+STU0628,Vikram Sharma,AI&DS,5,7.79,A,82.1,0,100,Nashik
+STU0629,Pooja Chimurkar,Computer Engineering,3,6.94,B+,64.9,0,60,Nashik
+STU0630,Snehal Patil,Civil,8,8.17,B+,79.6,0,160,Nagpur
+STU0631,Pooja Gill,Information Technology,5,8.51,B+,61.6,0,100,Kolhapur
+STU0632,Karan Sharma,Civil,3,7.06,A,88.7,0,60,Nashik
+STU0633,Rahul Chimurkar,Mechanical,7,8.98,A,95.6,0,140,Pune
+STU0634,Karan Jadhav,Electrical,6,5.68,A,91.7,0,120,Mumbai
+STU0635,Vikram Kulkarni,AI&DS,6,5.92,A,58.6,0,120,Kolhapur
+STU0636,Rahul Kulkarni,Information Technology,6,7.56,B+,86.4,0,120,Kolhapur
+STU0637,Amit Kajgunde,Mechanical,7,7.59,A+,78.9,0,140,Kolhapur
+STU0638,Tanmay Patil,Electrical,7,7.17,B+,86.9,1,136,Mumbai
+STU0639,Neha Deshmukh,Information Technology,1,7.49,B+,80.4,0,20,Nagpur
+STU0640,Snehal Bhosale,Computer Engineering,4,6.94,B+,83.4,4,64,Mumbai
+STU0641,Snehal Patil,Information Technology,7,6.1,A+,63.8,0,140,Aurangabad
+STU0642,Sharad Patil,Mechanical,4,6.41,B,83.0,1,76,Aurangabad
+STU0643,Tanmay Sawant,Mechanical,4,6.23,B+,72.1,0,80,Aurangabad
+STU0644,Snehal Chimurkar,Electrical,2,5.89,A,95.5,0,40,Mumbai
+STU0645,Snehal Deshmukh,Information Technology,8,7.58,A,82.8,0,160,Pune
+STU0646,Sharad Bhosale,Computer Engineering,7,9.45,A+,79.5,0,140,Nashik
+STU0647,Vikram Sawant,Information Technology,4,7.69,A,86.9,0,80,Pune
+STU0648,Snehal Jadhav,Computer Engineering,3,7.73,B+,87.2,0,60,Nagpur
+STU0649,Amit Kulkarni,Mechanical,5,7.55,A,84.6,0,100,Nashik
+STU0650,Pooja Jadhav,AI&DS,5,9.36,A+,75.6,0,100,Nashik
+STU0651,Neha Deshmukh,Electrical,4,6.94,B+,74.2,0,80,Mumbai
+STU0652,Sharad Gill,Computer Engineering,4,8.89,A,70.4,0,80,Kolhapur
+STU0653,Sharad Kajgunde,Electrical,3,7.06,C,79.0,0,60,Pune
+STU0654,Rahul Kajgunde,Electrical,1,6.17,A+,81.5,0,20,Kolhapur
+STU0655,Snehal Patil,Computer Engineering,1,7.62,A+,78.9,1,16,Mumbai
+STU0656,Snehal Kulkarni,AI&DS,5,7.05,A,70.4,2,92,Kolhapur
+STU0657,Neha Kulkarni,Civil,1,6.87,B+,85.2,0,20,Aurangabad
+STU0658,Pooja Kulkarni,Information Technology,8,6.81,O,77.7,0,160,Nagpur
+STU0659,Karan Chimurkar,AI&DS,4,6.94,B,87.6,0,80,Pune
+STU0660,Vikram Kulkarni,Information Technology,4,7.63,B+,72.1,0,80,Aurangabad
+STU0661,Vikram Sharma,Computer Engineering,7,6.9,A+,86.1,0,140,Nashik
+STU0662,Rahul Kulkarni,Civil,5,7.05,A+,75.8,0,100,Nashik
+STU0663,Tanmay Sharma,Information Technology,1,9.1,B,79.2,1,16,Kolhapur
+STU0664,Rahul Sawant,Civil,5,4.52,FF,58.3,0,100,Pune
+STU0665,Aishwarya Bhosale,Civil,6,8.02,A+,88.5,1,116,Aurangabad
+STU0666,Pooja Gill,Electrical,7,7.87,A,96.8,0,140,Mumbai
+STU0667,Rahul Patil,Electrical,7,9.47,A+,86.8,0,140,Nagpur
+STU0668,Pooja Kulkarni,Electrical,8,5.5,P,100.0,3,148,Kolhapur
+STU0669,Aishwarya Sharma,Computer Engineering,8,7.29,B,100.0,0,160,Nashik
+STU0670,Snehal Bhosale,Mechanical,2,5.71,A+,62.4,0,40,Nagpur
+STU0671,Rahul Chimurkar,Civil,4,6.07,A,72.6,1,76,Aurangabad
+STU0672,Amit Jadhav,Computer Engineering,2,9.6,A+,95.7,1,36,Kolhapur
+STU0673,Tanmay Sharma,Civil,7,7.12,A,66.2,1,136,Pune
+STU0674,Vikram Sharma,Mechanical,8,6.77,A,78.3,1,156,Mumbai
+STU0675,Rahul Chimurkar,Computer Engineering,8,6.35,C,76.9,0,160,Aurangabad
+STU0676,Aishwarya Gill,AI&DS,2,8.81,A+,80.9,0,40,Pune
+STU0677,Rahul Gill,Information Technology,7,7.93,O,93.4,0,140,Nashik
+STU0678,Sharad Patil,Civil,2,6.73,P,72.2,0,40,Aurangabad
+STU0679,Neha Kajgunde,Mechanical,2,8.05,A,73.9,0,40,Nagpur
+STU0680,Rahul Sawant,Electrical,3,6.47,A,77.1,0,60,Pune
+STU0681,Rahul Kajgunde,AI&DS,5,7.14,B,80.5,0,100,Nashik
+STU0682,Rahul Bhosale,Information Technology,5,5.37,A,86.1,0,100,Nashik
+STU0683,Amit Chimurkar,Information Technology,2,7.36,O,88.0,1,36,Nashik
+STU0684,Rahul Sawant,Mechanical,8,8.04,O,89.9,0,160,Pune
+STU0685,Pooja Kulkarni,Mechanical,8,7.45,O,80.7,4,144,Nagpur
+STU0686,Snehal Jadhav,AI&DS,6,6.33,B+,91.5,3,108,Mumbai
+STU0687,Pooja Sharma,Information Technology,7,5.21,B+,100.0,0,140,Mumbai
+STU0688,Snehal Kulkarni,Civil,8,7.65,A,88.4,0,160,Nagpur
+STU0689,Aishwarya Deshmukh,Electrical,3,7.14,A+,87.6,0,60,Nashik
+STU0690,Amit Deshmukh,Information Technology,7,7.44,B+,87.5,0,140,Kolhapur
+STU0691,Sharad Chimurkar,Civil,1,5.76,A,70.0,0,20,Kolhapur
+STU0692,Karan Sawant,Computer Engineering,3,6.62,A,65.3,0,60,Nagpur
+STU0693,Vikram Kajgunde,Mechanical,2,5.71,A,82.3,0,40,Nagpur
+STU0694,Vikram Bhosale,Civil,4,8.45,B+,71.0,0,80,Nashik
+STU0695,Pooja Sharma,Electrical,6,5.38,B+,99.0,0,120,Pune
+STU0696,Rahul Sawant,Computer Engineering,7,5.5,B+,73.7,0,140,Aurangabad
+STU0697,Snehal Kulkarni,Electrical,6,7.4,A+,97.2,1,116,Nagpur
+STU0698,Amit Patil,Information Technology,8,7.79,B+,84.0,0,160,Nashik
+STU0699,Aishwarya Sharma,Mechanical,5,5.98,B,80.0,0,100,Aurangabad
+STU0700,Snehal Jadhav,Electrical,2,7.52,A,77.7,0,40,Aurangabad
+STU0701,Pooja Chimurkar,Computer Engineering,4,7.65,P,78.0,0,80,Aurangabad
+STU0702,Rahul Sawant,AI&DS,5,5.7,B+,70.2,0,100,Mumbai
+STU0703,Snehal Deshmukh,Mechanical,4,8.24,P,64.8,0,80,Kolhapur
+STU0704,Sharad Sawant,Electrical,1,6.66,B,83.3,1,16,Pune
+STU0705,Snehal Gill,Civil,5,8.43,A+,77.8,1,96,Kolhapur
+STU0706,Vikram Jadhav,AI&DS,6,8.71,A,52.5,0,120,Nashik
+STU0707,Rahul Patil,Mechanical,8,7.99,B+,81.6,1,156,Nashik
+STU0708,Vikram Jadhav,Civil,7,4.5,FF,78.2,0,140,Nashik
+STU0709,Sharad Kajgunde,Computer Engineering,5,4.95,FF,77.6,0,100,Nashik
+STU0710,Tanmay Gill,AI&DS,4,6.94,B,91.2,0,80,Pune
+STU0711,Aishwarya Patil,Mechanical,6,8.21,A+,81.5,0,120,Nagpur
+STU0712,Tanmay Chimurkar,AI&DS,1,8.78,A+,100.0,0,20,Nashik
+STU0713,Neha Gill,Civil,1,6.81,B+,75.4,0,20,Aurangabad
+STU0714,Neha Kajgunde,Electrical,3,7.71,P,89.8,0,60,Kolhapur
+STU0715,Pooja Kulkarni,AI&DS,2,7.01,O,95.7,0,40,Kolhapur
+STU0716,Tanmay Bhosale,Civil,4,6.87,B+,68.8,0,80,Nagpur
+STU0717,Pooja Patil,AI&DS,6,6.45,FF,79.7,1,116,Pune
+STU0718,Amit Sawant,Civil,6,7.47,P,78.8,0,120,Aurangabad
+STU0719,Rahul Sawant,Civil,3,7.24,B+,68.1,0,60,Aurangabad
+STU0720,Pooja Gill,Electrical,3,9.27,A,89.6,0,60,Pune
+STU0721,Rahul Chimurkar,Mechanical,2,6.87,B+,77.0,0,40,Nashik
+STU0722,Rahul Chimurkar,AI&DS,1,7.54,B+,80.8,0,20,Mumbai
+STU0723,Rahul Kajgunde,Mechanical,1,8.12,O,86.7,1,16,Nagpur
+STU0724,Amit Chimurkar,Information Technology,3,7.09,A,86.8,1,56,Mumbai
+STU0725,Pooja Jadhav,Civil,4,9.71,O,77.1,0,80,Aurangabad
+STU0726,Snehal Bhosale,Electrical,3,8.02,A,100.0,0,60,Pune
+STU0727,Amit Kajgunde,Civil,6,8.87,A,98.6,0,120,Kolhapur
+STU0728,Pooja Bhosale,Computer Engineering,6,8.87,O,83.1,0,120,Kolhapur
+STU0729,Snehal Gill,Information Technology,5,7.51,A,76.9,0,100,Aurangabad
+STU0730,Amit Kajgunde,Civil,1,6.38,B,71.2,0,20,Pune
+STU0731,Aishwarya Chimurkar,Information Technology,7,9.69,A+,89.5,3,128,Nagpur
+STU0732,Karan Gill,Mechanical,8,6.68,A,89.8,0,160,Mumbai
+STU0733,Pooja Patil,Civil,5,9.54,B+,62.0,3,88,Kolhapur
+STU0734,Aishwarya Sawant,Electrical,6,8.3,A+,90.4,0,120,Kolhapur
+STU0735,Neha Chimurkar,Electrical,3,8.3,A+,83.3,0,60,Nashik
+STU0736,Amit Deshmukh,Computer Engineering,5,7.6,A,85.8,1,96,Pune
+STU0737,Amit Kajgunde,Civil,6,7.22,A+,97.4,2,112,Aurangabad
+STU0738,Vikram Bhosale,Mechanical,7,8.62,A+,72.6,1,136,Pune
+STU0739,Sharad Sawant,Information Technology,1,6.85,P,85.2,0,20,Nagpur
+STU0740,Neha Sawant,Electrical,8,7.79,B+,74.0,0,160,Pune
+STU0741,Pooja Patil,Computer Engineering,2,4.58,FF,71.7,0,40,Kolhapur
+STU0742,Vikram Patil,AI&DS,1,9.07,A+,69.9,0,20,Mumbai
+STU0743,Tanmay Chimurkar,Electrical,1,6.64,B,85.2,1,16,Mumbai
+STU0744,Aishwarya Jadhav,Information Technology,2,7.8,B,96.0,1,36,Nagpur
+STU0745,Tanmay Bhosale,Civil,4,7.07,B+,74.4,1,76,Nashik
+STU0746,Amit Jadhav,Civil,5,7.2,B,81.7,0,100,Kolhapur
+STU0747,Rahul Jadhav,Mechanical,6,7.81,O,67.0,1,116,Kolhapur
+STU0748,Amit Chimurkar,Information Technology,5,8.19,A+,79.3,0,100,Pune
+STU0749,Snehal Patil,Computer Engineering,2,7.44,O,100.0,0,40,Aurangabad
+STU0750,Karan Deshmukh,Mechanical,4,9.91,A+,75.3,2,72,Aurangabad
+STU0751,Snehal Bhosale,Electrical,1,7.12,O,73.6,0,20,Pune
+STU0752,Vikram Chimurkar,Electrical,6,8.7,B,77.4,0,120,Nashik
+STU0753,Snehal Deshmukh,Computer Engineering,3,8.99,A,97.2,0,60,Mumbai
+STU0754,Rahul Kulkarni,Mechanical,7,8.78,B+,78.5,0,140,Nashik
+STU0755,Amit Kulkarni,AI&DS,2,6.4,O,89.4,0,40,Aurangabad
+STU0756,Neha Kajgunde,Civil,6,8.94,O,63.1,4,104,Kolhapur
+STU0757,Neha Gill,Information Technology,2,6.51,A,69.3,0,40,Nashik
+STU0758,Aishwarya Jadhav,Computer Engineering,5,7.67,B,74.7,0,100,Nagpur
+STU0759,Pooja Patil,Mechanical,7,5.79,B,87.4,0,140,Aurangabad
+STU0760,Karan Kajgunde,Mechanical,4,7.85,B,85.6,0,80,Aurangabad
+STU0761,Rahul Sharma,Mechanical,4,6.79,B+,100.0,0,80,Pune
+STU0762,Vikram Sawant,Information Technology,6,9.19,B,83.9,0,120,Aurangabad
+STU0763,Tanmay Kulkarni,Information Technology,6,6.88,B,80.7,3,108,Aurangabad
+STU0764,Pooja Sharma,Electrical,3,5.2,A,79.8,0,60,Kolhapur
+STU0765,Amit Sharma,AI&DS,8,6.12,A+,62.6,4,144,Nashik
+STU0766,Pooja Jadhav,Civil,6,7.08,A,96.1,0,120,Nashik
+STU0767,Neha Jadhav,Mechanical,7,8.44,P,83.8,1,136,Aurangabad
+STU0768,Snehal Chimurkar,Information Technology,6,5.96,P,87.2,1,116,Nagpur
+STU0769,Neha Deshmukh,Civil,7,6.27,B+,81.3,0,140,Mumbai
+STU0770,Snehal Kajgunde,Civil,3,6.17,A,88.5,0,60,Mumbai
+STU0771,Vikram Gill,Electrical,4,8.0,A+,78.2,0,80,Aurangabad
+STU0772,Aishwarya Kulkarni,Civil,4,8.37,B+,81.5,0,80,Mumbai
+STU0773,Karan Kulkarni,Mechanical,6,8.52,O,70.6,0,120,Aurangabad
+STU0774,Vikram Gill,Electrical,2,5.98,A,82.3,0,40,Kolhapur
+STU0775,Neha Patil,Information Technology,4,8.76,A+,76.0,2,72,Mumbai
+STU0776,Snehal Sharma,Electrical,2,6.91,B+,89.9,1,36,Aurangabad
+STU0777,Neha Jadhav,Computer Engineering,3,7.25,B,69.4,0,60,Pune
+STU0778,Snehal Bhosale,Electrical,6,7.02,C,89.0,0,120,Pune
+STU0779,Amit Jadhav,Mechanical,3,7.36,B+,82.4,0,60,Nashik
+STU0780,Tanmay Jadhav,Information Technology,1,6.63,B,91.3,0,20,Pune
+STU0781,Rahul Sharma,Mechanical,5,7.45,O,71.2,0,100,Pune
+STU0782,Sharad Kajgunde,Electrical,5,7.6,P,77.7,0,100,Nagpur
+STU0783,Pooja Patil,Mechanical,8,6.99,A,78.1,0,160,Nagpur
+STU0784,Pooja Sharma,Mechanical,7,7.73,C,83.0,0,140,Nashik
+STU0785,Vikram Kulkarni,Computer Engineering,1,7.09,A,100.0,0,20,Nashik
+STU0786,Tanmay Gill,Computer Engineering,4,7.43,A,80.7,1,76,Mumbai
+STU0787,Sharad Chimurkar,Civil,5,8.1,A,92.9,3,88,Mumbai
+STU0788,Karan Patil,Computer Engineering,4,7.91,A+,77.4,0,80,Mumbai
+STU0789,Karan Kulkarni,AI&DS,6,8.27,O,82.3,0,120,Nashik
+STU0790,Aishwarya Jadhav,Civil,5,7.47,B+,77.7,3,88,Mumbai
+STU0791,Rahul Jadhav,AI&DS,2,6.72,A,95.8,1,36,Nashik
+STU0792,Snehal Bhosale,Civil,4,6.16,B+,55.4,0,80,Kolhapur
+STU0793,Amit Chimurkar,AI&DS,5,4.51,P,92.1,0,100,Mumbai
+STU0794,Pooja Bhosale,Computer Engineering,3,8.43,A+,79.2,0,60,Kolhapur
+STU0795,Snehal Bhosale,Civil,7,5.86,B+,87.6,0,140,Kolhapur
+STU0796,Pooja Sawant,Mechanical,8,6.57,B+,98.5,0,160,Pune
+STU0797,Sharad Sawant,AI&DS,3,7.58,A,86.7,3,48,Mumbai
+STU0798,Aishwarya Chimurkar,Civil,8,7.51,A+,96.9,0,160,Aurangabad
+STU0799,Karan Gill,Computer Engineering,6,7.76,B,81.0,0,120,Mumbai
+STU0800,Neha Kajgunde,Computer Engineering,4,7.54,B,83.0,0,80,Kolhapur
+STU0801,Pooja Bhosale,Information Technology,3,7.73,A+,76.5,0,60,Nagpur
+STU0802,Karan Jadhav,Electrical,8,6.67,A,90.0,2,152,Nagpur
+STU0803,Neha Patil,AI&DS,7,5.58,P,79.0,2,132,Aurangabad
+STU0804,Amit Gill,Electrical,6,5.84,A,100.0,0,120,Mumbai
+STU0805,Sharad Jadhav,Civil,5,6.68,A,83.2,0,100,Mumbai
+STU0806,Vikram Sawant,Computer Engineering,3,8.82,B+,77.5,0,60,Nashik
+STU0807,Rahul Sawant,Electrical,1,9.01,A+,82.7,0,20,Mumbai
+STU0808,Sharad Sharma,Civil,1,7.62,A+,83.1,1,16,Aurangabad
+STU0809,Amit Kulkarni,Computer Engineering,8,6.15,A,93.9,0,160,Aurangabad
+STU0810,Karan Kulkarni,AI&DS,8,6.17,C,95.0,0,160,Mumbai
+STU0811,Snehal Kulkarni,Civil,2,6.59,P,67.1,2,32,Nashik
+STU0812,Neha Kulkarni,Electrical,2,6.82,A,74.3,0,40,Kolhapur
+STU0813,Amit Patil,Mechanical,6,9.08,A+,96.9,0,120,Kolhapur
+STU0814,Rahul Bhosale,AI&DS,4,6.65,A,79.7,0,80,Kolhapur
+STU0815,Amit Sawant,Mechanical,6,4.99,A,86.0,0,120,Nagpur
+STU0816,Vikram Gill,Information Technology,6,8.7,A,81.0,0,120,Kolhapur
+STU0817,Pooja Jadhav,Electrical,1,8.52,O,80.1,0,20,Pune
+STU0818,Amit Gill,Civil,8,8.17,C,68.8,4,144,Pune
+STU0819,Aishwarya Sawant,Mechanical,6,6.17,A,91.1,0,120,Nagpur
+STU0820,Sharad Sawant,Electrical,3,7.33,A,99.8,0,60,Mumbai
+STU0821,Snehal Gill,Computer Engineering,7,7.85,A,79.9,0,140,Kolhapur
+STU0822,Neha Jadhav,Civil,3,7.04,A,87.7,0,60,Aurangabad
+STU0823,Pooja Jadhav,Electrical,4,6.6,B+,80.5,0,80,Aurangabad
+STU0824,Sharad Kajgunde,Computer Engineering,2,6.75,A,85.4,0,40,Pune
+STU0825,Tanmay Sawant,AI&DS,2,8.46,A+,75.1,0,40,Aurangabad
+STU0826,Amit Kajgunde,Electrical,3,6.52,A,90.4,0,60,Nashik
+STU0827,Snehal Chimurkar,Computer Engineering,5,7.03,B+,70.1,0,100,Kolhapur
+STU0828,Neha Patil,Computer Engineering,5,7.41,A+,75.2,0,100,Kolhapur
+STU0829,Tanmay Kulkarni,Mechanical,4,8.16,B+,92.4,0,80,Pune
+STU0830,Aishwarya Patil,AI&DS,2,5.48,P,96.6,0,40,Nagpur
+STU0831,Karan Jadhav,AI&DS,3,7.05,P,70.7,0,60,Aurangabad
+STU0832,Rahul Patil,Computer Engineering,7,7.21,O,90.1,0,140,Nagpur
+STU0833,Pooja Kulkarni,Computer Engineering,4,7.0,B+,79.1,0,80,Nashik
+STU0834,Sharad Patil,Information Technology,6,7.27,B+,100.0,1,116,Aurangabad
+STU0835,Amit Bhosale,Information Technology,4,7.73,O,77.1,0,80,Aurangabad
+STU0836,Tanmay Patil,Information Technology,8,7.75,B+,62.6,1,156,Nashik
+STU0837,Neha Kajgunde,Electrical,4,6.32,A+,85.9,0,80,Mumbai
+STU0838,Aishwarya Chimurkar,Computer Engineering,7,9.06,C,95.9,0,140,Aurangabad
+STU0839,Snehal Gill,Electrical,7,7.54,B,83.3,3,128,Pune
+STU0840,Amit Deshmukh,Civil,5,7.86,O,67.7,0,100,Nashik
+STU0841,Aishwarya Gill,AI&DS,2,7.01,A+,90.3,0,40,Pune
+STU0842,Snehal Sawant,Information Technology,6,8.05,O,78.9,0,120,Nashik
+STU0843,Sharad Kulkarni,Civil,3,4.0,FF,80.6,0,60,Nagpur
+STU0844,Karan Chimurkar,AI&DS,8,8.35,O,82.3,0,160,Nagpur
+STU0845,Pooja Kajgunde,Computer Engineering,3,5.45,A,69.2,0,60,Nagpur
+STU0846,Vikram Kulkarni,Civil,7,6.48,B,94.7,1,136,Pune
+STU0847,Vikram Chimurkar,AI&DS,4,7.71,A+,83.0,0,80,Nashik
+STU0848,Rahul Patil,Civil,6,7.36,B+,90.4,1,116,Pune
+STU0849,Neha Bhosale,Civil,6,6.61,C,74.1,2,112,Nashik
+STU0850,Tanmay Sawant,Electrical,2,7.01,B+,75.4,0,40,Nashik
+STU0851,Neha Sharma,AI&DS,2,6.59,C,80.7,0,40,Kolhapur
+STU0852,Neha Chimurkar,Civil,6,6.6,P,61.8,1,116,Aurangabad
+STU0853,Sharad Kajgunde,Mechanical,2,7.18,O,82.3,2,32,Nagpur
+STU0854,Aishwarya Bhosale,Computer Engineering,8,8.13,A+,88.8,0,160,Nagpur
+STU0855,Tanmay Gill,Electrical,8,5.67,B,76.5,2,152,Pune
+STU0856,Rahul Gill,AI&DS,5,7.5,B+,71.1,0,100,Pune
+STU0857,Karan Jadhav,Electrical,3,8.16,P,89.4,1,56,Kolhapur
+STU0858,Pooja Sawant,Computer Engineering,2,6.44,A+,84.0,0,40,Kolhapur
+STU0859,Snehal Kajgunde,Computer Engineering,3,7.94,A+,68.4,1,56,Nashik
+STU0860,Amit Gill,Information Technology,4,8.17,A+,94.5,0,80,Nashik
+STU0861,Tanmay Chimurkar,Mechanical,8,7.26,P,69.9,1,156,Nagpur
+STU0862,Pooja Chimurkar,AI&DS,1,5.85,O,89.3,0,20,Aurangabad
+STU0863,Karan Kajgunde,Civil,7,8.11,O,70.4,1,136,Nagpur
+STU0864,Vikram Kajgunde,Civil,2,9.81,B+,60.5,0,40,Nagpur
+STU0865,Vikram Sawant,Information Technology,3,7.57,B+,72.0,0,60,Pune
+STU0866,Karan Jadhav,Information Technology,8,5.94,C,90.1,0,160,Nagpur
+STU0867,Aishwarya Deshmukh,Electrical,2,7.71,B,92.5,1,36,Kolhapur
+STU0868,Neha Kajgunde,AI&DS,4,8.34,B+,100.0,0,80,Nagpur
+STU0869,Karan Patil,Computer Engineering,5,5.99,A,100.0,0,100,Nashik
+STU0870,Karan Jadhav,Computer Engineering,3,5.75,FF,77.5,0,60,Nashik
+STU0871,Tanmay Bhosale,Civil,7,5.26,FF,88.8,1,136,Nagpur
+STU0872,Vikram Kulkarni,Computer Engineering,7,7.36,A,57.3,0,140,Mumbai
+STU0873,Tanmay Patil,Computer Engineering,7,7.11,B+,66.4,1,136,Nagpur
+STU0874,Snehal Kulkarni,AI&DS,6,9.5,A+,72.3,0,120,Kolhapur
+STU0875,Pooja Jadhav,Computer Engineering,2,7.85,C,81.6,0,40,Kolhapur
+STU0876,Sharad Gill,AI&DS,7,6.65,A,70.2,0,140,Pune
+STU0877,Neha Bhosale,Computer Engineering,8,6.89,B+,80.9,0,160,Pune
+STU0878,Sharad Kulkarni,AI&DS,7,9.7,A+,91.1,0,140,Mumbai
+STU0879,Tanmay Chimurkar,Information Technology,4,8.38,O,73.5,0,80,Mumbai
+STU0880,Karan Sharma,Information Technology,6,8.12,B,84.7,0,120,Mumbai
+STU0881,Rahul Gill,Mechanical,1,6.04,A,85.2,0,20,Kolhapur
+STU0882,Neha Kajgunde,Information Technology,3,3.88,FF,85.6,0,60,Aurangabad
+STU0883,Snehal Chimurkar,Civil,2,7.11,C,82.4,1,36,Aurangabad
+STU0884,Karan Patil,Mechanical,3,7.39,B+,76.8,1,56,Pune
+STU0885,Amit Patil,Mechanical,3,5.73,B,76.3,0,60,Mumbai
+STU0886,Rahul Kulkarni,Information Technology,7,7.38,B+,67.8,0,140,Kolhapur
+STU0887,Aishwarya Gill,Information Technology,7,7.39,C,81.3,0,140,Kolhapur
+STU0888,Tanmay Sawant,Electrical,6,7.32,A+,75.0,0,120,Mumbai
+STU0889,Pooja Deshmukh,Information Technology,5,6.68,B,84.3,3,88,Nashik
+STU0890,Rahul Sharma,Electrical,3,7.87,A,82.8,2,52,Kolhapur
+STU0891,Snehal Kulkarni,Information Technology,7,9.13,B+,78.2,0,140,Mumbai
+STU0892,Rahul Kajgunde,AI&DS,7,6.52,B,96.8,0,140,Mumbai
+STU0893,Pooja Jadhav,AI&DS,6,6.61,P,76.0,0,120,Pune
+STU0894,Amit Deshmukh,Civil,6,6.24,B+,79.9,0,120,Kolhapur
+STU0895,Pooja Kulkarni,Civil,5,8.02,O,68.2,0,100,Nagpur
+STU0896,Vikram Chimurkar,AI&DS,3,8.03,A,74.9,0,60,Aurangabad
+STU0897,Pooja Jadhav,Computer Engineering,2,8.79,O,87.3,0,40,Kolhapur
+STU0898,Aishwarya Sawant,AI&DS,2,5.96,A,80.1,0,40,Nagpur
+STU0899,Amit Sawant,Civil,2,8.27,A+,85.0,0,40,Kolhapur
+STU0900,Snehal Bhosale,Information Technology,3,6.64,A,79.3,0,60,Mumbai
+STU0901,Snehal Gill,Computer Engineering,8,8.21,A,90.0,0,160,Mumbai
+STU0902,Snehal Jadhav,Civil,8,6.69,A,88.6,0,160,Nashik
+STU0903,Pooja Deshmukh,Electrical,2,8.65,A+,70.3,0,40,Nashik
+STU0904,Pooja Kajgunde,Civil,7,8.49,A,88.9,0,140,Mumbai
+STU0905,Karan Jadhav,Computer Engineering,5,8.56,A+,87.0,1,96,Pune
+STU0906,Snehal Jadhav,Information Technology,2,5.7,FF,70.5,0,40,Kolhapur
+STU0907,Neha Sawant,Information Technology,3,7.96,O,86.1,4,44,Kolhapur
+STU0908,Neha Sawant,Computer Engineering,6,5.68,B+,86.5,0,120,Nagpur
+STU0909,Snehal Chimurkar,AI&DS,3,4.78,C,91.6,0,60,Kolhapur
+STU0910,Vikram Deshmukh,Information Technology,2,6.44,B+,93.0,0,40,Pune
+STU0911,Snehal Deshmukh,Civil,1,6.85,A,91.7,1,16,Aurangabad
+STU0912,Rahul Sharma,AI&DS,4,4.54,B,74.8,0,80,Pune
+STU0913,Sharad Kajgunde,Electrical,7,8.36,A+,89.6,0,140,Pune
+STU0914,Rahul Kajgunde,Electrical,5,6.61,C,87.0,0,100,Kolhapur
+STU0915,Aishwarya Jadhav,Mechanical,5,6.9,A,57.8,0,100,Mumbai
+STU0916,Karan Kajgunde,Information Technology,7,8.62,A+,89.3,2,132,Nashik
+STU0917,Amit Sharma,Mechanical,3,5.23,A,86.2,0,60,Kolhapur
+STU0918,Amit Kajgunde,AI&DS,6,7.8,A+,85.3,0,120,Aurangabad
+STU0919,Snehal Gill,Electrical,4,6.9,C,67.4,0,80,Nashik
+STU0920,Rahul Sawant,Computer Engineering,3,8.13,O,85.7,0,60,Kolhapur
+STU0921,Vikram Kulkarni,Civil,5,6.86,A,84.9,0,100,Mumbai
+STU0922,Pooja Deshmukh,AI&DS,5,8.51,A,82.5,0,100,Mumbai
+STU0923,Snehal Sawant,Electrical,1,9.07,B,71.9,0,20,Nashik
+STU0924,Snehal Gill,Information Technology,5,6.09,C,75.1,3,88,Nashik
+STU0925,Sharad Jadhav,Information Technology,7,9.04,O,83.4,0,140,Nashik
+STU0926,Sharad Chimurkar,AI&DS,5,5.59,A,87.1,0,100,Nagpur
+STU0927,Karan Kajgunde,AI&DS,8,6.95,O,73.7,0,160,Mumbai
+STU0928,Aishwarya Kulkarni,Information Technology,1,5.1,A,83.5,0,20,Nashik
+STU0929,Pooja Jadhav,Electrical,1,6.54,A,85.6,0,20,Pune
+STU0930,Snehal Deshmukh,Civil,3,7.79,O,88.7,0,60,Pune
+STU0931,Karan Chimurkar,Electrical,8,7.06,A,95.5,3,148,Mumbai
+STU0932,Neha Patil,Civil,5,6.29,A,83.1,0,100,Pune
+STU0933,Tanmay Sawant,Electrical,5,6.66,B+,68.3,0,100,Nashik
+STU0934,Neha Jadhav,Information Technology,3,7.65,B+,86.2,0,60,Kolhapur
+STU0935,Sharad Kulkarni,Information Technology,6,8.62,A+,55.8,0,120,Nagpur
+STU0936,Tanmay Kajgunde,AI&DS,1,9.44,A+,80.3,0,20,Kolhapur
+STU0937,Vikram Patil,Computer Engineering,1,7.34,A,76.0,1,16,Mumbai
+STU0938,Rahul Sawant,AI&DS,6,7.34,A+,83.4,0,120,Mumbai
+STU0939,Tanmay Patil,Civil,3,7.38,A+,76.8,0,60,Pune
+STU0940,Snehal Patil,Mechanical,2,6.28,A,69.6,0,40,Nagpur
+STU0941,Neha Sawant,Mechanical,2,7.64,C,76.0,0,40,Mumbai
+STU0942,Aishwarya Sharma,Mechanical,4,9.2,A+,70.7,0,80,Aurangabad
+STU0943,Snehal Sawant,Electrical,5,5.18,B,88.4,0,100,Kolhapur
+STU0944,Karan Deshmukh,Computer Engineering,5,6.38,A,81.9,0,100,Nagpur
+STU0945,Pooja Bhosale,AI&DS,8,5.9,B+,90.1,2,152,Pune
+STU0946,Pooja Kulkarni,Information Technology,4,6.43,B+,83.5,0,80,Kolhapur
+STU0947,Snehal Kajgunde,Electrical,1,8.91,P,80.1,0,20,Nagpur
+STU0948,Rahul Sawant,Computer Engineering,2,7.16,B+,84.5,0,40,Nagpur
+STU0949,Amit Deshmukh,Civil,1,7.6,A+,69.9,2,12,Aurangabad
+STU0950,Tanmay Chimurkar,Civil,8,7.91,A,75.5,2,152,Kolhapur
+STU0951,Tanmay Bhosale,Mechanical,2,7.41,C,100.0,0,40,Nagpur
+STU0952,Snehal Kulkarni,Information Technology,8,7.73,O,87.0,2,152,Kolhapur
+STU0953,Snehal Gill,Mechanical,8,6.51,B+,84.7,0,160,Nagpur
+STU0954,Karan Chimurkar,Electrical,8,7.41,A+,84.0,0,160,Aurangabad
+STU0955,Snehal Kajgunde,AI&DS,7,8.44,O,74.6,3,128,Pune
+STU0956,Amit Kajgunde,Civil,3,8.31,A+,92.9,0,60,Mumbai
+STU0957,Amit Gill,Civil,2,7.1,C,72.5,0,40,Pune
+STU0958,Rahul Kajgunde,Electrical,6,9.71,O,94.6,0,120,Nashik
+STU0959,Pooja Sawant,Information Technology,6,7.58,C,82.9,0,120,Nashik
+STU0960,Vikram Chimurkar,Civil,1,8.4,A,56.7,2,12,Pune
+STU0961,Snehal Patil,Mechanical,1,8.2,A,71.1,0,20,Aurangabad
+STU0962,Rahul Kulkarni,Information Technology,7,6.94,C,86.1,0,140,Pune
+STU0963,Snehal Patil,Information Technology,5,7.7,A,79.4,0,100,Nagpur
+STU0964,Neha Deshmukh,Electrical,1,7.36,B+,74.2,0,20,Nagpur
+STU0965,Tanmay Chimurkar,AI&DS,3,6.73,P,100.0,0,60,Mumbai
+STU0966,Sharad Jadhav,Civil,7,5.74,A,82.2,0,140,Kolhapur
+STU0967,Tanmay Gill,Civil,6,8.63,B+,81.3,0,120,Nashik
+STU0968,Snehal Bhosale,AI&DS,1,5.84,A+,86.3,0,20,Kolhapur
+STU0969,Aishwarya Deshmukh,AI&DS,4,7.13,C,98.5,0,80,Kolhapur
+STU0970,Tanmay Kajgunde,Civil,4,7.29,A,84.2,2,72,Nashik
+STU0971,Sharad Bhosale,Computer Engineering,6,6.0,A,82.7,0,120,Pune
+STU0972,Vikram Kulkarni,Information Technology,6,8.49,A+,91.8,0,120,Nagpur
+STU0973,Rahul Chimurkar,Information Technology,8,7.03,A,83.6,0,160,Aurangabad
+STU0974,Vikram Jadhav,Information Technology,5,7.07,A,76.1,0,100,Nashik
+STU0975,Tanmay Bhosale,Computer Engineering,6,7.8,P,94.8,0,120,Mumbai
+STU0976,Snehal Chimurkar,AI&DS,7,7.2,A+,71.8,0,140,Mumbai
+STU0977,Snehal Chimurkar,Civil,4,8.17,O,92.4,0,80,Mumbai
+STU0978,Karan Patil,Mechanical,2,9.38,A+,85.4,0,40,Aurangabad
+STU0979,Snehal Chimurkar,Information Technology,6,7.51,O,85.9,3,108,Nashik
+STU0980,Rahul Kajgunde,Electrical,3,7.53,A+,83.4,0,60,Mumbai
+STU0981,Pooja Deshmukh,Mechanical,3,7.66,B+,89.6,0,60,Aurangabad
+STU0982,Aishwarya Chimurkar,Information Technology,3,7.59,P,77.2,0,60,Nagpur
+STU0983,Tanmay Kajgunde,Information Technology,4,6.08,A,72.1,0,80,Mumbai
+STU0984,Snehal Gill,Computer Engineering,5,6.33,FF,93.9,0,100,Pune
+STU0985,Amit Jadhav,Civil,4,7.74,O,100.0,0,80,Nagpur
+STU0986,Rahul Jadhav,Electrical,8,4.71,C,93.0,0,160,Kolhapur
+STU0987,Pooja Gill,AI&DS,3,8.13,B+,77.4,0,60,Nagpur
+STU0988,Tanmay Jadhav,Computer Engineering,3,6.62,FF,86.8,3,48,Kolhapur
+STU0989,Neha Kulkarni,Computer Engineering,7,5.65,B,84.0,0,140,Nashik
+STU0990,Rahul Sawant,Electrical,1,7.39,A,97.1,1,16,Pune
+STU0991,Aishwarya Patil,Civil,1,7.54,O,81.8,0,20,Kolhapur
+STU0992,Neha Gill,Information Technology,7,7.92,C,83.2,0,140,Aurangabad
+STU0993,Amit Kulkarni,Electrical,3,5.69,B,82.5,0,60,Mumbai
+STU0994,Karan Sharma,Information Technology,8,6.83,A+,83.4,0,160,Mumbai
+STU0995,Rahul Sharma,AI&DS,5,6.28,B+,77.0,0,100,Pune
+STU0996,Snehal Deshmukh,Computer Engineering,4,6.74,A,71.9,0,80,Nagpur
+STU0997,Snehal Kulkarni,Mechanical,2,6.27,A,83.7,0,40,Nashik
+STU0998,Sharad Deshmukh,AI&DS,3,7.85,C,74.6,0,60,Nagpur
+STU0999,Vikram Kulkarni,Information Technology,3,7.74,A+,92.3,0,60,Nagpur
+STU1000,Tanmay Gill,Electrical,7,8.63,A+,64.9,0,140,Nagpur
+STU1001,Pooja Bhosale,AI&DS,4,7.04,A,78.9,0,80,Nashik
+STU1002,Amit Jadhav,Electrical,5,8.41,A,73.9,0,100,Pune
+STU1003,Neha Patil,Electrical,6,6.85,B+,88.8,0,120,Aurangabad
+STU1004,Sharad Kulkarni,Computer Engineering,4,7.0,A,84.5,0,80,Aurangabad
+STU1005,Vikram Deshmukh,Mechanical,2,6.34,A+,82.2,0,40,Mumbai
+STU1006,Pooja Gill,Civil,5,6.52,A,93.1,0,100,Kolhapur
+STU1007,Amit Sawant,Information Technology,6,4.92,B,68.7,0,120,Pune
+STU1008,Sharad Bhosale,Civil,4,6.59,A,77.3,0,80,Nagpur
+STU1009,Neha Patil,Information Technology,1,7.09,B+,81.2,1,16,Nagpur
+STU1010,Pooja Sawant,Mechanical,1,7.57,B+,72.3,1,16,Kolhapur
+STU1011,Sharad Deshmukh,Civil,4,7.57,B+,83.5,0,80,Pune
+STU1012,Vikram Kulkarni,Mechanical,1,4.94,P,60.5,0,20,Mumbai
+STU1013,Snehal Sharma,Mechanical,6,9.07,O,85.7,1,116,Nagpur
+STU1014,Pooja Kulkarni,Computer Engineering,2,7.17,A+,82.8,1,36,Nashik
+STU1015,Sharad Gill,AI&DS,6,6.11,A,65.9,0,120,Nagpur
+STU1016,Snehal Kajgunde,Mechanical,1,7.59,A,82.9,1,16,Nashik
+STU1017,Karan Sawant,AI&DS,5,6.08,A,89.7,2,92,Nagpur
+STU1018,Snehal Kajgunde,Civil,6,7.94,B,84.8,1,116,Nagpur
+STU1019,Tanmay Sharma,Computer Engineering,1,9.73,B+,74.3,0,20,Mumbai
+STU1020,Snehal Gill,Computer Engineering,6,6.12,FF,76.4,4,104,Pune
+STU1021,Vikram Deshmukh,Computer Engineering,3,5.84,A,83.5,0,60,Kolhapur
+STU1022,Neha Patil,Information Technology,1,9.29,A+,75.2,1,16,Nashik
+STU1023,Rahul Sawant,Information Technology,7,8.17,A+,93.4,0,140,Mumbai
+STU1024,Vikram Bhosale,Mechanical,3,5.34,B+,100.0,1,56,Mumbai
+STU1025,Sharad Gill,Information Technology,7,6.73,A,79.3,3,128,Nashik
+STU1026,Tanmay Kulkarni,AI&DS,1,7.41,B,93.6,0,20,Nagpur
+STU1027,Sharad Jadhav,AI&DS,2,6.03,B,96.0,0,40,Aurangabad
+STU1028,Rahul Kajgunde,Mechanical,6,7.09,O,85.5,0,120,Aurangabad
+STU1029,Aishwarya Kulkarni,Computer Engineering,1,5.51,A,80.2,1,16,Nagpur
+STU1030,Vikram Patil,Civil,8,8.69,A,84.1,3,148,Nashik
+STU1031,Snehal Deshmukh,Civil,5,7.99,B+,89.0,0,100,Mumbai
+STU1032,Pooja Sharma,Civil,1,6.13,P,86.4,0,20,Mumbai
+STU1033,Pooja Patil,AI&DS,7,8.13,B+,74.3,0,140,Mumbai
+STU1034,Vikram Chimurkar,Electrical,1,6.03,B+,69.0,0,20,Nashik
+STU1035,Amit Jadhav,Mechanical,4,7.63,B+,89.3,0,80,Aurangabad
+STU1036,Sharad Sharma,Civil,3,7.12,B+,80.9,2,52,Kolhapur
+STU1037,Karan Gill,Mechanical,6,5.77,A+,68.0,1,116,Mumbai
+STU1038,Amit Sawant,Mechanical,1,8.56,C,80.7,0,20,Pune
+STU1039,Vikram Bhosale,Mechanical,3,6.85,B+,66.9,0,60,Mumbai
+STU1040,Sharad Gill,Computer Engineering,7,7.57,P,79.8,0,140,Kolhapur
+STU1041,Neha Bhosale,Electrical,2,8.18,C,82.9,0,40,Nagpur
+STU1042,Rahul Gill,Civil,4,8.4,A+,68.8,0,80,Nagpur
+STU1043,Neha Bhosale,Information Technology,3,7.38,B+,75.5,0,60,Kolhapur
+STU1044,Karan Patil,Computer Engineering,7,9.62,A+,90.5,0,140,Nagpur
+STU1045,Snehal Bhosale,Computer Engineering,8,6.87,A,88.6,0,160,Kolhapur
+STU1046,Aishwarya Bhosale,Mechanical,1,7.95,A+,79.8,0,20,Aurangabad
+STU1047,Vikram Chimurkar,AI&DS,1,9.24,A,80.7,0,20,Nashik
+STU1048,Sharad Patil,Mechanical,8,6.17,B,77.6,4,144,Mumbai
+STU1049,Vikram Kajgunde,Civil,3,7.09,B,81.4,0,60,Nashik
+STU1050,Karan Kajgunde,Computer Engineering,1,5.19,C,87.9,3,8,Nashik
+STU1051,Tanmay Chimurkar,Civil,2,6.77,A,83.4,0,40,Mumbai
+STU1052,Snehal Jadhav,Electrical,7,9.79,A+,98.2,0,140,Aurangabad
+STU1053,Neha Jadhav,AI&DS,4,7.62,P,88.9,1,76,Nashik
+STU1054,Pooja Sharma,Computer Engineering,2,7.42,B,85.8,0,40,Mumbai
+STU1055,Sharad Gill,Civil,4,6.28,A,91.6,0,80,Pune
+STU1056,Neha Jadhav,Civil,4,6.26,P,73.6,1,76,Pune
+STU1057,Vikram Chimurkar,Electrical,8,6.83,A,85.5,0,160,Nashik
+STU1058,Aishwarya Jadhav,Electrical,2,7.58,A+,70.8,0,40,Nashik
+STU1059,Snehal Deshmukh,Mechanical,1,6.95,P,67.9,0,20,Kolhapur
+STU1060,Amit Kajgunde,Electrical,3,7.02,B+,98.9,0,60,Nagpur
+STU1061,Aishwarya Bhosale,Electrical,8,8.94,B,84.0,1,156,Mumbai
+STU1062,Rahul Sharma,Information Technology,3,6.88,A+,89.8,0,60,Aurangabad
+STU1063,Karan Kajgunde,Information Technology,5,7.94,B+,77.8,0,100,Aurangabad
+STU1064,Neha Sawant,Information Technology,7,8.31,O,77.2,0,140,Kolhapur
+STU1065,Neha Sawant,Information Technology,6,6.63,B+,77.5,0,120,Mumbai
+STU1066,Snehal Sharma,Civil,5,6.3,B,56.1,0,100,Kolhapur
+STU1067,Vikram Sharma,AI&DS,8,6.84,A,76.0,0,160,Mumbai
+STU1068,Aishwarya Kajgunde,Electrical,3,7.8,B+,79.3,0,60,Aurangabad
+STU1069,Aishwarya Chimurkar,Mechanical,8,5.08,A,83.2,0,160,Aurangabad
+STU1070,Tanmay Sharma,Mechanical,2,6.02,B,85.8,0,40,Mumbai
+STU1071,Vikram Bhosale,Electrical,2,6.83,B+,84.1,0,40,Nashik
+STU1072,Snehal Sawant,Mechanical,2,7.25,A,78.5,0,40,Nashik
+STU1073,Snehal Deshmukh,Mechanical,3,7.17,A+,98.3,0,60,Mumbai
+STU1074,Snehal Sharma,Mechanical,8,6.11,C,69.5,2,152,Pune
+STU1075,Neha Deshmukh,AI&DS,8,6.74,A,66.9,0,160,Nagpur
+STU1076,Rahul Kajgunde,AI&DS,8,6.99,B+,76.4,0,160,Kolhapur
+STU1077,Rahul Gill,Civil,2,7.35,A,80.6,0,40,Kolhapur
+STU1078,Tanmay Kulkarni,Computer Engineering,5,7.3,B,88.4,0,100,Aurangabad
+STU1079,Karan Gill,Civil,6,7.35,B+,74.0,0,120,Pune
+STU1080,Pooja Chimurkar,Mechanical,8,7.09,C,88.1,0,160,Aurangabad
+STU1081,Sharad Kajgunde,Electrical,2,7.24,O,95.7,0,40,Kolhapur
+STU1082,Aishwarya Kajgunde,Mechanical,6,4.8,A,74.3,1,116,Nashik
+STU1083,Aishwarya Jadhav,Mechanical,4,5.17,B,79.7,0,80,Kolhapur
+STU1084,Tanmay Sharma,Electrical,6,7.38,A+,92.3,0,120,Pune
+STU1085,Sharad Deshmukh,Civil,7,9.05,A,76.3,0,140,Nashik
+STU1086,Amit Sharma,Electrical,6,6.53,B,84.8,0,120,Nashik
+STU1087,Karan Chimurkar,Information Technology,1,8.7,A+,85.7,0,20,Aurangabad
+STU1088,Karan Chimurkar,Electrical,7,8.53,A,96.4,0,140,Aurangabad
+STU1089,Sharad Chimurkar,AI&DS,1,7.49,O,86.0,0,20,Mumbai
+STU1090,Rahul Patil,Electrical,1,7.11,B,82.2,0,20,Nashik
+STU1091,Amit Sharma,Mechanical,5,7.4,O,64.3,2,92,Nagpur
+STU1092,Neha Deshmukh,AI&DS,8,6.64,FF,74.3,0,160,Aurangabad
+STU1093,Vikram Sharma,Mechanical,3,7.24,B,87.0,0,60,Mumbai
+STU1094,Pooja Bhosale,Mechanical,4,5.15,FF,78.6,0,80,Pune
+STU1095,Snehal Jadhav,Information Technology,5,7.26,O,81.3,0,100,Aurangabad
+STU1096,Snehal Sawant,Computer Engineering,6,9.54,A+,100.0,0,120,Mumbai
+STU1097,Tanmay Patil,Computer Engineering,5,7.19,B+,81.4,1,96,Pune
+STU1098,Aishwarya Gill,Civil,6,6.66,A+,63.8,0,120,Mumbai
+STU1099,Aishwarya Gill,Mechanical,2,6.93,B+,72.8,0,40,Nashik
+STU1100,Rahul Sawant,Mechanical,6,6.25,A,80.1,0,120,Aurangabad
+STU1101,Neha Bhosale,Information Technology,1,9.02,A,83.7,0,20,Nagpur
+STU1102,Neha Kulkarni,Computer Engineering,1,6.69,B,82.8,0,20,Nagpur
+STU1103,Tanmay Patil,Civil,6,6.74,B+,90.4,0,120,Pune
+STU1104,Neha Kajgunde,Electrical,7,7.8,B,89.1,0,140,Kolhapur
+STU1105,Rahul Bhosale,Information Technology,5,7.11,C,73.6,0,100,Mumbai
+STU1106,Aishwarya Chimurkar,AI&DS,1,6.23,B+,70.9,0,20,Nashik
+STU1107,Vikram Deshmukh,Information Technology,5,8.73,O,70.5,0,100,Mumbai
+STU1108,Vikram Bhosale,Civil,8,7.21,A+,81.6,1,156,Kolhapur
+STU1109,Rahul Bhosale,Civil,8,6.98,C,95.6,0,160,Pune
+STU1110,Aishwarya Gill,Civil,5,6.28,A+,71.0,0,100,Kolhapur
+STU1111,Vikram Jadhav,Mechanical,8,8.51,O,82.3,0,160,Pune
+STU1112,Snehal Gill,Mechanical,5,7.41,A,73.8,0,100,Kolhapur
+STU1113,Karan Gill,AI&DS,7,8.14,A,75.0,0,140,Nashik
+STU1114,Neha Bhosale,Civil,7,7.32,B+,76.1,0,140,Nashik
+STU1115,Karan Kajgunde,Mechanical,3,5.3,B+,94.5,0,60,Mumbai
+STU1116,Karan Kajgunde,Computer Engineering,6,7.85,A,85.5,0,120,Kolhapur
+STU1117,Vikram Patil,Computer Engineering,5,8.19,O,70.5,0,100,Mumbai
+STU1118,Tanmay Chimurkar,Computer Engineering,5,5.48,B+,79.7,0,100,Mumbai
+STU1119,Pooja Deshmukh,Computer Engineering,1,6.28,B+,79.6,0,20,Mumbai
+STU1120,Karan Sawant,Computer Engineering,6,7.42,B+,83.3,0,120,Nagpur
+STU1121,Sharad Patil,AI&DS,4,5.49,B,87.5,0,80,Nagpur
+STU1122,Vikram Chimurkar,Electrical,7,8.16,B+,76.3,1,136,Kolhapur
+STU1123,Amit Chimurkar,Electrical,1,7.06,A+,98.1,0,20,Kolhapur
+STU1124,Sharad Deshmukh,AI&DS,1,6.31,B+,85.0,1,16,Nagpur
+STU1125,Karan Sawant,Electrical,5,9.77,A+,75.4,4,84,Nagpur
+STU1126,Amit Kulkarni,AI&DS,8,7.85,O,90.8,0,160,Aurangabad
+STU1127,Pooja Patil,Mechanical,5,6.19,P,64.1,0,100,Nagpur
+STU1128,Pooja Deshmukh,Computer Engineering,5,5.08,B,83.2,1,96,Pune
+STU1129,Vikram Deshmukh,Mechanical,5,6.64,FF,97.6,0,100,Nashik
+STU1130,Aishwarya Jadhav,Electrical,1,6.56,A,83.1,1,16,Mumbai
+STU1131,Rahul Sawant,Mechanical,5,8.62,A+,76.3,3,88,Nagpur
+STU1132,Aishwarya Chimurkar,AI&DS,8,7.45,A+,77.8,1,156,Nashik
+STU1133,Tanmay Sawant,Computer Engineering,5,7.47,O,63.7,0,100,Nashik
+STU1134,Neha Chimurkar,Information Technology,3,7.86,A,77.9,0,60,Pune
+STU1135,Snehal Gill,Electrical,2,7.57,B+,69.4,0,40,Nagpur
+STU1136,Snehal Kajgunde,Electrical,7,8.29,O,69.2,0,140,Nashik
+STU1137,Rahul Kulkarni,AI&DS,6,7.44,A,87.2,0,120,Mumbai
+STU1138,Tanmay Deshmukh,Civil,2,6.16,A+,85.1,2,32,Aurangabad
+STU1139,Aishwarya Patil,Civil,6,8.17,B,96.1,0,120,Nashik
+STU1140,Aishwarya Sawant,AI&DS,8,8.51,A+,80.1,0,160,Pune
+STU1141,Aishwarya Sawant,Mechanical,7,6.74,O,91.2,0,140,Kolhapur
+STU1142,Tanmay Gill,Electrical,5,5.03,A,89.4,0,100,Aurangabad
+STU1143,Sharad Kulkarni,Civil,7,7.89,O,81.6,1,136,Nashik
+STU1144,Karan Patil,AI&DS,8,9.07,O,74.7,0,160,Nagpur
+STU1145,Karan Bhosale,Civil,4,6.56,A,97.0,0,80,Pune
+STU1146,Amit Kulkarni,Electrical,6,7.33,A,82.5,0,120,Kolhapur
+STU1147,Rahul Sharma,Mechanical,2,4.78,B+,82.6,1,36,Aurangabad
+STU1148,Karan Sharma,Civil,5,7.6,A+,78.2,0,100,Kolhapur
+STU1149,Tanmay Bhosale,Civil,1,8.13,A+,79.8,0,20,Aurangabad
+STU1150,Tanmay Kajgunde,Information Technology,5,5.17,FF,72.2,0,100,Mumbai
+STU1151,Amit Chimurkar,Civil,4,7.37,P,79.9,0,80,Kolhapur
+STU1152,Neha Sawant,Mechanical,2,6.57,A,100.0,0,40,Pune
+STU1153,Snehal Jadhav,Information Technology,6,7.46,A+,62.1,3,108,Kolhapur
+STU1154,Pooja Gill,Mechanical,2,7.1,O,100.0,0,40,Kolhapur
+STU1155,Tanmay Sawant,Electrical,8,8.01,A+,77.0,0,160,Nagpur
+STU1156,Rahul Chimurkar,Computer Engineering,6,7.12,C,79.1,3,108,Aurangabad
+STU1157,Karan Kulkarni,Mechanical,1,7.54,P,89.9,0,20,Aurangabad
+STU1158,Neha Bhosale,Electrical,1,6.46,A+,96.6,0,20,Mumbai
+STU1159,Tanmay Kajgunde,Computer Engineering,1,7.33,O,92.5,0,20,Pune
+STU1160,Amit Patil,Information Technology,3,7.5,B+,92.8,1,56,Kolhapur
+STU1161,Sharad Sharma,Computer Engineering,5,8.16,A+,71.6,0,100,Kolhapur
+STU1162,Aishwarya Patil,Electrical,5,6.55,B+,86.7,4,84,Kolhapur
+STU1163,Amit Kajgunde,Information Technology,3,7.24,A+,75.3,0,60,Nagpur
+STU1164,Snehal Chimurkar,Computer Engineering,1,5.88,O,100.0,0,20,Pune
+STU1165,Tanmay Sharma,AI&DS,1,9.29,A+,89.5,0,20,Nagpur
+STU1166,Vikram Chimurkar,Civil,8,6.96,B+,73.9,2,152,Kolhapur
+STU1167,Snehal Kulkarni,Electrical,7,6.71,A,93.9,0,140,Nagpur
+STU1168,Neha Jadhav,Civil,4,7.17,A,96.0,0,80,Pune
+STU1169,Snehal Patil,Civil,7,4.06,FF,81.7,0,140,Mumbai
+STU1170,Amit Patil,AI&DS,2,5.24,A,77.4,0,40,Nashik
+STU1171,Rahul Sharma,Electrical,2,7.34,C,92.8,0,40,Nashik
+STU1172,Neha Kulkarni,Information Technology,3,7.11,A,79.0,2,52,Mumbai
+STU1173,Pooja Gill,Electrical,8,7.83,A,88.6,0,160,Kolhapur
+STU1174,Rahul Gill,Electrical,3,9.12,O,84.4,0,60,Nagpur
+STU1175,Amit Bhosale,Mechanical,8,8.67,A+,76.1,0,160,Mumbai
+STU1176,Sharad Patil,AI&DS,1,7.16,A+,79.6,0,20,Mumbai
+STU1177,Amit Sawant,Computer Engineering,7,6.86,B+,82.8,0,140,Nashik
+STU1178,Sharad Patil,Civil,1,6.6,B,76.9,1,16,Nashik
+STU1179,Vikram Gill,Electrical,4,7.57,A,72.2,2,72,Nashik
+STU1180,Karan Kulkarni,Information Technology,4,6.36,B,89.6,0,80,Nagpur
+STU1181,Snehal Kajgunde,Electrical,1,7.81,A,85.1,0,20,Pune
+STU1182,Vikram Jadhav,Information Technology,7,7.37,P,87.3,0,140,Nagpur
+STU1183,Neha Chimurkar,AI&DS,7,8.12,C,70.3,0,140,Nashik
+STU1184,Rahul Kajgunde,Computer Engineering,4,7.81,B+,83.7,0,80,Nashik
+STU1185,Neha Deshmukh,Civil,2,6.01,B+,73.7,0,40,Nagpur
+STU1186,Snehal Chimurkar,AI&DS,2,6.39,B+,66.3,0,40,Nashik
+STU1187,Karan Gill,Computer Engineering,6,7.44,B,63.5,0,120,Nagpur
+STU1188,Tanmay Sawant,AI&DS,4,6.95,B,74.5,0,80,Mumbai
+STU1189,Aishwarya Jadhav,Computer Engineering,8,7.66,O,92.9,2,152,Mumbai
+STU1190,Aishwarya Chimurkar,AI&DS,1,7.0,O,90.1,0,20,Mumbai
+STU1191,Snehal Kulkarni,AI&DS,6,9.27,B,80.6,3,108,Nashik
+STU1192,Rahul Deshmukh,AI&DS,1,8.24,A+,87.7,0,20,Kolhapur
+STU1193,Snehal Jadhav,AI&DS,5,8.92,A+,73.1,0,100,Nashik
+STU1194,Neha Chimurkar,AI&DS,2,7.63,O,79.8,2,32,Aurangabad
+STU1195,Snehal Kajgunde,Information Technology,2,8.99,A+,80.2,0,40,Nashik
+STU1196,Tanmay Bhosale,Computer Engineering,2,6.37,B+,77.8,0,40,Mumbai
+STU1197,Pooja Gill,Information Technology,4,4.94,FF,85.6,0,80,Mumbai
+STU1198,Pooja Gill,Civil,1,9.58,A+,85.1,2,12,Aurangabad
+STU1199,Sharad Jadhav,Mechanical,1,6.39,A+,96.2,0,20,Kolhapur
+STU1200,Pooja Jadhav,Information Technology,5,9.04,B+,63.5,0,100,Nashik
+STU1201,Aishwarya Kulkarni,Mechanical,3,7.87,C,87.7,0,60,Pune
+STU1202,Karan Chimurkar,Mechanical,7,7.42,A,93.6,0,140,Nashik
+STU1203,Vikram Kulkarni,Civil,2,7.53,B+,90.5,0,40,Kolhapur
+STU1204,Rahul Jadhav,Electrical,7,7.03,A,60.8,0,140,Nashik
+STU1205,Pooja Sharma,Mechanical,6,5.61,B+,89.9,1,116,Kolhapur
+STU1206,Sharad Jadhav,AI&DS,4,6.17,A+,100.0,0,80,Pune
+STU1207,Aishwarya Deshmukh,Mechanical,4,8.53,A+,90.8,0,80,Nagpur
+STU1208,Amit Gill,Computer Engineering,8,8.57,O,76.3,1,156,Pune
+STU1209,Aishwarya Deshmukh,Electrical,5,5.91,A,87.8,0,100,Mumbai
+STU1210,Vikram Gill,AI&DS,4,5.97,B+,82.6,0,80,Nagpur
+STU1211,Vikram Bhosale,Mechanical,2,8.23,A,82.1,0,40,Kolhapur
+STU1212,Pooja Sawant,Civil,5,8.04,O,94.0,0,100,Nashik
+STU1213,Snehal Patil,AI&DS,4,7.29,P,62.8,0,80,Pune
+STU1214,Sharad Sawant,AI&DS,7,7.05,A+,77.0,0,140,Mumbai
+STU1215,Tanmay Jadhav,Electrical,8,6.67,A+,86.6,0,160,Pune
+STU1216,Rahul Chimurkar,AI&DS,3,8.58,B,90.1,0,60,Mumbai
+STU1217,Pooja Chimurkar,Civil,8,4.78,A,85.3,1,156,Nagpur
+STU1218,Aishwarya Sharma,Mechanical,4,7.46,C,84.4,1,76,Nagpur
+STU1219,Pooja Patil,Electrical,8,6.76,A+,79.3,1,156,Nagpur
+STU1220,Tanmay Deshmukh,AI&DS,2,6.06,B,75.4,1,36,Nagpur
+STU1221,Tanmay Jadhav,Information Technology,3,7.23,B,73.2,0,60,Nagpur
+STU1222,Tanmay Kajgunde,Civil,1,10.0,A+,80.1,1,16,Nashik
+STU1223,Karan Patil,Civil,4,6.43,A,84.5,0,80,Mumbai
+STU1224,Tanmay Bhosale,Civil,3,7.41,P,67.0,0,60,Aurangabad
+STU1225,Tanmay Sawant,Civil,8,7.41,P,97.1,0,160,Aurangabad
+STU1226,Rahul Sawant,Civil,7,6.35,A,81.0,1,136,Kolhapur
+STU1227,Rahul Patil,Civil,5,7.44,A,89.9,0,100,Pune
+STU1228,Karan Chimurkar,Mechanical,7,7.92,A+,74.6,0,140,Nashik
+STU1229,Karan Sawant,Civil,8,9.04,O,70.5,1,156,Kolhapur
+STU1230,Aishwarya Patil,Information Technology,6,7.77,B,76.8,0,120,Pune
+STU1231,Sharad Gill,Information Technology,6,7.54,A,72.9,0,120,Aurangabad
+STU1232,Aishwarya Sawant,Civil,4,7.17,A+,77.9,1,76,Pune
+STU1233,Karan Bhosale,Computer Engineering,8,7.07,P,87.9,0,160,Nashik
+STU1234,Snehal Kajgunde,Mechanical,7,6.8,B,90.1,0,140,Aurangabad
+STU1235,Amit Deshmukh,Civil,8,8.17,A+,93.0,1,156,Mumbai
+STU1236,Sharad Sawant,AI&DS,2,6.68,C,93.5,0,40,Mumbai
+STU1237,Snehal Sharma,Computer Engineering,6,6.47,B,90.8,0,120,Nashik
+STU1238,Karan Deshmukh,Mechanical,5,6.28,A+,84.9,0,100,Mumbai
+STU1239,Neha Sawant,Civil,8,7.43,B+,68.0,1,156,Mumbai
+STU1240,Snehal Jadhav,Information Technology,1,6.83,A,91.6,0,20,Nagpur
+STU1241,Sharad Bhosale,AI&DS,6,6.34,P,76.1,0,120,Aurangabad
+STU1242,Amit Kulkarni,Electrical,8,5.62,C,79.2,2,152,Mumbai
+STU1243,Snehal Kulkarni,Information Technology,7,8.4,B,83.7,1,136,Mumbai
+STU1244,Pooja Jadhav,Electrical,4,8.36,O,54.2,0,80,Aurangabad
+STU1245,Rahul Kajgunde,Civil,7,5.24,C,71.1,0,140,Nagpur
+STU1246,Vikram Chimurkar,AI&DS,7,8.42,O,92.2,1,136,Nashik
+STU1247,Sharad Chimurkar,Information Technology,7,7.53,A,85.8,0,140,Pune
+STU1248,Amit Gill,Computer Engineering,2,8.63,A+,87.5,2,32,Kolhapur
+STU1249,Rahul Patil,Information Technology,4,8.48,C,75.7,0,80,Nagpur
+STU1250,Tanmay Deshmukh,Electrical,3,6.5,P,72.4,0,60,Pune
+STU1251,Rahul Sharma,Computer Engineering,2,6.72,A,100.0,0,40,Kolhapur
+STU1252,Karan Gill,AI&DS,3,5.3,A+,74.6,0,60,Nashik
+STU1253,Amit Kajgunde,Civil,1,7.73,A+,96.9,0,20,Nashik
+STU1254,Snehal Bhosale,AI&DS,7,4.87,C,73.8,0,140,Nashik
+STU1255,Aishwarya Bhosale,Electrical,2,7.92,A+,87.3,0,40,Mumbai
+STU1256,Aishwarya Deshmukh,AI&DS,2,10.0,O,61.3,0,40,Pune
+STU1257,Rahul Sharma,Electrical,2,6.77,C,73.4,0,40,Pune
+STU1258,Snehal Bhosale,Mechanical,1,8.41,O,88.1,0,20,Mumbai
+STU1259,Rahul Kajgunde,AI&DS,4,7.48,A+,92.6,1,76,Mumbai
+STU1260,Sharad Patil,Electrical,7,8.24,A+,100.0,0,140,Pune
+STU1261,Rahul Kajgunde,Information Technology,6,6.74,B+,82.8,0,120,Pune
+STU1262,Amit Bhosale,Computer Engineering,2,7.77,O,82.2,2,32,Aurangabad
+STU1263,Vikram Kulkarni,Information Technology,8,7.31,A,68.2,0,160,Kolhapur
+STU1264,Snehal Sharma,Information Technology,5,6.92,A+,94.5,0,100,Pune
+STU1265,Pooja Deshmukh,Information Technology,8,8.64,A,84.6,0,160,Pune
+STU1266,Sharad Sawant,AI&DS,1,8.92,O,74.6,0,20,Pune
+STU1267,Snehal Gill,Information Technology,3,6.39,B,73.8,0,60,Mumbai
+STU1268,Vikram Jadhav,Civil,5,8.01,B+,85.0,2,92,Nashik
+STU1269,Neha Bhosale,Mechanical,3,5.57,O,82.0,0,60,Nagpur
+STU1270,Rahul Sharma,Mechanical,2,7.36,A+,69.9,0,40,Aurangabad
+STU1271,Snehal Sharma,Civil,6,8.01,A,77.3,0,120,Mumbai
+STU1272,Sharad Kajgunde,Computer Engineering,5,6.02,A,88.4,0,100,Aurangabad
+STU1273,Tanmay Gill,Information Technology,6,7.76,B+,96.0,0,120,Nashik
+STU1274,Pooja Kulkarni,Civil,7,5.23,P,81.9,0,140,Pune
+STU1275,Aishwarya Sawant,Civil,6,9.91,O,73.8,0,120,Pune
+STU1276,Tanmay Bhosale,Electrical,3,7.94,A+,83.4,0,60,Pune
+STU1277,Rahul Sharma,AI&DS,4,8.77,B+,100.0,0,80,Pune
+STU1278,Neha Kajgunde,Civil,1,7.41,C,92.7,0,20,Kolhapur
+STU1279,Sharad Bhosale,Electrical,7,5.92,B+,84.0,0,140,Kolhapur
+STU1280,Aishwarya Chimurkar,Computer Engineering,7,7.25,B+,69.1,0,140,Nagpur
+STU1281,Neha Jadhav,Mechanical,1,8.38,A+,80.4,0,20,Mumbai
+STU1282,Rahul Sharma,AI&DS,3,5.27,B,76.0,2,52,Nagpur
+STU1283,Pooja Kajgunde,Computer Engineering,6,9.46,A+,75.9,0,120,Aurangabad
+STU1284,Sharad Kulkarni,Civil,7,7.37,C,90.2,0,140,Mumbai
+STU1285,Snehal Sawant,Information Technology,6,6.61,A,81.7,0,120,Nashik
+STU1286,Vikram Patil,Civil,7,7.37,B,97.4,0,140,Kolhapur
+STU1287,Neha Bhosale,Electrical,6,8.39,B+,82.6,0,120,Mumbai
+STU1288,Snehal Bhosale,Computer Engineering,5,6.68,A,85.4,0,100,Mumbai
+STU1289,Aishwarya Chimurkar,Information Technology,4,6.77,A+,80.6,0,80,Aurangabad
+STU1290,Amit Kulkarni,Computer Engineering,3,5.73,B,100.0,0,60,Mumbai
+STU1291,Rahul Kajgunde,Computer Engineering,2,8.01,O,66.7,0,40,Nashik
+STU1292,Tanmay Sharma,AI&DS,2,6.82,B,79.9,0,40,Kolhapur
+STU1293,Rahul Sharma,Civil,4,8.17,B,84.0,0,80,Pune
+STU1294,Vikram Sawant,Information Technology,1,8.37,A+,80.3,0,20,Mumbai
+STU1295,Rahul Deshmukh,Mechanical,6,8.27,A+,75.7,0,120,Pune
+STU1296,Vikram Sawant,Information Technology,5,6.96,A+,88.8,0,100,Nagpur
+STU1297,Tanmay Chimurkar,Electrical,8,7.36,B+,90.7,0,160,Nashik
+STU1298,Vikram Sawant,AI&DS,4,7.86,A,76.2,1,76,Pune
+STU1299,Rahul Kulkarni,Computer Engineering,6,7.38,B+,84.6,0,120,Kolhapur
+STU1300,Amit Chimurkar,Civil,3,7.79,O,70.1,0,60,Nagpur
+STU1301,Karan Chimurkar,Civil,6,6.73,A+,69.5,2,112,Nagpur
+STU1302,Sharad Gill,Mechanical,2,8.69,A+,84.9,0,40,Aurangabad
+STU1303,Rahul Bhosale,Mechanical,3,5.59,FF,82.0,0,60,Nashik
+STU1304,Rahul Patil,AI&DS,5,6.8,B+,86.8,0,100,Pune
+STU1305,Sharad Patil,Information Technology,1,7.75,A+,88.0,0,20,Pune
+STU1306,Sharad Sharma,Information Technology,1,8.6,P,85.3,0,20,Nagpur
+STU1307,Sharad Sharma,Mechanical,6,5.98,A,95.8,0,120,Pune
+STU1308,Karan Patil,Mechanical,7,8.02,A,81.4,0,140,Nashik
+STU1309,Snehal Kajgunde,Information Technology,2,8.93,B+,98.8,0,40,Kolhapur
+STU1310,Neha Chimurkar,AI&DS,2,6.23,A,70.8,0,40,Nagpur
+STU1311,Vikram Sharma,Mechanical,7,6.1,B+,71.7,0,140,Kolhapur
+STU1312,Pooja Kulkarni,AI&DS,2,6.56,B+,76.8,0,40,Pune
+STU1313,Aishwarya Bhosale,Computer Engineering,2,7.25,O,96.9,0,40,Aurangabad
+STU1314,Neha Patil,Computer Engineering,6,6.01,B+,75.3,0,120,Nashik
+STU1315,Vikram Sawant,Mechanical,3,6.35,A,78.0,0,60,Mumbai
+STU1316,Neha Bhosale,Mechanical,8,8.04,C,80.9,0,160,Mumbai
+STU1317,Sharad Patil,Information Technology,2,4.99,FF,91.7,0,40,Mumbai
+STU1318,Tanmay Patil,Mechanical,5,6.94,B+,72.9,0,100,Kolhapur
+STU1319,Sharad Jadhav,AI&DS,5,6.4,C,84.6,0,100,Kolhapur
+STU1320,Vikram Gill,Mechanical,4,8.17,B,81.7,0,80,Mumbai
+STU1321,Tanmay Chimurkar,Electrical,6,9.06,B,72.0,0,120,Nashik
+STU1322,Sharad Patil,AI&DS,4,6.57,A,83.2,0,80,Kolhapur
+STU1323,Aishwarya Jadhav,Civil,1,6.66,A+,74.2,0,20,Nashik
+STU1324,Aishwarya Sawant,Mechanical,4,4.36,FF,91.1,0,80,Aurangabad
+STU1325,Tanmay Gill,Information Technology,5,5.07,A+,91.2,0,100,Aurangabad
+STU1326,Karan Sharma,Information Technology,5,7.14,B+,79.7,2,92,Kolhapur
+STU1327,Amit Chimurkar,Civil,6,6.75,A+,79.6,0,120,Nashik
+STU1328,Vikram Gill,Information Technology,3,7.63,P,93.7,0,60,Kolhapur
+STU1329,Rahul Kajgunde,AI&DS,4,5.79,A,87.0,0,80,Aurangabad
+STU1330,Neha Kulkarni,Mechanical,7,4.88,B+,89.0,0,140,Mumbai
+STU1331,Tanmay Sharma,Information Technology,7,6.02,A,71.8,0,140,Aurangabad
+STU1332,Tanmay Gill,Information Technology,6,6.42,A+,84.7,0,120,Pune
+STU1333,Sharad Patil,Mechanical,3,5.49,A+,81.9,0,60,Nashik
+STU1334,Vikram Deshmukh,AI&DS,7,9.77,A+,84.3,0,140,Nashik
+STU1335,Snehal Jadhav,Civil,2,6.19,B+,87.3,0,40,Kolhapur
+STU1336,Pooja Gill,Mechanical,4,8.9,A+,86.3,0,80,Mumbai
+STU1337,Pooja Patil,AI&DS,5,7.34,B,65.7,0,100,Pune
+STU1338,Sharad Jadhav,Information Technology,7,6.94,B,73.0,0,140,Pune
+STU1339,Neha Jadhav,Electrical,4,7.01,O,91.7,0,80,Nashik
+STU1340,Neha Bhosale,Information Technology,2,6.4,B+,90.5,0,40,Pune
+STU1341,Vikram Sawant,AI&DS,8,9.28,B,87.5,1,156,Nashik
+STU1342,Karan Chimurkar,Computer Engineering,3,6.55,A,67.6,1,56,Kolhapur
+STU1343,Snehal Sharma,Computer Engineering,5,4.74,B+,90.4,0,100,Mumbai
+STU1344,Karan Sharma,Mechanical,7,7.1,B+,97.6,0,140,Nagpur
+STU1345,Tanmay Gill,Computer Engineering,2,5.1,B,100.0,0,40,Mumbai
+STU1346,Tanmay Sawant,Mechanical,3,8.22,B+,100.0,0,60,Nagpur
+STU1347,Sharad Kulkarni,Mechanical,6,6.92,A,71.5,0,120,Nagpur
+STU1348,Snehal Deshmukh,Information Technology,4,7.47,A,93.9,0,80,Kolhapur
+STU1349,Sharad Sawant,AI&DS,8,6.14,C,86.3,0,160,Pune
+STU1350,Pooja Jadhav,Information Technology,1,8.24,A,80.1,0,20,Aurangabad
+STU1351,Snehal Jadhav,Mechanical,8,5.96,B,65.2,0,160,Nagpur
+STU1352,Pooja Chimurkar,Civil,4,8.01,B,84.0,0,80,Nagpur
+STU1353,Pooja Kajgunde,AI&DS,6,7.43,B+,100.0,2,112,Pune
+STU1354,Pooja Gill,Information Technology,5,7.32,A+,89.8,0,100,Kolhapur
+STU1355,Vikram Sharma,AI&DS,2,6.69,A,73.9,0,40,Nashik
+STU1356,Pooja Jadhav,AI&DS,8,8.07,A+,85.2,1,156,Aurangabad
+STU1357,Aishwarya Deshmukh,AI&DS,7,9.85,A+,78.6,0,140,Aurangabad
+STU1358,Rahul Kulkarni,Computer Engineering,6,7.89,O,87.2,0,120,Aurangabad
+STU1359,Tanmay Gill,Electrical,3,5.91,B+,87.8,0,60,Nagpur
+STU1360,Tanmay Kulkarni,Civil,8,8.17,A,73.1,0,160,Mumbai
+STU1361,Pooja Bhosale,Computer Engineering,4,6.79,A,89.1,1,76,Pune
+STU1362,Amit Gill,Computer Engineering,2,5.72,A,69.2,0,40,Nashik
+STU1363,Vikram Sharma,Civil,6,7.42,B+,81.1,0,120,Kolhapur
+STU1364,Sharad Jadhav,AI&DS,3,6.58,B+,90.1,0,60,Aurangabad
+STU1365,Sharad Jadhav,Electrical,4,5.8,C,88.2,0,80,Pune
+STU1366,Aishwarya Jadhav,Information Technology,2,5.78,A,85.9,0,40,Aurangabad
+STU1367,Pooja Sharma,Mechanical,4,7.53,A,56.4,1,76,Kolhapur
+STU1368,Amit Bhosale,Civil,6,9.59,B+,99.6,0,120,Aurangabad
+STU1369,Pooja Patil,AI&DS,7,7.67,O,84.0,0,140,Kolhapur
+STU1370,Snehal Sharma,Civil,2,7.67,B+,75.5,0,40,Pune
+STU1371,Amit Deshmukh,Electrical,3,8.45,B+,93.1,3,48,Mumbai
+STU1372,Snehal Kulkarni,Civil,1,6.46,B,85.5,0,20,Nashik
+STU1373,Rahul Patil,Mechanical,3,7.76,B,83.7,0,60,Aurangabad
+STU1374,Rahul Bhosale,Computer Engineering,5,7.29,P,78.4,0,100,Kolhapur
+STU1375,Snehal Kajgunde,Information Technology,5,5.81,B+,87.5,1,96,Mumbai
+STU1376,Sharad Sharma,Information Technology,6,5.94,O,56.0,0,120,Nashik
+STU1377,Rahul Deshmukh,Civil,5,7.39,A+,86.2,1,96,Nashik
+STU1378,Amit Gill,Mechanical,2,6.08,B+,84.6,1,36,Nagpur
+STU1379,Vikram Jadhav,Information Technology,6,7.45,O,72.5,0,120,Kolhapur
+STU1380,Vikram Kajgunde,AI&DS,8,6.9,A+,77.1,0,160,Aurangabad
+STU1381,Rahul Kajgunde,Mechanical,7,6.19,B+,83.9,0,140,Nagpur
+STU1382,Tanmay Bhosale,Mechanical,4,7.01,A+,94.6,0,80,Nashik
+STU1383,Karan Gill,Mechanical,8,7.55,A,79.0,0,160,Nashik
+STU1384,Sharad Sawant,Civil,1,7.48,B+,69.0,0,20,Nashik
+STU1385,Rahul Bhosale,AI&DS,1,7.35,A,83.8,0,20,Mumbai
+STU1386,Neha Patil,AI&DS,1,5.35,B+,77.5,0,20,Aurangabad
+STU1387,Karan Chimurkar,Electrical,5,7.7,O,80.9,0,100,Nashik
+STU1388,Neha Chimurkar,Civil,2,8.03,B,85.6,0,40,Nashik
+STU1389,Karan Gill,Computer Engineering,5,6.34,A+,78.0,0,100,Aurangabad
+STU1390,Vikram Sawant,Civil,1,8.14,P,88.6,1,16,Aurangabad
+STU1391,Vikram Deshmukh,Information Technology,6,8.56,B+,86.2,0,120,Mumbai
+STU1392,Neha Patil,AI&DS,8,7.35,A,82.3,0,160,Nagpur
+STU1393,Vikram Deshmukh,Electrical,8,8.02,C,93.1,0,160,Aurangabad
+STU1394,Tanmay Jadhav,Civil,1,6.69,B+,86.5,0,20,Nagpur
+STU1395,Tanmay Sharma,Computer Engineering,4,4.62,FF,80.2,0,80,Aurangabad
+STU1396,Rahul Kulkarni,Information Technology,2,6.17,A,81.0,0,40,Kolhapur
+STU1397,Karan Sharma,Civil,1,6.42,A+,79.0,0,20,Aurangabad
+STU1398,Amit Patil,Information Technology,1,7.26,B+,86.8,2,12,Nagpur
+STU1399,Aishwarya Deshmukh,Mechanical,2,7.63,O,84.5,0,40,Nagpur
+STU1400,Neha Kulkarni,Electrical,1,7.85,B,88.6,0,20,Aurangabad
+STU1401,Pooja Sharma,AI&DS,7,5.91,C,81.3,0,140,Kolhapur
+STU1402,Aishwarya Sawant,Mechanical,2,9.23,O,100.0,0,40,Nashik
+STU1403,Sharad Jadhav,Electrical,1,8.25,A,88.9,0,20,Pune
+STU1404,Vikram Gill,Information Technology,4,7.49,O,95.0,0,80,Mumbai
+STU1405,Karan Chimurkar,Electrical,1,7.21,A,78.0,0,20,Kolhapur
+STU1406,Sharad Bhosale,Computer Engineering,2,7.8,O,71.5,0,40,Nashik
+STU1407,Aishwarya Gill,Computer Engineering,6,6.17,P,79.7,0,120,Nashik
+STU1408,Aishwarya Patil,Electrical,4,8.38,A,67.2,1,76,Aurangabad
+STU1409,Snehal Sawant,Mechanical,1,6.48,A,87.6,0,20,Nashik
+STU1410,Tanmay Bhosale,Mechanical,4,6.62,P,86.3,2,72,Kolhapur
+STU1411,Vikram Deshmukh,Electrical,5,7.14,A,70.3,1,96,Aurangabad
+STU1412,Rahul Bhosale,Mechanical,6,6.99,A,91.5,0,120,Pune
+STU1413,Amit Bhosale,Civil,3,7.3,B+,79.9,1,56,Nagpur
+STU1414,Rahul Kajgunde,Computer Engineering,4,7.02,P,83.8,0,80,Aurangabad
+STU1415,Amit Sawant,Mechanical,5,7.86,A,78.4,0,100,Kolhapur
+STU1416,Neha Deshmukh,Civil,4,7.59,B,65.6,0,80,Pune
+STU1417,Neha Deshmukh,AI&DS,7,8.2,A+,92.5,0,140,Nashik
+STU1418,Rahul Patil,Computer Engineering,8,7.49,B,82.5,1,156,Pune
+STU1419,Karan Chimurkar,Mechanical,3,7.91,P,87.5,1,56,Pune
+STU1420,Aishwarya Gill,AI&DS,4,7.8,A+,72.8,0,80,Nashik
+STU1421,Vikram Sawant,Computer Engineering,7,8.5,A+,97.9,3,128,Nashik
+STU1422,Vikram Bhosale,Civil,3,6.67,B+,87.8,0,60,Mumbai
+STU1423,Tanmay Kulkarni,Mechanical,1,6.56,A,88.7,1,16,Mumbai
+STU1424,Sharad Sharma,Computer Engineering,4,7.21,B+,79.7,0,80,Mumbai
+STU1425,Snehal Gill,Mechanical,5,8.25,P,93.5,0,100,Aurangabad
+STU1426,Tanmay Chimurkar,Mechanical,8,6.54,A,81.6,0,160,Nagpur
+STU1427,Vikram Sawant,Computer Engineering,7,5.34,B+,68.1,0,140,Aurangabad
+STU1428,Sharad Kajgunde,AI&DS,7,7.65,B+,78.1,0,140,Pune
+STU1429,Neha Jadhav,Mechanical,7,8.15,B,80.2,0,140,Kolhapur
+STU1430,Neha Chimurkar,Civil,7,9.65,B+,88.4,1,136,Nashik
+STU1431,Amit Deshmukh,Mechanical,8,6.99,B,85.0,0,160,Nashik
+STU1432,Amit Patil,Civil,8,7.04,A,70.1,4,144,Kolhapur
+STU1433,Neha Kajgunde,Electrical,8,7.35,B+,88.1,0,160,Pune
+STU1434,Aishwarya Jadhav,Computer Engineering,8,7.13,C,76.8,1,156,Mumbai
+STU1435,Aishwarya Patil,Electrical,4,6.94,A,84.1,0,80,Kolhapur
+STU1436,Rahul Gill,Information Technology,2,6.72,C,80.1,0,40,Nashik
+STU1437,Vikram Kajgunde,Information Technology,1,7.94,B+,83.4,0,20,Nashik
+STU1438,Amit Deshmukh,Electrical,4,8.24,A+,85.8,0,80,Pune
+STU1439,Vikram Sharma,AI&DS,7,7.34,B,65.0,0,140,Nagpur
+STU1440,Tanmay Deshmukh,Computer Engineering,4,7.05,A,90.0,0,80,Mumbai
+STU1441,Karan Patil,AI&DS,5,7.81,A,72.2,0,100,Nagpur
+STU1442,Neha Jadhav,Information Technology,7,6.43,A,82.5,0,140,Nashik
+STU1443,Pooja Sawant,Civil,7,7.45,A,85.1,1,136,Mumbai
+STU1444,Sharad Chimurkar,Computer Engineering,5,7.32,A,70.1,0,100,Kolhapur
+STU1445,Karan Sharma,AI&DS,1,6.47,B,70.5,0,20,Nagpur
+STU1446,Aishwarya Bhosale,Electrical,4,6.6,B,78.3,0,80,Kolhapur
+STU1447,Rahul Gill,Mechanical,8,6.68,A,71.8,0,160,Nagpur
+STU1448,Sharad Kajgunde,Information Technology,4,5.3,B,93.6,0,80,Pune
+STU1449,Karan Kulkarni,Civil,1,7.41,B+,82.0,0,20,Nagpur
+STU1450,Karan Sharma,Computer Engineering,4,8.87,B+,85.4,0,80,Kolhapur
+STU1451,Neha Chimurkar,Civil,2,6.96,C,77.2,0,40,Pune
+STU1452,Karan Patil,Mechanical,5,8.64,A+,88.7,0,100,Kolhapur
+STU1453,Vikram Jadhav,Mechanical,1,6.85,B+,86.5,0,20,Nashik
+STU1454,Karan Jadhav,Electrical,7,8.03,A,82.7,0,140,Pune
+STU1455,Aishwarya Sharma,Mechanical,8,6.15,B+,84.4,0,160,Mumbai
+STU1456,Amit Sharma,AI&DS,3,7.38,A+,79.3,0,60,Nashik
+STU1457,Sharad Kulkarni,AI&DS,5,7.8,B+,69.3,0,100,Pune
+STU1458,Vikram Deshmukh,Information Technology,6,6.07,B,94.9,0,120,Aurangabad
+STU1459,Vikram Deshmukh,Computer Engineering,4,6.24,B,63.2,0,80,Aurangabad
+STU1460,Tanmay Kajgunde,Civil,1,6.62,C,77.8,0,20,Kolhapur
+STU1461,Amit Sharma,Electrical,6,6.03,B,83.0,0,120,Kolhapur
+STU1462,Pooja Jadhav,Mechanical,3,6.56,A+,100.0,0,60,Kolhapur
+STU1463,Snehal Sharma,AI&DS,7,8.44,B,82.7,2,132,Nashik
+STU1464,Sharad Chimurkar,Electrical,6,6.45,O,77.1,1,116,Mumbai
+STU1465,Tanmay Sharma,AI&DS,7,6.7,A+,87.2,0,140,Pune
+STU1466,Karan Chimurkar,Electrical,6,4.77,B,69.9,0,120,Pune
+STU1467,Karan Deshmukh,Computer Engineering,4,9.48,A+,76.8,2,72,Pune
+STU1468,Vikram Kulkarni,Civil,8,7.62,A,92.0,0,160,Aurangabad
+STU1469,Rahul Bhosale,Civil,2,7.6,A,96.9,0,40,Aurangabad
+STU1470,Rahul Jadhav,Computer Engineering,8,6.1,A,76.0,1,156,Aurangabad
+STU1471,Rahul Sharma,AI&DS,5,7.59,A+,74.7,0,100,Pune
+STU1472,Tanmay Chimurkar,Electrical,5,4.74,B,86.9,0,100,Nagpur
+STU1473,Neha Patil,Electrical,6,8.9,O,91.4,0,120,Pune
+STU1474,Neha Sawant,Electrical,8,4.99,A,93.4,0,160,Kolhapur
+STU1475,Snehal Patil,Information Technology,3,6.84,A+,86.6,0,60,Nagpur
+STU1476,Amit Bhosale,Information Technology,8,6.57,A,79.1,1,156,Nagpur
+STU1477,Vikram Sharma,Mechanical,1,7.65,O,82.1,0,20,Pune
+STU1478,Vikram Chimurkar,Civil,3,6.98,B+,82.8,0,60,Pune
+STU1479,Sharad Kulkarni,Computer Engineering,2,5.04,B+,70.1,0,40,Aurangabad
+STU1480,Aishwarya Deshmukh,Computer Engineering,5,6.93,A,76.6,0,100,Pune
+STU1481,Aishwarya Bhosale,AI&DS,4,5.86,B,78.8,0,80,Nashik
+STU1482,Karan Kulkarni,AI&DS,1,7.54,A+,91.2,1,16,Mumbai
+STU1483,Vikram Deshmukh,AI&DS,7,7.26,B+,70.0,0,140,Aurangabad
+STU1484,Karan Jadhav,Electrical,1,6.36,B,89.7,0,20,Nashik
+STU1485,Vikram Bhosale,Computer Engineering,1,10.0,A+,78.3,0,20,Kolhapur
+STU1486,Pooja Gill,AI&DS,8,8.94,A+,87.1,0,160,Kolhapur
+STU1487,Aishwarya Kulkarni,AI&DS,3,5.58,B+,79.8,0,60,Aurangabad
+STU1488,Snehal Kajgunde,Civil,7,9.35,B,81.4,0,140,Aurangabad
+STU1489,Rahul Deshmukh,AI&DS,4,8.49,P,79.1,1,76,Kolhapur
+STU1490,Amit Sharma,Civil,5,5.52,B+,74.3,0,100,Kolhapur
+STU1491,Sharad Sawant,Mechanical,2,8.66,A,98.5,0,40,Pune
+STU1492,Snehal Kajgunde,Civil,5,8.81,B,88.7,1,96,Nagpur
+STU1493,Karan Gill,Computer Engineering,2,8.16,B+,94.9,0,40,Aurangabad
+STU1494,Aishwarya Kajgunde,Information Technology,2,5.69,A,79.2,1,36,Nagpur
+STU1495,Neha Kulkarni,Computer Engineering,7,7.8,A+,81.0,2,132,Pune
+STU1496,Tanmay Bhosale,AI&DS,2,6.26,B,84.5,0,40,Nashik
+STU1497,Vikram Bhosale,Information Technology,6,9.35,A,89.4,0,120,Mumbai
+STU1498,Rahul Gill,Computer Engineering,5,8.47,O,87.9,0,100,Mumbai
+STU1499,Vikram Deshmukh,Civil,6,10.0,O,66.6,0,120,Kolhapur
+STU1500,Snehal Jadhav,AI&DS,5,8.74,A+,89.8,2,92,Nagpur
+STU1501,Karan Gill,AI&DS,1,7.32,A,84.7,2,12,Kolhapur
+STU1502,Pooja Sawant,Civil,3,6.91,A+,58.0,0,60,Aurangabad
+STU1503,Sharad Chimurkar,Electrical,2,8.15,B+,78.3,0,40,Mumbai
+STU1504,Aishwarya Chimurkar,Information Technology,3,4.26,FF,75.7,0,60,Kolhapur
+STU1505,Rahul Patil,Information Technology,2,7.51,A,100.0,2,32,Pune
+STU1506,Vikram Sharma,Electrical,6,6.83,A,92.9,1,116,Pune
+STU1507,Aishwarya Chimurkar,Information Technology,2,7.53,B,89.6,0,40,Kolhapur
+STU1508,Sharad Kajgunde,Computer Engineering,4,8.82,A+,93.4,0,80,Aurangabad
+STU1509,Vikram Patil,Mechanical,6,6.19,A,91.0,1,116,Aurangabad
+STU1510,Amit Jadhav,Mechanical,5,5.45,B,83.6,2,92,Mumbai
+STU1511,Tanmay Chimurkar,Electrical,3,7.6,A,87.9,0,60,Nagpur
+STU1512,Aishwarya Gill,Information Technology,7,6.72,A+,90.3,0,140,Nagpur
+STU1513,Sharad Gill,Computer Engineering,3,7.06,O,74.7,1,56,Pune
+STU1514,Neha Chimurkar,Electrical,5,6.68,B+,66.9,4,84,Nagpur
+STU1515,Vikram Kajgunde,Information Technology,2,8.14,A+,71.9,0,40,Nagpur
+STU1516,Tanmay Chimurkar,AI&DS,2,7.28,A,81.8,0,40,Pune
+STU1517,Karan Jadhav,Civil,1,6.27,B,94.0,0,20,Nashik
+STU1518,Neha Jadhav,AI&DS,6,7.95,B+,92.9,0,120,Pune
+STU1519,Neha Gill,Civil,1,7.4,A+,84.2,0,20,Mumbai
+STU1520,Snehal Jadhav,Information Technology,8,8.1,B+,94.8,0,160,Kolhapur
+STU1521,Neha Kulkarni,Information Technology,4,8.06,O,70.1,0,80,Mumbai
+STU1522,Sharad Kajgunde,Information Technology,5,6.86,B+,62.1,2,92,Kolhapur
+STU1523,Neha Kajgunde,Information Technology,3,6.35,A+,100.0,0,60,Kolhapur
+STU1524,Vikram Deshmukh,Computer Engineering,1,8.82,B+,78.3,1,16,Aurangabad
+STU1525,Aishwarya Chimurkar,Information Technology,2,5.73,B+,89.5,0,40,Nagpur
+STU1526,Karan Bhosale,Mechanical,8,8.42,A+,91.4,1,156,Kolhapur
+STU1527,Neha Sawant,Computer Engineering,7,7.47,C,82.4,0,140,Mumbai
+STU1528,Karan Patil,Civil,4,7.79,A,74.0,0,80,Kolhapur
+STU1529,Aishwarya Sawant,Mechanical,1,7.17,A,81.5,0,20,Aurangabad
+STU1530,Amit Bhosale,AI&DS,2,5.7,B,76.7,0,40,Mumbai
+STU1531,Snehal Bhosale,AI&DS,6,7.27,B,84.0,0,120,Pune
+STU1532,Vikram Gill,Computer Engineering,5,6.11,B+,75.9,0,100,Nashik
+STU1533,Amit Sharma,Mechanical,2,7.05,A,78.8,0,40,Kolhapur
+STU1534,Sharad Bhosale,Mechanical,2,7.78,P,83.4,0,40,Pune
+STU1535,Sharad Patil,Computer Engineering,1,6.46,A,78.3,1,16,Pune
+STU1536,Sharad Sharma,AI&DS,5,6.45,C,89.9,0,100,Mumbai
+STU1537,Karan Jadhav,AI&DS,4,7.86,B+,65.2,0,80,Mumbai
+STU1538,Tanmay Kulkarni,AI&DS,8,8.87,B,89.0,1,156,Mumbai
+STU1539,Aishwarya Gill,AI&DS,2,7.38,A,71.7,0,40,Nagpur
+STU1540,Snehal Gill,Electrical,1,6.69,A,86.9,4,4,Aurangabad
+STU1541,Tanmay Patil,Computer Engineering,8,9.85,O,82.4,1,156,Pune
+STU1542,Snehal Gill,Information Technology,4,7.3,B+,97.0,0,80,Kolhapur
+STU1543,Tanmay Sawant,AI&DS,6,8.24,A,95.2,0,120,Mumbai
+STU1544,Karan Bhosale,Computer Engineering,5,5.82,A,72.9,0,100,Mumbai
+STU1545,Snehal Sawant,AI&DS,1,6.47,B+,91.0,0,20,Nashik
+STU1546,Aishwarya Jadhav,Computer Engineering,4,5.71,B,78.1,0,80,Aurangabad
+STU1547,Sharad Jadhav,Mechanical,1,7.12,C,77.1,0,20,Nashik
+STU1548,Amit Kulkarni,Mechanical,7,7.67,A+,67.9,0,140,Kolhapur
+STU1549,Rahul Chimurkar,AI&DS,1,6.54,A,61.6,0,20,Mumbai
+STU1550,Neha Sharma,Civil,5,6.71,C,94.6,1,96,Aurangabad
+STU1551,Aishwarya Kajgunde,AI&DS,2,7.98,A+,68.6,0,40,Pune
+STU1552,Neha Bhosale,Electrical,6,7.27,B+,94.2,0,120,Aurangabad
+STU1553,Rahul Chimurkar,Mechanical,4,6.78,A+,91.3,0,80,Kolhapur
+STU1554,Neha Kajgunde,Mechanical,7,6.78,A+,92.0,0,140,Aurangabad
+STU1555,Tanmay Deshmukh,Mechanical,1,7.87,B,68.6,0,20,Mumbai
+STU1556,Snehal Sawant,Information Technology,3,6.12,A,91.8,0,60,Aurangabad
+STU1557,Snehal Jadhav,AI&DS,1,7.6,A+,70.5,3,8,Nagpur
+STU1558,Amit Kulkarni,Information Technology,2,8.32,A+,76.6,4,24,Pune
+STU1559,Neha Patil,Electrical,4,5.01,A,73.8,0,80,Nagpur
+STU1560,Pooja Gill,Civil,8,7.28,O,73.5,3,148,Aurangabad
+STU1561,Rahul Patil,Information Technology,7,8.85,P,90.3,0,140,Mumbai
+STU1562,Snehal Kulkarni,Electrical,3,8.34,P,89.3,0,60,Nagpur
+STU1563,Karan Chimurkar,Information Technology,4,6.06,B,75.1,0,80,Nagpur
+STU1564,Tanmay Jadhav,Electrical,2,6.97,B+,83.7,0,40,Nagpur
+STU1565,Amit Kajgunde,Information Technology,5,7.09,A,84.7,0,100,Aurangabad
+STU1566,Aishwarya Chimurkar,Civil,7,6.9,A+,75.8,0,140,Kolhapur
+STU1567,Neha Gill,AI&DS,8,6.68,B,100.0,1,156,Pune
+STU1568,Neha Patil,Civil,7,8.21,A+,82.3,0,140,Aurangabad
+STU1569,Snehal Gill,Information Technology,6,8.5,A+,83.8,0,120,Nagpur
+STU1570,Aishwarya Sharma,Civil,6,6.48,O,77.4,0,120,Nagpur
+STU1571,Vikram Kajgunde,Electrical,4,8.98,A+,91.1,0,80,Aurangabad
+STU1572,Neha Chimurkar,Electrical,4,7.34,B+,84.4,0,80,Nagpur
+STU1573,Neha Bhosale,Information Technology,8,6.84,B+,77.2,0,160,Nashik
+STU1574,Snehal Jadhav,Information Technology,8,5.85,B+,83.9,0,160,Aurangabad
+STU1575,Neha Sharma,AI&DS,6,6.2,B+,62.6,0,120,Aurangabad
+STU1576,Pooja Kulkarni,Computer Engineering,2,7.76,A,81.5,0,40,Mumbai
+STU1577,Neha Jadhav,Information Technology,6,7.16,O,96.1,0,120,Pune
+STU1578,Amit Kajgunde,Electrical,3,7.36,A+,81.9,0,60,Kolhapur
+STU1579,Vikram Chimurkar,AI&DS,1,7.69,B+,82.1,0,20,Pune
+STU1580,Tanmay Sawant,Civil,4,5.4,B+,99.7,0,80,Nashik
+STU1581,Rahul Sharma,Information Technology,1,6.46,B,74.4,0,20,Aurangabad
+STU1582,Amit Sharma,Computer Engineering,4,8.73,A+,72.6,0,80,Aurangabad
+STU1583,Amit Deshmukh,Electrical,3,7.16,C,75.4,0,60,Kolhapur
+STU1584,Amit Sharma,Electrical,3,6.2,P,83.4,1,56,Nagpur
+STU1585,Amit Sawant,Civil,1,8.34,C,90.4,0,20,Pune
+STU1586,Karan Patil,Mechanical,4,7.39,A+,91.8,0,80,Nagpur
+STU1587,Amit Sawant,Information Technology,5,6.16,A,80.3,0,100,Kolhapur
+STU1588,Rahul Sawant,Mechanical,2,7.55,B,80.1,0,40,Mumbai
+STU1589,Karan Sharma,Computer Engineering,7,8.18,B,72.9,0,140,Kolhapur
+STU1590,Amit Sawant,Mechanical,3,7.16,B,88.7,0,60,Pune
+STU1591,Neha Patil,AI&DS,1,7.05,B+,79.0,0,20,Aurangabad
+STU1592,Sharad Deshmukh,Information Technology,7,7.72,C,67.4,0,140,Mumbai
+STU1593,Vikram Bhosale,Information Technology,4,6.44,O,86.9,1,76,Pune
+STU1594,Snehal Kajgunde,Civil,6,6.15,B+,86.2,0,120,Nashik
+STU1595,Rahul Bhosale,Electrical,4,5.64,FF,69.1,1,76,Mumbai
+STU1596,Aishwarya Kajgunde,Electrical,5,8.21,A,73.6,0,100,Aurangabad
+STU1597,Pooja Kulkarni,Mechanical,8,5.22,A,81.6,0,160,Nagpur
+STU1598,Aishwarya Jadhav,Civil,3,4.9,A,74.5,1,56,Mumbai
+STU1599,Rahul Kulkarni,Computer Engineering,2,7.25,A,91.1,1,36,Nagpur
+STU1600,Aishwarya Deshmukh,Electrical,4,6.3,C,85.5,0,80,Pune
+STU1601,Snehal Kulkarni,Computer Engineering,8,7.63,A+,97.0,0,160,Pune
+STU1602,Vikram Sawant,Electrical,6,7.43,B+,79.4,0,120,Nagpur
+STU1603,Snehal Chimurkar,Information Technology,3,7.91,A,79.0,1,56,Mumbai
+STU1604,Rahul Sharma,Computer Engineering,6,6.86,FF,98.2,1,116,Aurangabad
+STU1605,Pooja Deshmukh,Computer Engineering,1,6.95,C,77.8,1,16,Pune
+STU1606,Aishwarya Bhosale,Mechanical,4,6.53,B+,73.4,1,76,Aurangabad
+STU1607,Snehal Bhosale,Civil,1,8.45,B+,66.9,0,20,Nashik
+STU1608,Sharad Kajgunde,Mechanical,5,3.91,A,84.5,0,100,Nagpur
+STU1609,Aishwarya Bhosale,Computer Engineering,4,6.12,A+,99.0,1,76,Pune
+STU1610,Tanmay Jadhav,Civil,2,7.07,A,64.4,2,32,Kolhapur
+STU1611,Sharad Bhosale,Information Technology,5,6.96,A,81.1,0,100,Pune
+STU1612,Vikram Sawant,Electrical,1,7.78,C,77.7,0,20,Nashik
+STU1613,Vikram Patil,Information Technology,4,7.57,B+,76.0,0,80,Nagpur
+STU1614,Snehal Sawant,Information Technology,3,8.44,A+,71.4,1,56,Mumbai
+STU1615,Rahul Kajgunde,Civil,6,5.17,FF,85.1,0,120,Mumbai
+STU1616,Neha Sharma,Information Technology,3,9.26,B+,65.7,0,60,Aurangabad
+STU1617,Rahul Deshmukh,Mechanical,8,8.63,O,86.0,0,160,Kolhapur
+STU1618,Rahul Kajgunde,Information Technology,4,7.47,B,89.1,0,80,Nashik
+STU1619,Tanmay Sawant,Mechanical,7,7.95,B+,85.3,0,140,Aurangabad
+STU1620,Rahul Chimurkar,Electrical,7,8.78,A+,86.1,1,136,Nagpur
+STU1621,Sharad Jadhav,Computer Engineering,2,8.0,B,83.0,3,28,Mumbai
+STU1622,Aishwarya Kulkarni,Mechanical,1,7.52,A,96.7,0,20,Pune
+STU1623,Tanmay Kajgunde,Electrical,2,7.67,A,76.6,0,40,Pune
+STU1624,Tanmay Bhosale,AI&DS,3,8.45,O,83.6,0,60,Mumbai
+STU1625,Snehal Sawant,AI&DS,3,6.66,B+,80.9,0,60,Aurangabad
+STU1626,Snehal Kajgunde,Electrical,2,7.94,O,75.3,0,40,Mumbai
+STU1627,Karan Deshmukh,AI&DS,3,6.8,B,71.0,0,60,Nashik
+STU1628,Pooja Bhosale,Electrical,8,7.83,B,92.9,0,160,Mumbai
+STU1629,Snehal Jadhav,Electrical,2,7.95,O,64.0,0,40,Nashik
+STU1630,Amit Sharma,Electrical,6,7.55,A,80.5,0,120,Kolhapur
+STU1631,Amit Jadhav,AI&DS,2,7.34,B+,84.6,0,40,Nashik
+STU1632,Aishwarya Gill,AI&DS,6,6.69,A+,79.5,0,120,Mumbai
+STU1633,Vikram Patil,Electrical,1,8.26,O,74.5,1,16,Pune
+STU1634,Vikram Sawant,Electrical,7,8.58,O,87.1,0,140,Nagpur
+STU1635,Karan Deshmukh,Civil,8,6.18,P,83.6,0,160,Kolhapur
+STU1636,Tanmay Patil,AI&DS,8,7.3,A,73.5,0,160,Pune
+STU1637,Neha Bhosale,Information Technology,5,7.0,B,81.3,0,100,Mumbai
+STU1638,Karan Kulkarni,Information Technology,8,7.07,O,87.7,0,160,Pune
+STU1639,Tanmay Patil,Civil,2,5.95,A,81.6,0,40,Aurangabad
+STU1640,Rahul Gill,Mechanical,8,6.18,B+,81.3,1,156,Nashik
+STU1641,Sharad Chimurkar,Computer Engineering,3,8.5,B+,95.4,0,60,Aurangabad
+STU1642,Pooja Sharma,Information Technology,4,6.49,FF,80.5,0,80,Mumbai
+STU1643,Vikram Sharma,Computer Engineering,2,6.55,A+,100.0,0,40,Kolhapur
+STU1644,Sharad Kulkarni,AI&DS,8,7.24,B+,94.7,0,160,Nagpur
+STU1645,Amit Bhosale,Computer Engineering,1,7.54,C,88.2,0,20,Kolhapur
+STU1646,Sharad Gill,Civil,5,4.87,FF,82.4,1,96,Pune
+STU1647,Sharad Jadhav,Civil,3,6.48,A+,84.9,1,56,Aurangabad
+STU1648,Snehal Kajgunde,AI&DS,6,6.33,B+,89.6,0,120,Kolhapur
+STU1649,Amit Kajgunde,Information Technology,1,5.91,A+,74.7,2,12,Mumbai
+STU1650,Amit Sawant,Mechanical,2,8.12,B+,63.2,2,32,Pune
+STU1651,Tanmay Gill,Information Technology,6,7.8,A+,89.7,0,120,Nagpur
+STU1652,Aishwarya Sharma,Mechanical,3,8.17,B+,73.9,0,60,Kolhapur
+STU1653,Pooja Sharma,AI&DS,6,8.32,A+,84.7,0,120,Mumbai
+STU1654,Snehal Kajgunde,Computer Engineering,5,6.86,A,87.6,0,100,Aurangabad
+STU1655,Neha Sawant,Information Technology,3,7.81,A+,90.5,1,56,Kolhapur
+STU1656,Neha Sharma,Electrical,3,8.36,B,70.6,0,60,Aurangabad
+STU1657,Pooja Patil,Civil,3,7.82,A+,86.4,0,60,Mumbai
+STU1658,Vikram Patil,Information Technology,5,6.03,B+,78.3,0,100,Nagpur
+STU1659,Sharad Sawant,Civil,2,7.96,B+,76.1,0,40,Nagpur
+STU1660,Vikram Kulkarni,Information Technology,2,7.83,A,97.5,0,40,Nashik
+STU1661,Snehal Kulkarni,Computer Engineering,1,8.6,A+,80.6,1,16,Pune
+STU1662,Snehal Kajgunde,AI&DS,8,7.68,C,78.0,0,160,Nagpur
+STU1663,Amit Sharma,Mechanical,6,6.1,B,88.4,3,108,Kolhapur
+STU1664,Sharad Kulkarni,Mechanical,1,6.46,A,73.2,3,8,Nagpur
+STU1665,Sharad Deshmukh,Electrical,6,9.04,A+,89.0,0,120,Mumbai
+STU1666,Karan Gill,Electrical,3,8.34,A,87.2,0,60,Mumbai
+STU1667,Tanmay Gill,Electrical,2,6.04,C,95.2,0,40,Aurangabad
+STU1668,Karan Kajgunde,Information Technology,7,7.55,A,79.9,1,136,Pune
+STU1669,Sharad Sawant,AI&DS,7,6.47,A,81.6,0,140,Nagpur
+STU1670,Karan Bhosale,Computer Engineering,1,6.54,B+,98.2,0,20,Kolhapur
+STU1671,Tanmay Gill,Electrical,2,8.29,O,85.7,0,40,Aurangabad
+STU1672,Rahul Gill,Mechanical,7,7.9,A+,87.3,0,140,Nagpur
+STU1673,Pooja Sharma,Mechanical,4,7.4,A,80.1,0,80,Nashik
+STU1674,Snehal Bhosale,Electrical,5,9.35,A+,83.6,0,100,Pune
+STU1675,Karan Patil,Mechanical,1,8.27,A,72.7,0,20,Kolhapur
+STU1676,Neha Kulkarni,Computer Engineering,5,8.78,A,88.0,0,100,Nashik
+STU1677,Pooja Gill,Electrical,6,4.84,B+,92.2,0,120,Nagpur
+STU1678,Pooja Kulkarni,Computer Engineering,3,7.4,A,68.8,0,60,Nagpur
+STU1679,Rahul Sharma,Information Technology,5,6.36,FF,86.0,0,100,Kolhapur
+STU1680,Sharad Chimurkar,Computer Engineering,4,7.76,A+,91.5,0,80,Kolhapur
+STU1681,Rahul Bhosale,Civil,4,6.13,A,66.1,0,80,Nashik
+STU1682,Karan Kajgunde,Mechanical,5,9.12,B+,80.9,0,100,Aurangabad
+STU1683,Rahul Sawant,Mechanical,1,8.31,A+,81.9,0,20,Pune
+STU1684,Amit Chimurkar,Civil,6,8.83,A+,76.3,0,120,Nashik
+STU1685,Aishwarya Kulkarni,AI&DS,1,6.96,B+,60.4,2,12,Nagpur
+STU1686,Amit Deshmukh,Civil,7,6.9,B+,82.4,1,136,Pune
+STU1687,Amit Jadhav,Information Technology,7,7.05,A+,95.3,1,136,Nagpur
+STU1688,Rahul Kajgunde,Civil,6,6.76,B,71.5,2,112,Pune
+STU1689,Tanmay Sawant,Information Technology,2,5.81,B+,59.1,0,40,Nashik
+STU1690,Vikram Kajgunde,Information Technology,5,4.01,FF,82.8,1,96,Aurangabad
+STU1691,Vikram Sawant,Information Technology,8,8.59,A+,68.5,0,160,Nagpur
+STU1692,Rahul Sawant,Information Technology,6,3.0,FF,75.9,0,120,Nagpur
+STU1693,Aishwarya Bhosale,Mechanical,2,6.21,A,78.9,0,40,Nashik
+STU1694,Pooja Sharma,Information Technology,2,8.03,P,93.1,1,36,Pune
+STU1695,Snehal Patil,Computer Engineering,2,9.09,A+,65.7,3,28,Pune
+STU1696,Amit Deshmukh,AI&DS,8,6.62,C,98.2,1,156,Mumbai
+STU1697,Aishwarya Kajgunde,Computer Engineering,6,5.9,A,70.8,0,120,Nagpur
+STU1698,Amit Deshmukh,AI&DS,1,8.69,A+,87.1,0,20,Pune
+STU1699,Vikram Chimurkar,Mechanical,4,8.53,B+,72.1,4,64,Aurangabad
+STU1700,Rahul Chimurkar,Electrical,5,5.21,A,100.0,0,100,Pune
+STU1701,Sharad Gill,AI&DS,3,8.79,B,70.5,1,56,Nashik
+STU1702,Sharad Kajgunde,Computer Engineering,2,8.0,B+,67.7,0,40,Aurangabad
+STU1703,Snehal Patil,Information Technology,7,7.3,C,85.0,0,140,Mumbai
+STU1704,Karan Jadhav,Computer Engineering,8,7.5,A+,84.8,0,160,Mumbai
+STU1705,Amit Sawant,Information Technology,5,7.03,A,74.0,0,100,Aurangabad
+STU1706,Pooja Bhosale,Electrical,2,8.11,C,92.9,0,40,Nashik
+STU1707,Tanmay Bhosale,Electrical,2,7.41,A+,96.6,0,40,Mumbai
+STU1708,Amit Kulkarni,Information Technology,6,7.36,A+,72.7,1,116,Nashik
+STU1709,Snehal Kajgunde,Computer Engineering,1,5.37,FF,80.1,0,20,Kolhapur
+STU1710,Neha Kulkarni,Electrical,2,7.85,B+,76.1,1,36,Nagpur
+STU1711,Amit Kulkarni,Mechanical,3,7.11,O,99.9,0,60,Nashik
+STU1712,Amit Jadhav,Electrical,1,7.22,A,74.7,0,20,Nashik
+STU1713,Rahul Sawant,Mechanical,3,6.72,A+,81.8,3,48,Nashik
+STU1714,Aishwarya Deshmukh,Civil,2,8.09,A+,83.7,1,36,Mumbai
+STU1715,Pooja Chimurkar,Electrical,6,5.7,A,86.9,0,120,Nagpur
+STU1716,Pooja Kulkarni,Civil,3,5.79,P,76.7,0,60,Nagpur
+STU1717,Aishwarya Sawant,Information Technology,8,3.88,FF,78.4,0,160,Nagpur
+STU1718,Pooja Patil,AI&DS,6,7.28,O,78.6,0,120,Pune
+STU1719,Snehal Sharma,Information Technology,6,6.76,P,91.6,0,120,Pune
+STU1720,Snehal Jadhav,Information Technology,3,8.17,A,91.4,0,60,Nashik
+STU1721,Rahul Kulkarni,Computer Engineering,6,7.14,O,84.1,0,120,Pune
+STU1722,Tanmay Patil,Civil,6,5.8,A,90.8,1,116,Aurangabad
+STU1723,Karan Sharma,Mechanical,2,7.21,B,84.2,0,40,Nagpur
+STU1724,Amit Patil,Electrical,3,10.0,A+,77.8,3,48,Nagpur
+STU1725,Sharad Deshmukh,Electrical,8,7.99,O,83.5,0,160,Kolhapur
+STU1726,Karan Sawant,Electrical,3,6.85,O,84.1,0,60,Kolhapur
+STU1727,Aishwarya Kulkarni,Mechanical,2,7.33,P,82.4,0,40,Mumbai
+STU1728,Pooja Bhosale,Mechanical,7,7.21,C,72.1,0,140,Aurangabad
+STU1729,Karan Gill,Electrical,6,7.78,A,89.3,2,112,Nagpur
+STU1730,Karan Jadhav,Information Technology,5,8.1,O,57.8,0,100,Aurangabad
+STU1731,Vikram Kulkarni,AI&DS,1,5.74,B+,89.8,1,16,Aurangabad
+STU1732,Tanmay Patil,Information Technology,6,8.99,B,87.5,0,120,Nagpur
+STU1733,Pooja Kajgunde,Information Technology,1,8.2,A+,63.3,0,20,Kolhapur
+STU1734,Sharad Sawant,Information Technology,8,8.99,A+,79.7,0,160,Nashik
+STU1735,Snehal Bhosale,Information Technology,8,6.8,A+,70.9,0,160,Pune
+STU1736,Neha Sharma,Information Technology,8,9.14,A,71.3,0,160,Kolhapur
+STU1737,Karan Sawant,Civil,4,6.67,B+,80.5,3,68,Aurangabad
+STU1738,Vikram Jadhav,Information Technology,8,7.22,A,81.2,2,152,Mumbai
+STU1739,Karan Deshmukh,Information Technology,1,7.73,A+,76.3,0,20,Pune
+STU1740,Snehal Patil,Civil,7,5.92,A+,93.2,0,140,Nagpur
+STU1741,Sharad Bhosale,AI&DS,6,9.64,A+,74.1,0,120,Nagpur
+STU1742,Rahul Bhosale,Information Technology,3,5.86,B+,72.7,1,56,Kolhapur
+STU1743,Amit Patil,AI&DS,4,5.77,O,67.9,2,72,Mumbai
+STU1744,Pooja Kajgunde,Civil,8,7.33,O,75.7,0,160,Mumbai
+STU1745,Snehal Sharma,Electrical,7,8.44,O,67.2,0,140,Aurangabad
+STU1746,Vikram Jadhav,Computer Engineering,8,7.29,P,86.6,0,160,Mumbai
+STU1747,Karan Chimurkar,Information Technology,6,6.31,O,71.7,0,120,Pune
+STU1748,Karan Patil,AI&DS,4,7.65,A,89.8,3,68,Nagpur
+STU1749,Aishwarya Jadhav,Information Technology,6,8.76,A+,68.2,0,120,Pune
+STU1750,Rahul Sharma,Electrical,4,5.18,B,87.3,0,80,Pune
+STU1751,Pooja Kulkarni,Mechanical,4,8.15,A+,87.0,1,76,Nagpur
+STU1752,Aishwarya Kulkarni,Electrical,6,6.0,C,87.5,0,120,Pune
+STU1753,Vikram Sharma,Civil,8,7.43,A,87.2,0,160,Nashik
+STU1754,Rahul Sawant,Computer Engineering,4,8.38,A,74.2,0,80,Pune
+STU1755,Vikram Kajgunde,Mechanical,6,6.11,B,83.8,0,120,Nagpur
+STU1756,Pooja Bhosale,Electrical,2,7.27,O,90.0,0,40,Nashik
+STU1757,Aishwarya Kajgunde,Computer Engineering,6,5.83,P,86.4,0,120,Nagpur
+STU1758,Pooja Patil,Information Technology,7,7.33,A,69.0,0,140,Mumbai
+STU1759,Sharad Kulkarni,Mechanical,7,7.15,A+,87.0,0,140,Mumbai
+STU1760,Aishwarya Kulkarni,AI&DS,6,7.26,A,97.8,0,120,Pune
+STU1761,Sharad Gill,Electrical,8,3.75,FF,100.0,0,160,Kolhapur
+STU1762,Tanmay Gill,AI&DS,7,7.5,A,91.8,0,140,Pune
+STU1763,Karan Kulkarni,Electrical,7,7.38,P,76.6,0,140,Aurangabad
+STU1764,Neha Kulkarni,Mechanical,1,7.57,A,90.0,0,20,Kolhapur
+STU1765,Karan Kajgunde,Civil,4,8.25,A+,82.9,0,80,Nashik
+STU1766,Neha Jadhav,Electrical,7,9.19,A+,76.0,0,140,Aurangabad
+STU1767,Amit Sawant,Civil,4,7.6,A,79.5,0,80,Kolhapur
+STU1768,Tanmay Bhosale,Mechanical,3,7.12,O,79.0,1,56,Pune
+STU1769,Vikram Sharma,Electrical,6,8.14,P,79.0,0,120,Nashik
+STU1770,Tanmay Patil,Civil,6,4.54,A,81.7,0,120,Mumbai
+STU1771,Amit Sharma,Computer Engineering,2,8.99,O,85.7,0,40,Nagpur
+STU1772,Aishwarya Jadhav,AI&DS,5,7.87,B,77.0,0,100,Mumbai
+STU1773,Tanmay Gill,Computer Engineering,3,6.62,A,100.0,0,60,Kolhapur
+STU1774,Neha Chimurkar,Computer Engineering,3,6.44,C,91.6,1,56,Nagpur
+STU1775,Karan Gill,Civil,8,8.14,A,74.5,0,160,Nagpur
+STU1776,Pooja Patil,AI&DS,7,7.24,A+,92.0,0,140,Mumbai
+STU1777,Snehal Patil,Civil,6,7.92,B,85.0,2,112,Nashik
+STU1778,Tanmay Sawant,Civil,2,5.97,C,93.6,0,40,Aurangabad
+STU1779,Neha Kulkarni,Information Technology,8,7.84,C,99.2,0,160,Aurangabad
+STU1780,Snehal Sawant,Information Technology,5,5.42,A,88.0,0,100,Nagpur
+STU1781,Neha Chimurkar,Computer Engineering,6,7.49,A,86.6,1,116,Nagpur
+STU1782,Tanmay Kajgunde,Electrical,3,8.06,A+,82.4,0,60,Pune
+STU1783,Snehal Deshmukh,Information Technology,2,7.88,B+,90.4,0,40,Aurangabad
+STU1784,Aishwarya Sharma,Information Technology,5,5.7,FF,86.8,0,100,Mumbai
+STU1785,Karan Kulkarni,AI&DS,1,6.58,O,79.5,3,8,Mumbai
+STU1786,Karan Chimurkar,Computer Engineering,6,7.94,A+,90.6,0,120,Pune
+STU1787,Aishwarya Chimurkar,AI&DS,2,6.11,B+,89.7,2,32,Nashik
+STU1788,Tanmay Sharma,Electrical,8,5.9,A,81.2,0,160,Pune
+STU1789,Neha Kulkarni,AI&DS,5,5.92,A+,100.0,0,100,Aurangabad
+STU1790,Pooja Deshmukh,Information Technology,1,7.17,B+,75.5,1,16,Nagpur
+STU1791,Karan Deshmukh,Information Technology,2,6.45,A,47.8,0,40,Pune
+STU1792,Tanmay Gill,Electrical,2,8.17,O,80.8,1,36,Kolhapur
+STU1793,Vikram Gill,Mechanical,3,8.33,A+,78.9,0,60,Nagpur
+STU1794,Vikram Sharma,Computer Engineering,7,8.1,A,76.5,0,140,Mumbai
+STU1795,Rahul Kulkarni,Information Technology,8,6.37,A,89.7,1,156,Nashik
+STU1796,Neha Kajgunde,Mechanical,5,9.1,O,76.1,0,100,Nagpur
+STU1797,Amit Gill,Electrical,2,6.21,A,92.4,0,40,Pune
+STU1798,Karan Kajgunde,Civil,4,6.47,A,98.4,1,76,Kolhapur
+STU1799,Vikram Patil,Computer Engineering,5,7.4,P,62.3,1,96,Aurangabad
+STU1800,Snehal Deshmukh,AI&DS,3,7.06,B,71.0,0,60,Kolhapur
+STU1801,Neha Patil,Civil,3,7.11,B+,79.8,0,60,Aurangabad
+STU1802,Pooja Sharma,Civil,5,7.21,C,61.9,0,100,Nagpur
+STU1803,Pooja Chimurkar,Computer Engineering,3,7.67,B,100.0,1,56,Nashik
+STU1804,Snehal Gill,Information Technology,5,5.54,A,79.4,0,100,Nashik
+STU1805,Aishwarya Gill,Mechanical,8,9.03,O,81.5,0,160,Pune
+STU1806,Snehal Bhosale,Information Technology,1,7.49,A,73.1,0,20,Mumbai
+STU1807,Vikram Deshmukh,Information Technology,7,7.27,A+,84.5,1,136,Nashik
+STU1808,Snehal Bhosale,Computer Engineering,4,6.9,A,78.1,0,80,Mumbai
+STU1809,Snehal Patil,Information Technology,6,5.96,B,90.4,0,120,Aurangabad
+STU1810,Aishwarya Gill,Civil,8,4.81,A,85.7,1,156,Aurangabad
+STU1811,Karan Kajgunde,AI&DS,2,7.43,O,82.3,0,40,Pune
+STU1812,Rahul Chimurkar,Computer Engineering,7,6.91,B,95.7,0,140,Pune
+STU1813,Sharad Bhosale,AI&DS,3,7.84,A+,83.3,0,60,Nashik
+STU1814,Karan Sharma,Mechanical,5,6.81,O,76.9,0,100,Nashik
+STU1815,Pooja Sawant,Computer Engineering,4,6.69,C,83.4,0,80,Nagpur
+STU1816,Tanmay Bhosale,Mechanical,5,8.57,O,67.8,1,96,Nagpur
+STU1817,Amit Gill,Information Technology,6,5.66,A,90.7,0,120,Mumbai
+STU1818,Tanmay Patil,Electrical,3,6.35,B,75.0,1,56,Aurangabad
+STU1819,Sharad Gill,Information Technology,7,8.1,B+,85.5,4,124,Nashik
+STU1820,Sharad Bhosale,Electrical,5,6.85,A+,84.0,0,100,Nagpur
+STU1821,Sharad Gill,Electrical,4,9.47,A+,65.3,2,72,Kolhapur
+STU1822,Rahul Kajgunde,Civil,4,5.5,C,94.5,2,72,Kolhapur
+STU1823,Rahul Bhosale,Electrical,4,6.63,B,80.3,0,80,Aurangabad
+STU1824,Aishwarya Gill,Electrical,6,7.78,P,64.4,0,120,Mumbai
+STU1825,Neha Gill,Mechanical,6,8.02,O,62.8,0,120,Nashik
+STU1826,Vikram Jadhav,AI&DS,4,6.9,A,82.4,0,80,Nagpur
+STU1827,Tanmay Sawant,Civil,2,7.87,O,66.6,0,40,Aurangabad
+STU1828,Amit Chimurkar,Electrical,5,7.7,B+,85.6,0,100,Nashik
+STU1829,Tanmay Chimurkar,Computer Engineering,5,6.75,A,83.0,0,100,Nashik
+STU1830,Rahul Gill,Civil,3,8.28,A+,85.0,0,60,Nagpur
+STU1831,Pooja Kajgunde,Information Technology,6,7.77,A+,80.7,0,120,Aurangabad
+STU1832,Snehal Kulkarni,Mechanical,5,9.05,P,76.5,0,100,Mumbai
+STU1833,Aishwarya Jadhav,AI&DS,2,6.3,B,74.9,2,32,Nashik
+STU1834,Snehal Jadhav,AI&DS,1,7.23,C,93.4,0,20,Mumbai
+STU1835,Rahul Chimurkar,Electrical,8,6.37,A,92.5,0,160,Aurangabad
+STU1836,Pooja Chimurkar,Civil,7,7.59,O,74.1,0,140,Nashik
+STU1837,Rahul Sawant,AI&DS,3,6.93,A+,81.1,0,60,Nashik
+STU1838,Snehal Patil,Electrical,1,6.21,P,85.4,1,16,Nagpur
+STU1839,Vikram Kulkarni,Information Technology,2,7.82,A,84.9,3,28,Kolhapur
+STU1840,Vikram Patil,Information Technology,3,6.82,B+,100.0,1,56,Nashik
+STU1841,Aishwarya Sharma,Information Technology,4,6.65,A,91.6,0,80,Nagpur
+STU1842,Amit Kulkarni,Civil,7,7.34,A,91.8,0,140,Pune
+STU1843,Karan Gill,AI&DS,4,8.27,A,72.5,0,80,Nagpur
+STU1844,Sharad Gill,Computer Engineering,8,7.14,B+,89.0,0,160,Kolhapur
+STU1845,Amit Deshmukh,Civil,7,7.18,A,84.7,0,140,Aurangabad
+STU1846,Tanmay Jadhav,Information Technology,6,7.96,O,77.9,0,120,Pune
+STU1847,Snehal Sharma,Computer Engineering,4,6.02,C,79.5,0,80,Kolhapur
+STU1848,Tanmay Sharma,Civil,5,8.43,A,78.0,0,100,Nashik
+STU1849,Tanmay Jadhav,AI&DS,3,8.61,A+,88.5,0,60,Mumbai
+STU1850,Sharad Kulkarni,Computer Engineering,4,5.69,A,78.3,0,80,Nagpur
+STU1851,Amit Kulkarni,AI&DS,6,8.12,O,97.6,1,116,Kolhapur
+STU1852,Pooja Chimurkar,Civil,3,8.04,A+,83.5,0,60,Mumbai
+STU1853,Rahul Sawant,Information Technology,4,5.4,C,86.8,0,80,Kolhapur
+STU1854,Pooja Bhosale,Information Technology,3,6.56,B+,79.8,0,60,Pune
+STU1855,Amit Bhosale,Computer Engineering,7,7.96,C,82.6,0,140,Nashik
+STU1856,Amit Kajgunde,Civil,6,8.57,A,67.2,0,120,Pune
+STU1857,Snehal Chimurkar,Electrical,6,7.97,C,79.3,0,120,Nagpur
+STU1858,Karan Bhosale,Mechanical,7,7.69,A,87.4,0,140,Mumbai
+STU1859,Tanmay Gill,AI&DS,1,5.73,A,77.4,0,20,Nagpur
+STU1860,Rahul Chimurkar,AI&DS,7,5.95,B,84.5,1,136,Mumbai
+STU1861,Pooja Bhosale,Mechanical,6,6.4,A,71.5,1,116,Nagpur
+STU1862,Pooja Patil,Electrical,4,6.9,O,91.4,1,76,Nagpur
+STU1863,Amit Bhosale,Electrical,2,8.24,A+,96.0,0,40,Mumbai
+STU1864,Snehal Kajgunde,Electrical,8,5.37,A,80.2,0,160,Pune
+STU1865,Pooja Patil,Mechanical,6,8.37,A+,88.0,0,120,Aurangabad
+STU1866,Vikram Deshmukh,Mechanical,6,8.43,B,71.8,3,108,Nashik
+STU1867,Amit Deshmukh,Civil,7,7.63,B+,81.2,0,140,Kolhapur
+STU1868,Amit Sharma,Civil,8,8.47,A+,81.5,1,156,Nashik
+STU1869,Pooja Gill,Information Technology,6,6.66,A,78.2,3,108,Nashik
+STU1870,Tanmay Sharma,Computer Engineering,4,8.35,A,82.7,1,76,Nagpur
+STU1871,Amit Kulkarni,Computer Engineering,6,7.27,A,79.0,0,120,Nashik
+STU1872,Amit Bhosale,AI&DS,6,5.34,B+,76.1,0,120,Pune
+STU1873,Neha Chimurkar,Information Technology,4,7.25,A,71.8,1,76,Mumbai
+STU1874,Sharad Sawant,Electrical,6,7.38,A,89.0,2,112,Kolhapur
+STU1875,Pooja Kulkarni,Information Technology,2,7.24,O,89.9,1,36,Pune
+STU1876,Vikram Deshmukh,Civil,1,6.24,B+,90.2,3,8,Pune
+STU1877,Rahul Patil,Mechanical,2,6.37,C,94.4,0,40,Pune
+STU1878,Karan Deshmukh,Civil,7,7.87,A,79.5,0,140,Nagpur
+STU1879,Karan Jadhav,AI&DS,1,7.96,A,66.5,0,20,Nagpur
+STU1880,Snehal Jadhav,Electrical,6,7.68,A+,81.1,0,120,Kolhapur
+STU1881,Aishwarya Patil,AI&DS,2,6.77,B,77.0,0,40,Mumbai
+STU1882,Neha Sawant,AI&DS,4,6.03,A+,88.2,0,80,Nashik
+STU1883,Amit Sawant,Electrical,8,7.47,A,82.6,0,160,Aurangabad
+STU1884,Aishwarya Bhosale,AI&DS,1,5.44,FF,65.5,1,16,Aurangabad
+STU1885,Aishwarya Sharma,Civil,1,7.67,B,80.8,0,20,Nagpur
+STU1886,Aishwarya Gill,Electrical,7,6.62,A,93.0,0,140,Mumbai
+STU1887,Amit Jadhav,AI&DS,3,6.22,B+,100.0,1,56,Nashik
+STU1888,Tanmay Bhosale,AI&DS,1,5.73,A,94.0,0,20,Aurangabad
+STU1889,Amit Deshmukh,Electrical,8,6.51,B+,84.4,1,156,Nashik
+STU1890,Aishwarya Gill,Information Technology,7,6.43,A,80.7,3,128,Nashik
+STU1891,Amit Sharma,Mechanical,6,7.14,C,68.8,0,120,Nagpur
+STU1892,Neha Kajgunde,Mechanical,3,7.4,B+,79.7,0,60,Kolhapur
+STU1893,Tanmay Sharma,Civil,1,6.58,B,79.1,3,8,Nashik
+STU1894,Tanmay Jadhav,Mechanical,5,8.79,A+,76.3,0,100,Nagpur
+STU1895,Vikram Jadhav,AI&DS,6,8.0,B,83.8,1,116,Mumbai
+STU1896,Snehal Jadhav,AI&DS,4,9.04,A+,87.5,0,80,Nagpur
+STU1897,Tanmay Deshmukh,Computer Engineering,8,8.5,C,69.1,0,160,Nashik
+STU1898,Rahul Kajgunde,Civil,2,7.57,A,75.2,0,40,Pune
+STU1899,Rahul Gill,Information Technology,1,6.78,B+,77.5,3,8,Kolhapur
+STU1900,Karan Sharma,Information Technology,5,7.03,B,81.8,4,84,Aurangabad
+STU1901,Tanmay Deshmukh,Civil,3,5.78,A+,90.8,1,56,Pune
+STU1902,Tanmay Jadhav,AI&DS,6,6.34,FF,87.6,0,120,Kolhapur
+STU1903,Amit Sharma,AI&DS,8,7.46,A+,86.3,0,160,Kolhapur
+STU1904,Tanmay Bhosale,Mechanical,8,9.21,A+,98.1,0,160,Mumbai
+STU1905,Tanmay Kajgunde,Information Technology,7,7.26,A,86.8,0,140,Aurangabad
+STU1906,Amit Patil,Information Technology,4,8.23,A,68.7,0,80,Aurangabad
+STU1907,Vikram Bhosale,Mechanical,5,7.78,C,85.8,3,88,Nagpur
+STU1908,Amit Sharma,Mechanical,6,8.86,A,84.1,0,120,Aurangabad
+STU1909,Rahul Kajgunde,Information Technology,3,8.47,C,87.5,0,60,Mumbai
+STU1910,Amit Kulkarni,Computer Engineering,4,6.84,B,80.4,0,80,Kolhapur
+STU1911,Sharad Sharma,Information Technology,1,8.94,B,89.0,0,20,Aurangabad
+STU1912,Aishwarya Sharma,Computer Engineering,2,6.35,A,81.3,0,40,Aurangabad
+STU1913,Pooja Bhosale,Civil,4,8.28,A,83.4,0,80,Pune
+STU1914,Aishwarya Deshmukh,Computer Engineering,2,7.05,A,77.6,2,32,Nashik
+STU1915,Karan Gill,AI&DS,3,6.71,C,65.2,3,48,Nashik
+STU1916,Rahul Deshmukh,Civil,3,9.22,O,89.1,0,60,Pune
+STU1917,Sharad Chimurkar,Electrical,2,7.93,A+,87.5,1,36,Kolhapur
+STU1918,Karan Chimurkar,Information Technology,2,9.77,O,91.2,0,40,Mumbai
+STU1919,Neha Jadhav,Civil,6,8.14,B+,74.6,0,120,Aurangabad
+STU1920,Snehal Kajgunde,Electrical,2,8.52,B+,75.8,0,40,Mumbai
+STU1921,Amit Patil,Civil,1,6.86,B,100.0,0,20,Kolhapur
+STU1922,Vikram Kajgunde,Mechanical,3,7.05,A+,100.0,3,48,Nagpur
+STU1923,Aishwarya Sharma,AI&DS,8,6.61,A,86.9,0,160,Kolhapur
+STU1924,Vikram Chimurkar,Computer Engineering,5,8.31,A+,83.1,3,88,Aurangabad
+STU1925,Sharad Deshmukh,Computer Engineering,8,6.79,B+,90.8,0,160,Aurangabad
+STU1926,Pooja Kulkarni,Electrical,4,8.55,O,72.0,1,76,Nashik
+STU1927,Sharad Gill,Mechanical,2,8.58,A,84.4,3,28,Pune
+STU1928,Aishwarya Jadhav,Electrical,2,6.39,A,77.7,0,40,Nagpur
+STU1929,Sharad Bhosale,Computer Engineering,7,8.1,A+,73.1,0,140,Mumbai
+STU1930,Sharad Kajgunde,Mechanical,3,6.29,A+,68.0,0,60,Nashik
+STU1931,Neha Deshmukh,Mechanical,1,5.77,A,79.5,1,16,Nagpur
+STU1932,Karan Deshmukh,Civil,7,7.82,B+,82.3,0,140,Aurangabad
+STU1933,Snehal Kajgunde,Mechanical,8,7.13,A,83.4,0,160,Mumbai
+STU1934,Pooja Kulkarni,Mechanical,1,5.33,B+,80.3,0,20,Nashik
+STU1935,Pooja Kajgunde,Information Technology,6,8.02,A,65.7,0,120,Aurangabad
+STU1936,Tanmay Kulkarni,Electrical,6,7.03,A,88.2,0,120,Pune
+STU1937,Vikram Jadhav,Electrical,4,8.6,B,67.6,4,64,Mumbai
+STU1938,Rahul Jadhav,Civil,1,6.91,P,75.6,1,16,Pune
+STU1939,Karan Patil,Mechanical,5,8.77,A+,77.5,0,100,Aurangabad
+STU1940,Vikram Bhosale,Electrical,3,7.78,O,81.5,0,60,Mumbai
+STU1941,Rahul Chimurkar,Civil,8,6.58,A,84.7,0,160,Nashik
+STU1942,Aishwarya Gill,Electrical,2,6.11,B,86.3,0,40,Aurangabad
+STU1943,Vikram Kulkarni,AI&DS,4,4.96,B+,92.7,3,68,Nashik
+STU1944,Aishwarya Jadhav,Electrical,5,6.47,A,60.8,0,100,Pune
+STU1945,Rahul Bhosale,AI&DS,5,9.24,A+,73.0,0,100,Mumbai
+STU1946,Sharad Jadhav,AI&DS,4,6.98,A,83.7,0,80,Aurangabad
+STU1947,Sharad Kulkarni,Civil,6,6.72,B,95.0,0,120,Aurangabad
+STU1948,Aishwarya Bhosale,Mechanical,7,8.4,B+,81.9,0,140,Pune
+STU1949,Neha Bhosale,Civil,8,7.28,A+,79.3,4,144,Pune
+STU1950,Pooja Chimurkar,AI&DS,3,8.7,B+,90.5,4,44,Kolhapur
+STU1951,Sharad Patil,Information Technology,1,7.49,B,75.6,0,20,Nagpur
+STU1952,Amit Kajgunde,Computer Engineering,8,7.84,A,89.9,0,160,Mumbai
+STU1953,Aishwarya Kulkarni,Civil,5,9.58,O,81.4,1,96,Mumbai
+STU1954,Karan Kulkarni,AI&DS,1,6.95,C,85.0,0,20,Nashik
+STU1955,Rahul Kajgunde,Mechanical,3,6.83,A+,74.6,0,60,Pune
+STU1956,Sharad Deshmukh,Civil,7,5.85,B,100.0,0,140,Kolhapur
+STU1957,Rahul Chimurkar,Electrical,3,8.73,O,92.2,0,60,Nashik
+STU1958,Aishwarya Jadhav,AI&DS,7,6.26,FF,63.2,4,124,Mumbai
+STU1959,Tanmay Gill,AI&DS,7,7.64,A,84.4,0,140,Aurangabad
+STU1960,Snehal Patil,AI&DS,5,7.32,B+,81.5,1,96,Mumbai
+STU1961,Neha Gill,AI&DS,3,8.27,O,77.8,1,56,Nagpur
+STU1962,Tanmay Kulkarni,Civil,2,6.48,A,79.6,0,40,Pune
+STU1963,Rahul Deshmukh,Information Technology,7,6.51,O,70.4,0,140,Pune
+STU1964,Sharad Bhosale,Civil,5,5.53,A,59.0,0,100,Kolhapur
+STU1965,Aishwarya Jadhav,Information Technology,6,6.62,A,77.2,0,120,Kolhapur
+STU1966,Tanmay Deshmukh,Mechanical,8,6.77,A,81.6,0,160,Aurangabad
+STU1967,Aishwarya Bhosale,AI&DS,5,7.28,B,74.2,0,100,Nagpur
+STU1968,Tanmay Patil,Civil,8,7.51,B+,85.6,1,156,Nashik
+STU1969,Neha Patil,Electrical,4,6.87,B+,82.5,0,80,Aurangabad
+STU1970,Sharad Kulkarni,Computer Engineering,4,4.17,FF,57.3,0,80,Mumbai
+STU1971,Vikram Patil,Civil,3,5.09,B+,70.9,0,60,Mumbai
+STU1972,Karan Patil,Information Technology,3,9.41,B,97.5,0,60,Nashik
+STU1973,Neha Gill,Information Technology,2,8.14,A,97.4,0,40,Kolhapur
+STU1974,Neha Patil,Electrical,3,8.64,B+,89.5,0,60,Mumbai
+STU1975,Pooja Jadhav,Mechanical,5,5.92,A,94.1,0,100,Aurangabad
+STU1976,Karan Sharma,Information Technology,2,6.12,A,90.6,0,40,Nashik
+STU1977,Sharad Patil,AI&DS,2,8.13,O,99.2,0,40,Nagpur
+STU1978,Amit Gill,AI&DS,6,4.61,A,75.3,0,120,Nashik
+STU1979,Karan Gill,Electrical,8,5.99,B,87.1,0,160,Mumbai
+STU1980,Rahul Gill,Electrical,3,6.78,O,76.5,0,60,Aurangabad
+STU1981,Amit Sharma,AI&DS,5,6.76,B+,75.2,0,100,Pune
+STU1982,Vikram Chimurkar,Mechanical,5,7.02,O,76.2,1,96,Kolhapur
+STU1983,Karan Sawant,AI&DS,4,5.81,A,77.2,1,76,Nashik
+STU1984,Sharad Sharma,Civil,8,7.31,A,88.3,1,156,Kolhapur
+STU1985,Amit Sharma,Computer Engineering,8,6.45,P,78.9,0,160,Aurangabad
+STU1986,Neha Chimurkar,Information Technology,2,7.11,B,77.5,0,40,Kolhapur
+STU1987,Sharad Kajgunde,AI&DS,5,7.95,B+,78.7,4,84,Nashik
+STU1988,Amit Patil,Computer Engineering,1,7.14,A+,100.0,0,20,Pune
+STU1989,Aishwarya Chimurkar,AI&DS,4,6.11,A,81.6,0,80,Nagpur
+STU1990,Snehal Chimurkar,Information Technology,1,7.87,B+,77.8,0,20,Aurangabad
+STU1991,Rahul Kajgunde,Information Technology,6,6.42,A,88.8,0,120,Kolhapur
+STU1992,Vikram Jadhav,Information Technology,4,5.14,B+,88.8,2,72,Kolhapur
+STU1993,Rahul Chimurkar,Mechanical,7,8.11,O,64.1,0,140,Aurangabad
+STU1994,Amit Bhosale,Mechanical,7,5.5,FF,87.2,0,140,Mumbai
+STU1995,Neha Chimurkar,Information Technology,6,7.6,A,82.9,0,120,Nashik
+STU1996,Snehal Gill,Electrical,8,6.28,B,100.0,1,156,Aurangabad
+STU1997,Aishwarya Bhosale,Civil,2,7.47,A,86.3,0,40,Pune
+STU1998,Karan Patil,Mechanical,6,7.78,B+,94.1,2,112,Nagpur
+STU1999,Sharad Kajgunde,Mechanical,7,7.11,A+,67.5,0,140,Mumbai
+STU2000,Rahul Patil,Mechanical,8,7.15,P,93.0,0,160,Kolhapur

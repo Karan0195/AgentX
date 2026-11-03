@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<style>
+body {
+    background: #08090D;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    gap: 30px;
+    font-family: 'Inter', sans-serif;
+    color: #F5F6F8;
+}
+.brand-preview {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    padding: 20px 30px;
+    background: #111318;
+    border: 1px solid #1B1E25;
+    border-radius: 16px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.7);
+}
+.brand-text h1 {
+    font-size: 26px;
+    font-weight: 800;
+    letter-spacing: -0.5px;
+    color: #F5F6F8;
+    margin: 0;
+}
+.brand-text span.x {
+    color: #FF4B24;
+    text-shadow: 0 0 16px rgba(255, 75, 36, 0.6);
+}
+.brand-text p {
+    font-size: 11px;
+    font-weight: 600;
+    color: #AEB4BE;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    margin: 3px 0 0;
+}
+</style>
+</head>
+<body>
+
+<div class="brand-preview">
+    <svg width="48" height="48" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <defs>
+            <!-- Metallic Base Gradients -->
+            <linearGradient id="metal-facet-1" x1="0%" y1="0%" x2="100%" y2="100%">
+                <stop offset="0%" stop-color="#3A404E" />
+                <stop offset="40%" stop-color="#1E222A" />
+                <stop offset="100%" stop-color="#0E1014" />
+            </linearGradient>
+            <linearGradient id="metal-facet-2" x1="100%" y1="0%" x2="0%" y2="100%">
+                <stop offset="0%" stop-color="#282D37" />
+                <stop offset="60%" stop-color="#14171D" />
+                <stop offset="100%" stop-color="#090A0D" />
+            </linearGradient>
+            <linearGradient id="metal-bevel-silver" x1="0%" y1="0%" x2="100%" y2="0%">
+                <stop offset="0%" stop-color="#AEB4BE" />
+                <stop offset="50%" stop-color="#6E7687" />
+                <stop offset="100%" stop-color="#2D333F" />
+            </linearGradient>
+
+            <!-- Fiery Orange-Red Slash Gradients -->
+            <linearGradient id="slash-body" x1="0%" y1="100%" x2="100%" y2="0%">
+                <stop offset="0%" stop-color="#B92D16" />
+                <stop offset="25%" stop-color="#FF4B24" />
+                <stop offset="70%" stop-color="#FF5C35" />
+                <stop offset="100%" stop-color="#FF8A65" />
+            </linearGradient>
+            <linearGradient id="slash-highlight" x1="0%" y1="100%" x2="100%" y2="0%">
+                <stop offset="0%" stop-color="#FF4B24" />
+                <stop offset="45%" stop-color="#FFFFFF" />
+                <stop offset="75%" stop-color="#FFA07A" />
+                <stop offset="100%" stop-color="#FF4B24" />
+            </linearGradient>
+
+            <!-- Glow Filters -->
+            <filter id="slash-glow-intense" x="-40%" y="-40%" width="180%" height="180%">
+                <feGaussianBlur in="SourceGraphic" stdDeviation="5" result="blur1" />
+                <feGaussianBlur in="SourceGraphic" stdDeviation="2" result="blur2" />
+                <feMerge>
+                    <feMergeNode in="blur1" />
+                    <feMergeNode in="blur2" />
+                    <feMergeNode in="SourceGraphic" />
+                </feMerge>
+            </filter>
+        </defs>
+
+        <!-- Ambient Orange-Red Backlight Glow on dark surface -->
+        <ellipse cx="50" cy="50" rx="36" ry="12" transform="rotate(-45 50 50)" fill="#FF4B24" opacity="0.22" filter="url(#slash-glow-intense)" />
+
+        <!-- 1. Metallic X Arm: Top-Right to Center-Right -->
+        <polygon points="62,18 82,18 56,48 44,48" fill="url(#metal-facet-1)" />
+        <polygon points="62,18 82,18 80,20 64,20" fill="url(#metal-bevel-silver)" opacity="0.7" />
+
+        <!-- 2. Metallic X Arm: Bottom-Left to Center-Left -->
+        <polygon points="18,82 38,82 56,60 44,60" fill="url(#metal-facet-2)" />
+        <polygon points="18,82 38,82 36,80 20,80" fill="url(#metal-bevel-silver)" opacity="0.5" />
+
+        <!-- 3. Metallic Main Diagonal Arm: Top-Left to Bottom-Right -->
+        <!-- Main body upper facet -->
+        <polygon points="18,18 36,18 82,82 64,82" fill="url(#metal-facet-1)" />
+        <!-- Ridge shadow -->
+        <polygon points="27,18 82,82 76,82 21,18" fill="url(#metal-facet-2)" opacity="0.85" />
+        <!-- Silver bevel edge top-left -->
+        <polygon points="18,18 36,18 34,20 20,20" fill="url(#metal-bevel-silver)" opacity="0.9" />
+        <!-- Silver bevel edge bottom-right -->
+        <polygon points="64,82 82,82 80,80 66,80" fill="url(#metal-bevel-silver)" opacity="0.9" />
+
+        <!-- 4. The 10th Logo Razor-Sharp Orange-Red Slash -->
+        <!-- Fiery outer halo blade -->
+        <polygon points="8,92 46,47 94,6 54,53" fill="url(#slash-body)" filter="url(#slash-glow-intense)" />
+        <!-- Inner sharp core blade -->
+        <polygon points="12,88 48,49 90,10 52,51" fill="#FF4B24" />
+        <!-- Central intense incandescent laser spine -->
+        <line x1="14" y1="86" x2="88" y2="12" stroke="url(#slash-highlight)" stroke-width="2" stroke-linecap="round" />
+        <!-- Sharp needle flare tips -->
+        <polygon points="94,6 88,14 86,10" fill="#FFF5F0" />
+        <polygon points="8,92 16,86 12,84" fill="#FF4B24" />
+    </svg>
+
+    <div class="brand-text">
+        <h1>Agent<span class="x">X</span></h1>
+        <p>Autonomous AI Analyst</p>
+    </div>
+</div>
+
+</body>
+</html>

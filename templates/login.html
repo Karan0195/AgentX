@@ -1,0 +1,811 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sign In | AgentX Autonomous AI</title>
+<!-- Official 10th Logo Browser Favicon -->
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><polygon points='18,18 36,18 82,82 64,82' fill='%231B1E25'/><polygon points='62,18 82,18 56,48 44,48' fill='%23282D37'/><polygon points='18,82 38,82 56,60 44,60' fill='%23282D37'/><polygon points='8,92 46,47 94,6 54,53' fill='%23FF4B24'/><line x1='14' y1='86' x2='88' y2='12' stroke='%23FFF5F0' stroke-width='3'/></svg>">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+
+<style>
+/* ========================================================
+   OFFICIAL AGENTX 10TH LOGO DESIGN SYSTEM VARIABLES
+   ======================================================== */
+:root {
+    --bg-main: #05070E;
+    --panel: #0E1324;
+    --panel-elevated: #11172B;
+    --panel-border: rgba(56, 189, 248, 0.14);
+    --panel-border-hover: rgba(56, 189, 248, 0.3);
+    --text-primary: #F1F5F9;
+    --text-secondary: #94A3B8;
+    --text-muted: #64748B;
+    --accent-orange-red: #FF5500;
+    --accent-orange-dark: #CC3B14;
+    --accent-orange-light: #FF7A30;
+    --accent-silver: #AEB4BE;
+    --accent-cyan: #00D2FF;
+    --glow-orange: rgba(255, 85, 0, 0.35);
+    --glow-orange-soft: rgba(255, 85, 0, 0.15);
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    -webkit-font-smoothing: antialiased;
+}
+
+body {
+    background-color: var(--bg-main);
+    color: var(--text-primary);
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    overflow-x: hidden;
+    padding: 20px;
+}
+
+/* Subtle Cinematic Animated Mesh Background */
+.bg-mesh {
+    position: fixed;
+    inset: 0;
+    pointer-events: none;
+    z-index: 0;
+    overflow: hidden;
+}
+
+.mesh-orb-1 {
+    position: absolute;
+    top: -15%;
+    right: -10%;
+    width: 650px;
+    height: 650px;
+    background: radial-gradient(circle, rgba(255, 75, 36, 0.12) 0%, rgba(185, 45, 22, 0.04) 50%, transparent 70%);
+    filter: blur(80px);
+    animation: orbDrift1 22s ease-in-out infinite alternate;
+}
+
+.mesh-orb-2 {
+    position: absolute;
+    bottom: -20%;
+    left: -15%;
+    width: 600px;
+    height: 600px;
+    background: radial-gradient(circle, rgba(174, 180, 190, 0.08) 0%, rgba(27, 30, 37, 0.04) 50%, transparent 70%);
+    filter: blur(80px);
+    animation: orbDrift2 26s ease-in-out infinite alternate;
+}
+
+@keyframes orbDrift1 {
+    0% { transform: translate(0, 0) scale(1); }
+    100% { transform: translate(-80px, 60px) scale(1.12); }
+}
+
+@keyframes orbDrift2 {
+    0% { transform: translate(0, 0) scale(1); }
+    100% { transform: translate(70px, -50px) scale(1.1); }
+}
+
+/* Auth Card Layout */
+.auth-wrapper {
+    position: relative;
+    z-index: 1;
+    width: 100%;
+    max-width: 440px;
+}
+
+.auth-card {
+    background: rgba(17, 19, 24, 0.88);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    border: 1px solid var(--panel-border);
+    border-radius: 20px;
+    padding: 36px 32px;
+    box-shadow: 0 24px 64px -12px rgba(0, 0, 0, 0.8),
+                0 0 1px 1px rgba(255, 75, 36, 0.12),
+                inset 0 1px 0 rgba(255, 255, 255, 0.05);
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.auth-card:hover {
+    border-color: rgba(255, 75, 36, 0.3);
+    box-shadow: 0 28px 72px -12px rgba(0, 0, 0, 0.9),
+                0 0 24px rgba(255, 75, 36, 0.15),
+                inset 0 1px 0 rgba(255, 255, 255, 0.08);
+}
+
+/* Brand Section with 10th Logo */
+.brand-section {
+    text-align: center;
+    margin-bottom: 28px;
+}
+
+.brand-icon-wrapper {
+    width: 72px;
+    height: 72px;
+    margin: 0 auto 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: radial-gradient(circle at 35% 35%, #1F232D 0%, #111318 80%);
+    border: 1px solid rgba(255, 75, 36, 0.28);
+    border-radius: 20px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.6),
+                0 0 16px rgba(255, 75, 36, 0.2);
+    position: relative;
+    transition: transform 0.3s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.3s ease;
+}
+
+.brand-icon-wrapper:hover {
+    transform: translateY(-2px) scale(1.04);
+    box-shadow: 0 12px 32px rgba(0, 0, 0, 0.7),
+                0 0 24px rgba(255, 75, 36, 0.38);
+    border-color: var(--accent-orange-red);
+}
+
+/* Light sweep on slash blade */
+@keyframes slashSweep {
+    0% { filter: drop-shadow(0 0 2px rgba(255,75,36,0.6)); }
+    50% { filter: drop-shadow(0 0 8px rgba(255,75,36,0.95)) drop-shadow(0 0 14px rgba(255,107,61,0.6)); }
+    100% { filter: drop-shadow(0 0 2px rgba(255,75,36,0.6)); }
+}
+
+.brand-icon-wrapper svg {
+    animation: slashSweep 3s ease-in-out infinite;
+}
+
+.brand-title {
+    font-size: 24px;
+    font-weight: 800;
+    letter-spacing: -0.5px;
+    color: var(--text-primary);
+    margin-bottom: 6px;
+}
+
+.brand-title .x-accent {
+    color: var(--accent-orange-red);
+    text-shadow: 0 0 14px rgba(255, 75, 36, 0.65);
+}
+
+.brand-subtitle {
+    font-size: 13px;
+    color: var(--text-secondary);
+    line-height: 1.4;
+}
+
+/* Tabs */
+.auth-tabs {
+    display: flex;
+    background: #0B0D12;
+    padding: 4px;
+    border-radius: 12px;
+    border: 1px solid var(--panel-border);
+    margin-bottom: 24px;
+    gap: 4px;
+}
+
+.tab-btn {
+    flex: 1;
+    padding: 9px 8px;
+    background: transparent;
+    border: none;
+    border-radius: 8px;
+    color: var(--text-muted);
+    font-size: 12px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+    white-space: nowrap;
+}
+
+.tab-btn:hover {
+    color: var(--text-primary);
+}
+
+.tab-btn.active {
+    background: var(--panel-elevated);
+    color: var(--text-primary);
+    border: 1px solid var(--panel-border-hover);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.4);
+}
+
+/* Form Groups */
+.form-group {
+    margin-bottom: 18px;
+}
+
+.form-label {
+    display: block;
+    font-size: 12px;
+    font-weight: 600;
+    color: var(--text-secondary);
+    margin-bottom: 7px;
+    letter-spacing: 0.2px;
+}
+
+.input-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.form-input {
+    width: 100%;
+    padding: 12px 14px;
+    background: #0E1015;
+    border: 1px solid var(--panel-border);
+    border-radius: 10px;
+    color: var(--text-primary);
+    font-size: 13px;
+    font-family: inherit;
+    transition: all 0.2s ease;
+}
+
+.form-input:focus {
+    outline: none;
+    border-color: var(--accent-orange-red);
+    box-shadow: 0 0 0 3px rgba(255, 75, 36, 0.2);
+    background: #14171E;
+}
+
+.form-input.has-icon {
+    padding-right: 44px;
+}
+
+.toggle-password {
+    position: absolute;
+    right: 12px;
+    background: none;
+    border: none;
+    color: var(--text-muted);
+    cursor: pointer;
+    font-size: 15px;
+    padding: 4px;
+    display: flex;
+    align-items: center;
+    transition: color 0.2s;
+}
+
+.toggle-password:hover {
+    color: var(--text-primary);
+}
+
+.auth-options {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 12px;
+    color: var(--text-muted);
+    margin-bottom: 20px;
+}
+
+.checkbox-label {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    cursor: pointer;
+    color: var(--text-secondary);
+}
+
+.checkbox-label input {
+    accent-color: var(--accent-orange-red);
+    cursor: pointer;
+}
+
+.forgot-link {
+    color: var(--accent-orange-red);
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 500;
+    transition: opacity 0.2s;
+}
+
+.forgot-link:hover {
+    text-decoration: underline;
+    opacity: 0.9;
+}
+
+.submit-btn {
+    width: 100%;
+    padding: 13px;
+    border: none;
+    border-radius: 11px;
+    background: linear-gradient(135deg, var(--accent-orange-red), var(--accent-orange-dark));
+    color: white;
+    font-size: 14px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: all 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+    box-shadow: 0 4px 18px rgba(255, 75, 36, 0.4);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+
+.submit-btn:hover {
+    box-shadow: 0 6px 26px rgba(255, 75, 36, 0.65);
+    transform: translateY(-2px) scale(1.01);
+    filter: brightness(1.1);
+}
+
+.submit-btn:active {
+    transform: translateY(0);
+}
+
+.submit-btn:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+    transform: none;
+    box-shadow: none;
+}
+
+/* Alert Notification Box */
+.alert-box {
+    display: none;
+    padding: 12px 14px;
+    border-radius: 10px;
+    font-size: 12px;
+    margin-bottom: 18px;
+    line-height: 1.4;
+    animation: fadeIn 0.3s ease;
+}
+
+.alert-danger {
+    background: rgba(185, 45, 22, 0.18);
+    border: 1px solid rgba(255, 75, 36, 0.45);
+    color: #FFA278;
+}
+
+.alert-success {
+    background: rgba(174, 180, 190, 0.12);
+    border: 1px solid rgba(174, 180, 190, 0.35);
+    color: #F5F6F8;
+}
+
+.spinner {
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    border: 2px solid rgba(255, 255, 255, 0.3);
+    border-radius: 50%;
+    border-top-color: white;
+    animation: spin 0.8s linear infinite;
+}
+
+@keyframes spin {
+    to { transform: rotate(360deg); }
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(-4px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+/* Quick Demo Access Bar */
+.quick-access-bar {
+    margin-top: 18px;
+    padding-top: 14px;
+    border-top: 1px solid var(--panel-border);
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    flex-wrap: wrap;
+}
+
+.quick-access-label {
+    font-size: 11px;
+    color: var(--text-muted);
+    font-weight: 600;
+}
+
+.quick-chip {
+    background: #14171E;
+    border: 1px solid #282D38;
+    color: var(--accent-silver);
+    padding: 4px 9px;
+    border-radius: 6px;
+    font-size: 11px;
+    cursor: pointer;
+    font-family: inherit;
+    transition: all 0.2s ease;
+}
+
+.quick-chip:hover {
+    background: rgba(255, 75, 36, 0.15);
+    border-color: var(--accent-orange-red);
+    color: var(--text-primary);
+}
+
+.privacy-badge {
+    margin-top: 20px;
+    padding-top: 14px;
+    border-top: 1px solid rgba(255, 255, 255, 0.04);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    font-size: 11px;
+    color: var(--text-muted);
+}
+
+.auth-footer {
+    text-align: center;
+    margin-top: 24px;
+    font-size: 11px;
+    color: var(--text-muted);
+}
+</style>
+</head>
+<body>
+
+<div class="bg-mesh">
+    <div class="mesh-orb-1"></div>
+    <div class="mesh-orb-2"></div>
+</div>
+
+<div class="auth-wrapper">
+    <div class="auth-card">
+        <!-- Brand Section with 10th Logo -->
+        <div class="brand-section">
+            <div class="brand-icon-wrapper" title="AgentX Identity">
+                <svg width="44" height="44" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <defs>
+                        <linearGradient id="login-metal-1" x1="0%" y1="0%" x2="100%" y2="100%">
+                            <stop offset="0%" stop-color="#3A404E" />
+                            <stop offset="50%" stop-color="#1B1E25" />
+                            <stop offset="100%" stop-color="#0E1014" />
+                        </linearGradient>
+                        <linearGradient id="login-metal-2" x1="100%" y1="0%" x2="0%" y2="100%">
+                            <stop offset="0%" stop-color="#282D37" />
+                            <stop offset="100%" stop-color="#08090D" />
+                        </linearGradient>
+                        <linearGradient id="login-slash" x1="0%" y1="100%" x2="100%" y2="0%">
+                            <stop offset="0%" stop-color="#B92D16" />
+                            <stop offset="30%" stop-color="#FF4B24" />
+                            <stop offset="70%" stop-color="#FF6B3D" />
+                            <stop offset="100%" stop-color="#FFA278" />
+                        </linearGradient>
+                        <linearGradient id="login-highlight" x1="0%" y1="100%" x2="100%" y2="0%">
+                            <stop offset="0%" stop-color="#FF4B24" />
+                            <stop offset="50%" stop-color="#FFFFFF" />
+                            <stop offset="100%" stop-color="#FF6B3D" />
+                        </linearGradient>
+                        <filter id="login-glow" x="-30%" y="-30%" width="160%" height="160%">
+                            <feGaussianBlur in="SourceGraphic" stdDeviation="3" result="blur" />
+                            <feMerge>
+                                <feMergeNode in="blur" />
+                                <feMergeNode in="SourceGraphic" />
+                            </feMerge>
+                        </filter>
+                    </defs>
+
+                    <!-- Metallic X Arms -->
+                    <polygon points="62,18 82,18 56,48 44,48" fill="url(#login-metal-1)" />
+                    <polygon points="18,82 38,82 56,60 44,60" fill="url(#login-metal-2)" />
+                    <polygon points="18,18 36,18 82,82 64,82" fill="url(#login-metal-1)" />
+                    <polygon points="27,18 82,82 76,82 21,18" fill="url(#login-metal-2)" opacity="0.85" />
+                    <!-- Silver bevel edges -->
+                    <polygon points="18,18 36,18 34,20 20,20" fill="#AEB4BE" opacity="0.8" />
+                    <polygon points="64,82 82,82 80,80 66,80" fill="#AEB4BE" opacity="0.8" />
+
+                    <!-- 10th Logo Sharp Red-Orange Slash -->
+                    <polygon points="8,92 46,47 94,6 54,53" fill="url(#login-slash)" filter="url(#login-glow)" />
+                    <polygon points="12,88 48,49 90,10 52,51" fill="#FF4B24" />
+                    <line x1="14" y1="86" x2="88" y2="12" stroke="url(#login-highlight)" stroke-width="2" stroke-linecap="round" />
+                    <polygon points="94,6 88,14 86,10" fill="#FFF5F0" />
+                    <polygon points="8,92 16,86 12,84" fill="#FF4B24" />
+                </svg>
+            </div>
+            <h1 class="brand-title">Agent<span class="x-accent">X</span></h1>
+            <p class="brand-subtitle">Autonomous AI Intelligence Engine</p>
+        </div>
+
+        <div class="auth-tabs">
+            <button class="tab-btn active" id="tabSignIn" onclick="switchTab('signin')">Sign In</button>
+            <button class="tab-btn" id="tabSignUp" onclick="switchTab('signup')">Create Account</button>
+            <button class="tab-btn" id="tabReset" onclick="switchTab('reset')">Reset Password</button>
+        </div>
+
+        <!-- Alert Notification Box -->
+        <div class="alert-box" id="alertBox"></div>
+
+        <!-- 1. SIGN IN FORM -->
+        <form id="signInForm" onsubmit="handleSignIn(event)">
+            <div class="form-group">
+                <label class="form-label" for="loginIdentifier">Username or Email</label>
+                <div class="input-container">
+                    <input type="text" id="loginIdentifier" class="form-input" placeholder="e.g. karan or user@agentx.ai" required autocomplete="username">
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label class="form-label" for="loginPassword">Password</label>
+                <div class="input-container">
+                    <input type="password" id="loginPassword" class="form-input has-icon" placeholder="Enter your password" required autocomplete="current-password">
+                    <button type="button" class="toggle-password" onclick="togglePasswordVisibility('loginPassword', this)">👁</button>
+                </div>
+            </div>
+
+            <div class="auth-options">
+                <label class="checkbox-label">
+                    <input type="checkbox" id="rememberMe">
+                    <span>Remember my session</span>
+                </label>
+                <a href="#" class="forgot-link" onclick="switchTab('reset'); return false;">Forgot password?</a>
+            </div>
+
+            <button type="submit" class="submit-btn" id="btnSubmitLogin">
+                <span id="btnTextLogin">Sign In to AgentX</span>
+            </button>
+
+            <!-- Quick Demo Credential Helper -->
+            <div class="quick-access-bar">
+                <span class="quick-access-label">⚡ Demo Sign-In:</span>
+                <button type="button" class="quick-chip" onclick="quickFill('karan', 'karan123')">karan / karan123</button>
+                <button type="button" class="quick-chip" onclick="quickFill('abhijit', 'abhijit123')">abhijit / abhijit123</button>
+            </div>
+        </form>
+
+        <!-- 2. SIGN UP FORM -->
+        <form id="signUpForm" style="display:none;" onsubmit="handleSignUp(event)">
+            <div class="form-group">
+                <label class="form-label" for="signupUsername">Username</label>
+                <div class="input-container">
+                    <input type="text" id="signupUsername" class="form-input" placeholder="Choose a username (3-30 chars)" required autocomplete="username">
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label class="form-label" for="signupEmail">Email Address</label>
+                <div class="input-container">
+                    <input type="email" id="signupEmail" class="form-input" placeholder="your.name@example.com" required autocomplete="email">
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label class="form-label" for="signupPassword">Password</label>
+                <div class="input-container">
+                    <input type="password" id="signupPassword" class="form-input has-icon" placeholder="Min. 6 characters" required autocomplete="new-password">
+                    <button type="button" class="toggle-password" onclick="togglePasswordVisibility('signupPassword', this)">👁</button>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label class="form-label" for="signupConfirmPassword">Confirm Password</label>
+                <div class="input-container">
+                    <input type="password" id="signupConfirmPassword" class="form-input has-icon" placeholder="Re-enter your password" required autocomplete="new-password">
+                    <button type="button" class="toggle-password" onclick="togglePasswordVisibility('signupConfirmPassword', this)">👁</button>
+                </div>
+            </div>
+
+            <button type="submit" class="submit-btn" id="btnSubmitSignup">
+                <span id="btnTextSignup">Create AgentX Account</span>
+            </button>
+        </form>
+
+        <!-- 3. RESET PASSWORD FORM -->
+        <form id="resetForm" style="display:none;" onsubmit="handleResetPassword(event)">
+            <div class="form-group">
+                <label class="form-label" for="resetIdentifier">Username or Email</label>
+                <div class="input-container">
+                    <input type="text" id="resetIdentifier" class="form-input" placeholder="e.g. karan or user@agentx.ai" required autocomplete="username">
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label class="form-label" for="resetNewPassword">New Password</label>
+                <div class="input-container">
+                    <input type="password" id="resetNewPassword" class="form-input has-icon" placeholder="Min. 6 characters" required autocomplete="new-password">
+                    <button type="button" class="toggle-password" onclick="togglePasswordVisibility('resetNewPassword', this)">👁</button>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label class="form-label" for="resetConfirmPassword">Confirm New Password</label>
+                <div class="input-container">
+                    <input type="password" id="resetConfirmPassword" class="form-input has-icon" placeholder="Re-enter new password" required autocomplete="new-password">
+                    <button type="button" class="toggle-password" onclick="togglePasswordVisibility('resetConfirmPassword', this)">👁</button>
+                </div>
+            </div>
+
+            <button type="submit" class="submit-btn" id="btnSubmitReset">
+                <span id="btnTextReset">Reset Password & Sign In</span>
+            </button>
+        </form>
+
+        <div class="privacy-badge">
+            <span>🛡</span>
+            <span>Zero Data Leakage • Sandboxed Code Execution</span>
+        </div>
+    </div>
+
+    <div class="auth-footer">
+        © 2026 AgentX Autonomous AI Systems. All rights reserved.
+    </div>
+</div>
+
+<script>
+function switchTab(tab) {
+    const tabSignIn = document.getElementById('tabSignIn');
+    const tabSignUp = document.getElementById('tabSignUp');
+    const tabReset = document.getElementById('tabReset');
+    const signInForm = document.getElementById('signInForm');
+    const signUpForm = document.getElementById('signUpForm');
+    const resetForm = document.getElementById('resetForm');
+    const alertBox = document.getElementById('alertBox');
+    alertBox.style.display = 'none';
+
+    tabSignIn.classList.remove('active');
+    tabSignUp.classList.remove('active');
+    tabReset.classList.remove('active');
+    signInForm.style.display = 'none';
+    signUpForm.style.display = 'none';
+    resetForm.style.display = 'none';
+
+    if (tab === 'signin') {
+        tabSignIn.classList.add('active');
+        signInForm.style.display = 'block';
+        document.getElementById('loginIdentifier').focus();
+    } else if (tab === 'signup') {
+        tabSignUp.classList.add('active');
+        signUpForm.style.display = 'block';
+        document.getElementById('signupUsername').focus();
+    } else if (tab === 'reset') {
+        tabReset.classList.add('active');
+        resetForm.style.display = 'block';
+        document.getElementById('resetIdentifier').focus();
+    }
+}
+
+function quickFill(uname, pwd) {
+    switchTab('signin');
+    document.getElementById('loginIdentifier').value = uname;
+    document.getElementById('loginPassword').value = pwd;
+    showAlert(`Demo credentials loaded for "${uname}". Click Sign In!`, 'success');
+}
+
+function togglePasswordVisibility(fieldId, btn) {
+    const field = document.getElementById(fieldId);
+    if (field.type === 'password') {
+        field.type = 'text';
+        btn.style.opacity = '1';
+    } else {
+        field.type = 'password';
+        btn.style.opacity = '0.7';
+    }
+}
+
+function showAlert(message, type = 'danger') {
+    const box = document.getElementById('alertBox');
+    box.className = `alert-box alert-${type}`;
+    box.textContent = message;
+    box.style.display = 'block';
+}
+
+async function handleSignIn(e) {
+    e.preventDefault();
+    const btn = document.getElementById('btnSubmitLogin');
+    const btnText = document.getElementById('btnTextLogin');
+    const identifier = document.getElementById('loginIdentifier').value.trim();
+    const password = document.getElementById('loginPassword').value;
+    const remember = document.getElementById('rememberMe').checked;
+
+    btn.disabled = true;
+    btnText.innerHTML = '<span class="spinner"></span> Authenticating...';
+
+    try {
+        const res = await fetch('/api/auth/login', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({ identifier, password, remember })
+        });
+        const data = await res.json();
+        
+        // Fully compatible with both data.success and data.status === 'success'
+        if (res.ok && (data.success || data.status === 'success')) {
+            showAlert('Login successful! Entering autonomous workspace...', 'success');
+            setTimeout(() => {
+                window.location.href = data.redirect || '/';
+            }, 350);
+        } else {
+            showAlert(data.error || data.message || 'Authentication failed. Please verify credentials.');
+        }
+    } catch (err) {
+        showAlert('Network or server error during sign in.');
+    } finally {
+        btn.disabled = false;
+        btnText.textContent = 'Sign In to AgentX';
+    }
+}
+
+async function handleSignUp(e) {
+    e.preventDefault();
+    const btn = document.getElementById('btnSubmitSignup');
+    const btnText = document.getElementById('btnTextSignup');
+    const username = document.getElementById('signupUsername').value.trim();
+    const email = document.getElementById('signupEmail').value.trim();
+    const password = document.getElementById('signupPassword').value;
+    const confirm = document.getElementById('signupConfirmPassword').value;
+
+    if (password !== confirm) {
+        showAlert('Passwords do not match.');
+        return;
+    }
+
+    btn.disabled = true;
+    btnText.innerHTML = '<span class="spinner"></span> Creating account...';
+
+    try {
+        const res = await fetch('/api/auth/register', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({ username, email, password })
+        });
+        const data = await res.json();
+        if (res.ok && (data.success || data.status === 'success')) {
+            showAlert('Account created successfully! Redirecting to workspace...', 'success');
+            setTimeout(() => {
+                window.location.href = data.redirect || '/';
+            }, 400);
+        } else {
+            showAlert(data.error || data.message || 'Account creation failed.');
+        }
+    } catch (err) {
+        showAlert('Network or server error during sign up.');
+    } finally {
+        btn.disabled = false;
+        btnText.textContent = 'Create AgentX Account';
+    }
+}
+
+async function handleResetPassword(e) {
+    e.preventDefault();
+    const btn = document.getElementById('btnSubmitReset');
+    const btnText = document.getElementById('btnTextReset');
+    const identifier = document.getElementById('resetIdentifier').value.trim();
+    const new_password = document.getElementById('resetNewPassword').value;
+    const confirm = document.getElementById('resetConfirmPassword').value;
+
+    if (new_password !== confirm) {
+        showAlert('Passwords do not match.');
+        return;
+    }
+
+    btn.disabled = true;
+    btnText.innerHTML = '<span class="spinner"></span> Updating password...';
+
+    try {
+        const res = await fetch('/api/auth/reset-password', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({ identifier, new_password })
+        });
+        const data = await res.json();
+        if (res.ok && (data.success || data.status === 'success')) {
+            showAlert('Password reset successful! You may now sign in.', 'success');
+            setTimeout(() => {
+                switchTab('signin');
+                document.getElementById('loginIdentifier').value = identifier;
+                document.getElementById('loginPassword').value = new_password;
+            }, 700);
+        } else {
+            showAlert(data.error || data.message || 'Password reset failed.');
+        }
+    } catch (err) {
+        showAlert('Network or server error during password reset.');
+    } finally {
+        btn.disabled = false;
+        btnText.textContent = 'Reset Password & Sign In';
+    }
+}
+</script>
+</body>
+</html>

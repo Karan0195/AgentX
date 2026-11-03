@@ -1,0 +1,2001 @@
+Record_ID,Client_Name,Department_Raw,Compensation,Score_Rating,Signup_Date_Str,Active_Flag
+1,Maria Garcia,eng,"₹1,200,000",4.0,invalid_date,
+2,Alice Smith,Engineering,52000.50,4.8,2024-02-28,true
+3,Alice Smith,Human Resources,"$45,000",,2024-02-28,0
+4,Alice Smith,SALES,60000,4.0,2024-02-28,yes
+5,BOB JONES  ,Human Resources,"₹75,000",5,2024-02-28,1
+6,  Rahul Kumar  ,Engineering,N/A,,"Jan 15, 2023",0
+7,  John Doe ,  Finance  ,52000.50,3.5,invalid_date,
+8,,,"₹75,000",,28-02-2024,FALSE
+9,,sales,60000,4.8,2024-02-28,
+10,David Lee,SALES,N/A,3.5,28-02-2024,
+11,Alice Smith,Human Resources,52000.50,4.8,28-02-2024,FALSE
+12,Maria Garcia,HR,60000,4.0,invalid_date,0
+13,  Rahul Kumar  ,Engineering,60000,3.5,28-02-2024,FALSE
+14,Alice Smith,  Finance  ,N/A,N/A,invalid_date,TRUE
+15,,Sales,60000,N/A,15/01/2023,yes
+16,Maria Garcia,  Finance  ,,4.8,28-02-2024,TRUE
+17,BOB JONES  ,HR,-,4.8,28-02-2024,0
+18,  Rahul Kumar  ,eng,N/A,4.8,2024-02-28,1
+19,Alice Smith,  Finance  ,52000.50,5,15/01/2023,yes
+20,  Rahul Kumar  ,Engineering,60000,,15/01/2023,true
+21,,eng,,4.0,15/01/2023,yes
+22,David Lee,HR,-,,2023.05.20,0
+23,David Lee,Engineering,"₹1,200,000",N/A,"Jan 15, 2023",TRUE
+24,Alice Smith,Engineering,"₹75,000",3.5,28-02-2024,yes
+25,BOB JONES  ,Engineering,"₹75,000",4.0,28-02-2024,yes
+26,BOB JONES  ,HR,"$110,000",,2024-02-28,FALSE
+27,Maria Garcia,  Finance  ,-,,2023.05.20,TRUE
+28,BOB JONES  ,  Finance  ,"₹75,000",,28-02-2024,yes
+29,  John Doe ,HR,"₹75,000",,invalid_date,true
+30,Alice Smith,Engineering,52000.50,4.8,2023.05.20,true
+31,,HR,-,3.5,2023-01-15,true
+32,BOB JONES  ,,N/A,3.5,28-02-2024,
+33,  John Doe ,Engineering,N/A,3.5,2023-01-15,true
+34,Maria Garcia,Engineering,60000,3.5,2024-02-28,0
+35,David Lee,SALES,60000,3.5,2023-01-15,yes
+36,Alice Smith,,60000,,15/01/2023,0
+37,Maria Garcia,Sales,"$110,000",N/A,2023.05.20,0
+38,,,"$110,000",5,15/01/2023,TRUE
+39,,  Finance  ,"$45,000",N/A,invalid_date,yes
+40,,eng,,N/A,2023.05.20,
+41,Alice Smith,,"₹1,200,000",4.8,2023.05.20,FALSE
+42,  John Doe ,SALES,-,N/A,28-02-2024,TRUE
+43,  John Doe ,Sales,60000,N/A,invalid_date,1
+44,  Rahul Kumar  ,Engineering,,,15/01/2023,1
+45,  John Doe ,Engineering,60000,5,"Jan 15, 2023",true
+46,Alice Smith,Human Resources,N/A,,invalid_date,0
+47,Maria Garcia,Engineering,60000,3.5,2024-02-28,TRUE
+48,,Engineering,"$45,000",,2023.05.20,
+49,BOB JONES  ,Engineering,52000.50,4.0,15/01/2023,FALSE
+50,David Lee,Human Resources,"₹75,000",,2023-01-15,0
+51,  Rahul Kumar  ,Human Resources,"$110,000",4.8,2024-02-28,
+52,  John Doe ,sales,-,3.5,2024-02-28,yes
+53,BOB JONES  ,eng,"$110,000",,"Jan 15, 2023",FALSE
+54,,SALES,52000.50,N/A,2023.05.20,
+55,BOB JONES  ,  Finance  ,,4.0,2023.05.20,FALSE
+56,  John Doe ,Sales,,3.5,2023-01-15,1
+57,Maria Garcia,Sales,52000.50,4.0,15/01/2023,yes
+58,  John Doe ,Sales,,N/A,28-02-2024,
+59,  Rahul Kumar  ,eng,52000.50,N/A,2023-01-15,true
+60,David Lee,eng,"₹1,200,000",4.0,2023-01-15,
+61,  John Doe ,HR,52000.50,N/A,invalid_date,FALSE
+62,David Lee,Engineering,"₹75,000",,15/01/2023,FALSE
+63,David Lee,Sales,N/A,,2024-02-28,1
+64,Alice Smith,,60000,4.0,2024-02-28,yes
+65,  John Doe ,Human Resources,"$45,000",,2023-01-15,TRUE
+66,David Lee,  Finance  ,60000,,28-02-2024,FALSE
+67,  Rahul Kumar  ,Engineering,,4.0,2023-01-15,true
+68,,sales,"$45,000",3.5,"Jan 15, 2023",
+69,  John Doe ,Sales,"$110,000",3.5,28-02-2024,0
+70,  Rahul Kumar  ,  Finance  ,,4.8,invalid_date,yes
+71,David Lee,Sales,N/A,,2024-02-28,true
+72,David Lee,Sales,"₹1,200,000",,28-02-2024,yes
+73,,Human Resources,"$110,000",,28-02-2024,true
+74,  John Doe ,Sales,"$45,000",N/A,"Jan 15, 2023",1
+75,Alice Smith,sales,N/A,4.0,15/01/2023,true
+76,Maria Garcia,HR,52000.50,4.0,2023.05.20,TRUE
+77,BOB JONES  ,  Finance  ,60000,,2024-02-28,1
+78,  John Doe ,  Finance  ,"$110,000",,15/01/2023,true
+79,Alice Smith,SALES,"₹1,200,000",4.8,2023-01-15,FALSE
+80,David Lee,eng,N/A,,"Jan 15, 2023",FALSE
+81,Alice Smith,sales,"₹1,200,000",,28-02-2024,0
+82,BOB JONES  ,Engineering,"$110,000",3.5,28-02-2024,TRUE
+83,Maria Garcia,sales,"$110,000",,invalid_date,yes
+84,David Lee,Human Resources,52000.50,,2023-01-15,yes
+85,Alice Smith,  Finance  ,60000,4.0,28-02-2024,0
+86,BOB JONES  ,  Finance  ,-,N/A,"Jan 15, 2023",FALSE
+87,Alice Smith,Human Resources,52000.50,N/A,2023-01-15,yes
+88,,Sales,"₹75,000",,15/01/2023,
+89,  Rahul Kumar  ,,,3.5,2023-01-15,true
+90,  Rahul Kumar  ,HR,"₹1,200,000",N/A,invalid_date,true
+91,Alice Smith,Engineering,52000.50,,28-02-2024,
+92,,HR,,5,15/01/2023,true
+93,BOB JONES  ,SALES,60000,4.0,28-02-2024,1
+94,,SALES,60000,5,"Jan 15, 2023",TRUE
+95,  John Doe ,sales,N/A,,"Jan 15, 2023",
+96,Alice Smith,Engineering,"$45,000",4.8,2023.05.20,
+97,Maria Garcia,HR,"₹1,200,000",5,2023.05.20,TRUE
+98,David Lee,Human Resources,"₹75,000",,2024-02-28,true
+99,BOB JONES  ,sales,"₹1,200,000",4.8,15/01/2023,1
+99,Alice Smith,sales,"$45,000",N/A,"Jan 15, 2023",true
+101,  Rahul Kumar  ,,,N/A,15/01/2023,0
+102,  Rahul Kumar  ,Sales,52000.50,,2023-01-15,yes
+103,  Rahul Kumar  ,Human Resources,N/A,5,2023.05.20,FALSE
+104,  John Doe ,SALES,"$110,000",,28-02-2024,0
+105,  Rahul Kumar  ,  Finance  ,N/A,,invalid_date,1
+106,  John Doe ,sales,"₹1,200,000",,2023.05.20,0
+107,David Lee,Human Resources,"₹75,000",4.0,"Jan 15, 2023",yes
+108,,Human Resources,,4.8,28-02-2024,0
+109,  Rahul Kumar  ,  Finance  ,"$110,000",5,"Jan 15, 2023",
+110,Maria Garcia,SALES,"$110,000",4.8,invalid_date,0
+111,David Lee,Sales,60000,N/A,15/01/2023,yes
+112,,  Finance  ,N/A,5,invalid_date,
+113,BOB JONES  ,,60000,4.8,2024-02-28,1
+114,,HR,"₹1,200,000",5,15/01/2023,1
+115,BOB JONES  ,  Finance  ,,4.0,2023-01-15,TRUE
+116,  John Doe ,Engineering,"₹1,200,000",,2023.05.20,FALSE
+117,Alice Smith,HR,60000,,2024-02-28,0
+118,  Rahul Kumar  ,sales,52000.50,5,15/01/2023,0
+119,BOB JONES  ,SALES,"$45,000",4.8,2023.05.20,0
+120,BOB JONES  ,Engineering,-,4.0,2023-01-15,0
+121,Maria Garcia,Sales,-,,28-02-2024,
+122,Maria Garcia,SALES,"$110,000",,2023.05.20,yes
+123,  Rahul Kumar  ,,52000.50,3.5,28-02-2024,
+124,  John Doe ,SALES,"$45,000",4.0,2023-01-15,1
+125,Alice Smith,Engineering,"$45,000",,2023.05.20,yes
+126,  Rahul Kumar  ,Sales,"$45,000",,2023-01-15,true
+127,  John Doe ,HR,52000.50,4.0,15/01/2023,FALSE
+128,  Rahul Kumar  ,eng,"$45,000",,invalid_date,FALSE
+129,BOB JONES  ,HR,-,3.5,28-02-2024,yes
+130,,SALES,"₹1,200,000",3.5,invalid_date,TRUE
+131,  John Doe ,Human Resources,52000.50,3.5,invalid_date,FALSE
+132,BOB JONES  ,eng,N/A,,invalid_date,TRUE
+133,Maria Garcia,Human Resources,"₹1,200,000",,2023.05.20,1
+134,David Lee,Human Resources,60000,,invalid_date,
+135,David Lee,Sales,"$110,000",4.8,2023-01-15,yes
+136,BOB JONES  ,sales,60000,5,"Jan 15, 2023",
+137,,eng,"₹1,200,000",,15/01/2023,yes
+138,  John Doe ,eng,60000,,2024-02-28,TRUE
+139,,eng,"₹75,000",4.8,15/01/2023,true
+140,  Rahul Kumar  ,  Finance  ,"₹1,200,000",,28-02-2024,FALSE
+141,Maria Garcia,Sales,"$45,000",3.5,invalid_date,FALSE
+142,BOB JONES  ,eng,-,3.5,2023.05.20,0
+143,  Rahul Kumar  ,Engineering,-,,2023.05.20,yes
+144,Alice Smith,Engineering,,,2024-02-28,TRUE
+145,Alice Smith,Engineering,-,,"Jan 15, 2023",0
+146,Alice Smith,Engineering,"$110,000",3.5,2023.05.20,true
+147,  John Doe ,Engineering,"₹1,200,000",5,2023-01-15,true
+148,David Lee,Sales,"₹1,200,000",3.5,2023.05.20,true
+149,Maria Garcia,Engineering,"$110,000",5,28-02-2024,FALSE
+150,  John Doe ,Engineering,"₹75,000",5,28-02-2024,FALSE
+151,David Lee,  Finance  ,"$110,000",3.5,2023.05.20,0
+152,  Rahul Kumar  ,Sales,N/A,5,2024-02-28,yes
+153,  John Doe ,Sales,-,4.8,invalid_date,
+154,Alice Smith,sales,N/A,N/A,15/01/2023,1
+155,BOB JONES  ,sales,"$110,000",3.5,"Jan 15, 2023",FALSE
+156,  John Doe ,SALES,,5,invalid_date,0
+157,  Rahul Kumar  ,SALES,"$110,000",,15/01/2023,true
+158,BOB JONES  ,HR,-,5,"Jan 15, 2023",
+159,  John Doe ,eng,-,,28-02-2024,TRUE
+160,  Rahul Kumar  ,Sales,"$110,000",5,2023-01-15,true
+161,Maria Garcia,Engineering,N/A,3.5,invalid_date,0
+162,  John Doe ,Human Resources,"₹75,000",5,invalid_date,true
+163,  John Doe ,Engineering,52000.50,4.0,2023.05.20,true
+164,BOB JONES  ,HR,60000,N/A,2023-01-15,1
+165,David Lee,Engineering,52000.50,4.0,2024-02-28,
+166,Maria Garcia,eng,N/A,4.8,28-02-2024,1
+167,,,"₹75,000",5,"Jan 15, 2023",FALSE
+168,BOB JONES  ,Human Resources,"₹75,000",,"Jan 15, 2023",true
+169,David Lee,,"$110,000",N/A,2023-01-15,1
+170,  Rahul Kumar  ,sales,-,5,2023.05.20,1
+171,David Lee,Sales,"₹1,200,000",,28-02-2024,FALSE
+172,BOB JONES  ,sales,"₹1,200,000",,2024-02-28,FALSE
+173,David Lee,Sales,"$110,000",3.5,2024-02-28,0
+174,  Rahul Kumar  ,sales,60000,4.8,2023.05.20,
+175,  John Doe ,Human Resources,"$45,000",4.0,2024-02-28,FALSE
+176,  Rahul Kumar  ,SALES,60000,4.8,invalid_date,FALSE
+177,David Lee,  Finance  ,"₹75,000",4.8,2023.05.20,TRUE
+178,Maria Garcia,  Finance  ,-,N/A,2023.05.20,
+179,BOB JONES  ,Sales,"$45,000",,2024-02-28,0
+180,  John Doe ,SALES,"₹75,000",,invalid_date,0
+181,Maria Garcia,  Finance  ,"$110,000",4.8,28-02-2024,0
+182,Maria Garcia,Sales,N/A,,invalid_date,yes
+183,David Lee,Sales,"₹75,000",5,"Jan 15, 2023",yes
+184,  John Doe ,SALES,N/A,5,2023.05.20,true
+185,BOB JONES  ,Human Resources,-,3.5,15/01/2023,
+186,BOB JONES  ,sales,"$110,000",,28-02-2024,
+187,Alice Smith,,"$45,000",4.0,2023.05.20,TRUE
+188,,eng,60000,4.0,28-02-2024,FALSE
+189,David Lee,eng,"₹1,200,000",4.8,2023.05.20,FALSE
+190,Maria Garcia,,-,3.5,15/01/2023,yes
+191,  Rahul Kumar  ,sales,N/A,,invalid_date,TRUE
+192,David Lee,eng,N/A,,2023.05.20,true
+193,BOB JONES  ,,"$45,000",,2023-01-15,0
+194,David Lee,SALES,"₹1,200,000",,15/01/2023,FALSE
+195,  John Doe ,  Finance  ,"₹75,000",4.8,2023-01-15,TRUE
+196,Alice Smith,sales,60000,N/A,2023-01-15,1
+197,  Rahul Kumar  ,,,4.8,2023-01-15,FALSE
+198,Alice Smith,Human Resources,60000,5,2024-02-28,
+199,,Engineering,"₹75,000",,15/01/2023,0
+199,BOB JONES  ,eng,"$110,000",3.5,2023.05.20,FALSE
+201,  John Doe ,,60000,N/A,"Jan 15, 2023",true
+202,  John Doe ,Engineering,,4.8,15/01/2023,true
+203,Alice Smith,Engineering,"₹75,000",3.5,"Jan 15, 2023",true
+204,,Engineering,"₹75,000",3.5,"Jan 15, 2023",
+205,BOB JONES  ,  Finance  ,"₹1,200,000",,2024-02-28,
+206,,Sales,N/A,,invalid_date,0
+207,David Lee,,,,15/01/2023,TRUE
+208,,SALES,"$45,000",5,2024-02-28,TRUE
+209,BOB JONES  ,Engineering,-,,28-02-2024,1
+210,Alice Smith,SALES,,4.8,"Jan 15, 2023",
+211,David Lee,sales,60000,,invalid_date,0
+212,,Engineering,,5,2024-02-28,FALSE
+213,  Rahul Kumar  ,eng,52000.50,3.5,2023-01-15,yes
+214,BOB JONES  ,sales,N/A,N/A,2023.05.20,yes
+215,,eng,60000,5,15/01/2023,TRUE
+216,  John Doe ,SALES,"$45,000",,28-02-2024,TRUE
+217,  Rahul Kumar  ,,"₹1,200,000",3.5,28-02-2024,yes
+218,David Lee,,52000.50,4.0,28-02-2024,FALSE
+219,Alice Smith,eng,"$45,000",3.5,2023-01-15,yes
+220,Alice Smith,,"$45,000",3.5,28-02-2024,yes
+221,  Rahul Kumar  ,Sales,"₹1,200,000",4.0,15/01/2023,FALSE
+222,  John Doe ,  Finance  ,-,,2024-02-28,0
+223,David Lee,Sales,"₹1,200,000",5,15/01/2023,TRUE
+224,  Rahul Kumar  ,,"$45,000",5,2023.05.20,1
+225,David Lee,Sales,-,5,"Jan 15, 2023",1
+226,Alice Smith,eng,"$45,000",3.5,28-02-2024,true
+227,Maria Garcia,  Finance  ,"₹75,000",5,2023-01-15,yes
+228,Alice Smith,  Finance  ,"₹1,200,000",4.8,15/01/2023,0
+229,  Rahul Kumar  ,HR,N/A,4.0,2024-02-28,TRUE
+230,David Lee,Human Resources,"₹75,000",,2023-01-15,FALSE
+231,Maria Garcia,,"₹75,000",4.8,28-02-2024,0
+232,Alice Smith,sales,,4.8,invalid_date,true
+233,  Rahul Kumar  ,Engineering,"$45,000",3.5,"Jan 15, 2023",0
+234,BOB JONES  ,SALES,60000,N/A,"Jan 15, 2023",yes
+235,,,"₹1,200,000",5,2024-02-28,TRUE
+236,Maria Garcia,Human Resources,"₹75,000",3.5,invalid_date,1
+237,Maria Garcia,Sales,"$45,000",3.5,28-02-2024,TRUE
+238,,SALES,"$45,000",,28-02-2024,yes
+239,Alice Smith,  Finance  ,,,2023.05.20,yes
+240,BOB JONES  ,HR,"₹1,200,000",3.5,invalid_date,1
+241,BOB JONES  ,  Finance  ,60000,N/A,2023-01-15,true
+242,BOB JONES  ,sales,52000.50,N/A,2023.05.20,
+243,BOB JONES  ,sales,"₹1,200,000",5,2023.05.20,0
+244,,Engineering,"₹1,200,000",4.0,28-02-2024,yes
+245,Alice Smith,HR,"$45,000",5,15/01/2023,1
+246,  Rahul Kumar  ,Engineering,"₹75,000",4.0,28-02-2024,TRUE
+247,David Lee,HR,"₹75,000",,2023-01-15,TRUE
+248,  Rahul Kumar  ,sales,60000,N/A,28-02-2024,FALSE
+249,  Rahul Kumar  ,SALES,N/A,N/A,2023.05.20,TRUE
+250,Alice Smith,sales,"₹75,000",3.5,15/01/2023,1
+251,  Rahul Kumar  ,Sales,"₹1,200,000",5,28-02-2024,0
+252,  John Doe ,Sales,"₹75,000",4.0,2023-01-15,0
+253,BOB JONES  ,HR,52000.50,N/A,2023.05.20,FALSE
+254,BOB JONES  ,Human Resources,52000.50,N/A,2024-02-28,1
+255,BOB JONES  ,Engineering,-,,"Jan 15, 2023",
+256,Maria Garcia,,"₹75,000",N/A,2023.05.20,yes
+257,Alice Smith,Engineering,"$45,000",3.5,15/01/2023,
+258,Maria Garcia,Engineering,"$110,000",4.0,2023.05.20,
+259,,HR,"₹1,200,000",,28-02-2024,TRUE
+260,  Rahul Kumar  ,sales,-,3.5,2024-02-28,FALSE
+261,,Sales,"₹1,200,000",5,invalid_date,true
+262,Alice Smith,Human Resources,,4.0,2023.05.20,TRUE
+263,BOB JONES  ,eng,"$110,000",4.8,28-02-2024,
+264,BOB JONES  ,HR,"₹1,200,000",4.8,15/01/2023,TRUE
+265,  John Doe ,Sales,60000,5,28-02-2024,yes
+266,  Rahul Kumar  ,  Finance  ,N/A,,15/01/2023,yes
+267,BOB JONES  ,  Finance  ,"₹75,000",4.8,invalid_date,FALSE
+268,  John Doe ,SALES,-,4.8,15/01/2023,FALSE
+269,  John Doe ,Human Resources,-,4.0,28-02-2024,FALSE
+270,,  Finance  ,N/A,4.8,2023.05.20,1
+271,  John Doe ,sales,-,N/A,2024-02-28,yes
+272,,Human Resources,,,28-02-2024,1
+273,  Rahul Kumar  ,SALES,"₹1,200,000",,15/01/2023,1
+274,BOB JONES  ,HR,60000,,invalid_date,true
+275,,SALES,N/A,3.5,28-02-2024,
+276,Alice Smith,Engineering,"$45,000",N/A,2024-02-28,FALSE
+277,David Lee,sales,60000,4.0,2024-02-28,FALSE
+278,BOB JONES  ,Engineering,"₹1,200,000",3.5,2024-02-28,1
+279,  John Doe ,sales,"$45,000",4.0,28-02-2024,0
+280,Alice Smith,eng,"₹75,000",4.8,2024-02-28,true
+281,David Lee,Sales,"$45,000",N/A,"Jan 15, 2023",TRUE
+282,  John Doe ,  Finance  ,"₹1,200,000",,2024-02-28,1
+283,  Rahul Kumar  ,sales,60000,N/A,15/01/2023,true
+284,BOB JONES  ,HR,"₹75,000",3.5,2023-01-15,FALSE
+285,David Lee,Human Resources,"₹1,200,000",3.5,2024-02-28,
+286,Alice Smith,eng,"₹75,000",3.5,28-02-2024,yes
+287,  Rahul Kumar  ,Engineering,N/A,,2023.05.20,0
+288,  Rahul Kumar  ,  Finance  ,"₹1,200,000",5,15/01/2023,FALSE
+289,Maria Garcia,eng,"$110,000",5,invalid_date,true
+290,  John Doe ,  Finance  ,60000,3.5,28-02-2024,0
+291,Maria Garcia,,60000,3.5,2024-02-28,FALSE
+292,David Lee,SALES,"₹1,200,000",N/A,28-02-2024,TRUE
+293,David Lee,Sales,"$110,000",,invalid_date,0
+294,BOB JONES  ,Human Resources,N/A,4.0,invalid_date,yes
+295,Alice Smith,eng,-,,2023.05.20,yes
+296,Alice Smith,HR,,,2024-02-28,yes
+297,Alice Smith,sales,"₹75,000",3.5,28-02-2024,true
+298,BOB JONES  ,eng,60000,4.8,invalid_date,yes
+299,Maria Garcia,eng,-,5,28-02-2024,1
+299,BOB JONES  ,Engineering,"₹75,000",4.0,15/01/2023,FALSE
+301,  John Doe ,HR,"$110,000",3.5,15/01/2023,yes
+302,  Rahul Kumar  ,SALES,52000.50,4.0,2024-02-28,0
+303,Alice Smith,Sales,N/A,5,2023-01-15,
+304,  Rahul Kumar  ,eng,"$110,000",,2024-02-28,yes
+305,BOB JONES  ,Sales,"₹1,200,000",4.0,"Jan 15, 2023",
+306,,,"$45,000",,2024-02-28,TRUE
+307,  Rahul Kumar  ,  Finance  ,"₹1,200,000",3.5,28-02-2024,yes
+308,  Rahul Kumar  ,Sales,,,"Jan 15, 2023",FALSE
+309,  John Doe ,HR,60000,5,2023.05.20,0
+310,  John Doe ,sales,-,,15/01/2023,yes
+311,BOB JONES  ,Sales,"₹1,200,000",,2024-02-28,true
+312,,Human Resources,"₹75,000",,28-02-2024,true
+313,Alice Smith,Sales,N/A,3.5,28-02-2024,
+314,,Human Resources,52000.50,,15/01/2023,
+315,Alice Smith,Engineering,"$110,000",4.0,2024-02-28,FALSE
+316,  John Doe ,  Finance  ,"₹75,000",,2023-01-15,
+317,  John Doe ,Engineering,"$45,000",5,15/01/2023,yes
+318,Maria Garcia,sales,"$110,000",5,2023-01-15,FALSE
+319,Maria Garcia,Human Resources,"₹1,200,000",N/A,2023-01-15,yes
+320,Alice Smith,Human Resources,"$110,000",5,2023-01-15,
+321,BOB JONES  ,sales,"$110,000",,invalid_date,true
+322,Maria Garcia,HR,"₹1,200,000",3.5,2023-01-15,yes
+323,Alice Smith,SALES,"₹75,000",,15/01/2023,yes
+324,  John Doe ,SALES,"₹75,000",,"Jan 15, 2023",TRUE
+325,,  Finance  ,"$45,000",N/A,28-02-2024,yes
+326,,SALES,"₹1,200,000",4.0,2023-01-15,
+327,Maria Garcia,  Finance  ,52000.50,,"Jan 15, 2023",FALSE
+328,  Rahul Kumar  ,SALES,,,"Jan 15, 2023",true
+329,Maria Garcia,  Finance  ,,5,2024-02-28,TRUE
+330,,  Finance  ,,,"Jan 15, 2023",TRUE
+331,BOB JONES  ,eng,,4.8,2024-02-28,TRUE
+332,Alice Smith,Sales,"$110,000",3.5,15/01/2023,0
+333,Maria Garcia,,"₹1,200,000",4.0,2023.05.20,TRUE
+334,  John Doe ,eng,N/A,N/A,2024-02-28,
+335,,,"₹1,200,000",5,2023-01-15,0
+336,David Lee,HR,,,28-02-2024,FALSE
+337,David Lee,SALES,"₹1,200,000",N/A,28-02-2024,TRUE
+338,David Lee,SALES,-,N/A,invalid_date,true
+339,Alice Smith,sales,"₹1,200,000",,2024-02-28,FALSE
+340,Alice Smith,Human Resources,,5,28-02-2024,1
+341,Alice Smith,sales,-,3.5,2023-01-15,0
+342,Alice Smith,Human Resources,"₹75,000",3.5,invalid_date,0
+343,  John Doe ,SALES,,,15/01/2023,yes
+344,Maria Garcia,HR,"$110,000",,"Jan 15, 2023",true
+345,  Rahul Kumar  ,,52000.50,5,2023.05.20,0
+346,David Lee,  Finance  ,52000.50,,15/01/2023,yes
+347,,eng,60000,5,2024-02-28,yes
+348,,  Finance  ,"₹1,200,000",4.0,2023-01-15,TRUE
+349,BOB JONES  ,SALES,52000.50,4.8,2024-02-28,true
+350,Maria Garcia,eng,52000.50,4.8,2023-01-15,yes
+351,  John Doe ,Human Resources,60000,,2024-02-28,yes
+352,Maria Garcia,Human Resources,N/A,5,invalid_date,0
+353,,eng,,5,2023-01-15,0
+354,BOB JONES  ,Human Resources,N/A,3.5,15/01/2023,TRUE
+355,David Lee,Sales,"$110,000",5,2023.05.20,
+356,  John Doe ,SALES,"₹1,200,000",4.0,invalid_date,1
+357,BOB JONES  ,sales,52000.50,,"Jan 15, 2023",
+358,Maria Garcia,Sales,"$45,000",3.5,2024-02-28,1
+359,,,"$45,000",5,invalid_date,TRUE
+360,  John Doe ,Human Resources,-,,invalid_date,
+361,David Lee,HR,"$45,000",4.0,2024-02-28,yes
+362,,Engineering,60000,5,15/01/2023,true
+363,Maria Garcia,HR,"$45,000",4.8,2024-02-28,
+364,David Lee,eng,52000.50,4.0,15/01/2023,0
+365,Maria Garcia,Sales,60000,5,invalid_date,1
+366,Maria Garcia,SALES,N/A,,2023-01-15,yes
+367,David Lee,,52000.50,5,28-02-2024,1
+368,  Rahul Kumar  ,eng,-,N/A,2023.05.20,
+369,David Lee,Sales,60000,4.0,28-02-2024,TRUE
+370,Maria Garcia,sales,"$45,000",,"Jan 15, 2023",yes
+371,BOB JONES  ,Sales,"$45,000",5,2023.05.20,1
+372,  John Doe ,HR,,5,2023.05.20,FALSE
+373,BOB JONES  ,SALES,N/A,,2023-01-15,0
+374,  Rahul Kumar  ,  Finance  ,N/A,,2023-01-15,1
+375,,HR,"$45,000",5,"Jan 15, 2023",yes
+376,Maria Garcia,eng,N/A,N/A,2023.05.20,0
+377,Alice Smith,SALES,"₹75,000",4.8,invalid_date,
+378,  John Doe ,Human Resources,N/A,4.0,28-02-2024,1
+379,David Lee,Sales,N/A,,15/01/2023,yes
+380,BOB JONES  ,eng,-,3.5,invalid_date,TRUE
+381,David Lee,Human Resources,"$45,000",3.5,2024-02-28,true
+382,David Lee,SALES,60000,5,2024-02-28,1
+383,David Lee,Human Resources,"₹1,200,000",N/A,invalid_date,true
+384,Maria Garcia,Human Resources,60000,4.8,15/01/2023,
+385,BOB JONES  ,sales,"₹1,200,000",,invalid_date,0
+386,  John Doe ,eng,,,2024-02-28,TRUE
+387,  Rahul Kumar  ,Human Resources,-,,2024-02-28,FALSE
+388,Maria Garcia,sales,N/A,5,invalid_date,true
+389,David Lee,sales,"₹75,000",,invalid_date,true
+390,,Human Resources,,5,28-02-2024,1
+391,Maria Garcia,eng,"₹75,000",4.0,15/01/2023,0
+392,  Rahul Kumar  ,  Finance  ,"$110,000",5,2023-01-15,0
+393,BOB JONES  ,eng,N/A,5,28-02-2024,TRUE
+394,  Rahul Kumar  ,Human Resources,N/A,,2023-01-15,true
+395,  Rahul Kumar  ,Sales,N/A,3.5,invalid_date,TRUE
+396,  Rahul Kumar  ,Human Resources,60000,,2024-02-28,FALSE
+397,,Engineering,-,,2024-02-28,1
+398,David Lee,  Finance  ,"₹75,000",4.8,15/01/2023,yes
+399,  John Doe ,Engineering,"₹75,000",N/A,2023-01-15,0
+399,Alice Smith,sales,60000,4.8,28-02-2024,0
+401,  Rahul Kumar  ,HR,52000.50,4.8,15/01/2023,0
+402,Alice Smith,eng,"₹75,000",4.0,28-02-2024,yes
+403,Maria Garcia,Human Resources,60000,,2023-01-15,yes
+404,  Rahul Kumar  ,HR,"$110,000",5,28-02-2024,
+405,,Sales,"$45,000",,15/01/2023,FALSE
+406,  Rahul Kumar  ,HR,N/A,3.5,2023-01-15,
+407,  John Doe ,sales,60000,3.5,2023-01-15,1
+408,  John Doe ,SALES,"$110,000",3.5,28-02-2024,
+409,BOB JONES  ,HR,N/A,,15/01/2023,yes
+410,David Lee,  Finance  ,"₹75,000",,"Jan 15, 2023",TRUE
+411,  John Doe ,eng,-,4.0,28-02-2024,FALSE
+412,  Rahul Kumar  ,  Finance  ,"$110,000",4.8,2024-02-28,yes
+413,  Rahul Kumar  ,,"$45,000",,28-02-2024,FALSE
+414,  John Doe ,eng,-,4.0,2023.05.20,TRUE
+415,BOB JONES  ,sales,,4.8,28-02-2024,1
+416,David Lee,Human Resources,N/A,3.5,28-02-2024,true
+417,Maria Garcia,SALES,,3.5,2023-01-15,true
+418,Alice Smith,Engineering,"₹75,000",4.8,"Jan 15, 2023",FALSE
+419,  Rahul Kumar  ,Human Resources,52000.50,5,2023.05.20,FALSE
+420,  John Doe ,SALES,-,4.8,"Jan 15, 2023",FALSE
+421,BOB JONES  ,  Finance  ,-,,28-02-2024,true
+422,,Human Resources,-,,28-02-2024,
+423,Maria Garcia,Sales,"$45,000",4.8,2023.05.20,true
+424,  Rahul Kumar  ,eng,N/A,,15/01/2023,
+425,,SALES,"$45,000",,invalid_date,TRUE
+426,David Lee,sales,"$110,000",3.5,2024-02-28,
+427,  Rahul Kumar  ,Human Resources,60000,N/A,2024-02-28,true
+428,  Rahul Kumar  ,HR,"$110,000",3.5,15/01/2023,yes
+429,  John Doe ,HR,"₹75,000",3.5,28-02-2024,TRUE
+430,Alice Smith,  Finance  ,N/A,,2024-02-28,
+431,  Rahul Kumar  ,SALES,"₹75,000",,15/01/2023,TRUE
+432,  Rahul Kumar  ,Human Resources,,,2023.05.20,TRUE
+433,  John Doe ,  Finance  ,"₹1,200,000",,2024-02-28,1
+434,Maria Garcia,sales,-,4.8,28-02-2024,1
+435,Maria Garcia,SALES,52000.50,N/A,2024-02-28,1
+436,Maria Garcia,Human Resources,N/A,5,28-02-2024,0
+437,  Rahul Kumar  ,sales,N/A,,"Jan 15, 2023",yes
+438,  Rahul Kumar  ,HR,"$45,000",N/A,"Jan 15, 2023",TRUE
+439,  Rahul Kumar  ,,"$45,000",N/A,"Jan 15, 2023",FALSE
+440,  Rahul Kumar  ,Sales,-,5,2023-01-15,
+441,Alice Smith,SALES,"$110,000",,28-02-2024,
+442,Maria Garcia,SALES,-,,2023-01-15,TRUE
+443,Alice Smith,sales,-,,15/01/2023,TRUE
+444,  Rahul Kumar  ,  Finance  ,"$45,000",4.0,15/01/2023,TRUE
+445,,SALES,N/A,5,2023.05.20,yes
+446,Maria Garcia,Human Resources,,,invalid_date,
+447,Maria Garcia,Sales,"$110,000",4.8,2023-01-15,TRUE
+448,  Rahul Kumar  ,Sales,"₹75,000",3.5,2023.05.20,0
+449,Alice Smith,Human Resources,"₹1,200,000",4.0,15/01/2023,1
+450,,,-,4.8,2023-01-15,1
+451,,  Finance  ,"$45,000",4.0,"Jan 15, 2023",true
+452,BOB JONES  ,sales,"₹1,200,000",,2023-01-15,0
+453,  John Doe ,Sales,52000.50,,2024-02-28,1
+454,,  Finance  ,"$45,000",4.8,invalid_date,true
+455,David Lee,Engineering,N/A,,invalid_date,1
+456,Alice Smith,  Finance  ,N/A,5,"Jan 15, 2023",TRUE
+457,Maria Garcia,Engineering,"$110,000",N/A,"Jan 15, 2023",true
+458,  Rahul Kumar  ,SALES,,5,2024-02-28,true
+459,Maria Garcia,Engineering,N/A,,2023-01-15,TRUE
+460,,HR,60000,4.8,2023.05.20,1
+461,,sales,"$110,000",4.8,2023-01-15,yes
+462,,eng,52000.50,,15/01/2023,
+463,  John Doe ,HR,N/A,3.5,28-02-2024,0
+464,Maria Garcia,Human Resources,-,3.5,"Jan 15, 2023",FALSE
+465,Alice Smith,Human Resources,,4.0,2023.05.20,true
+466,BOB JONES  ,Human Resources,52000.50,N/A,15/01/2023,TRUE
+467,  John Doe ,SALES,60000,4.8,28-02-2024,
+468,  John Doe ,sales,"₹1,200,000",5,2023-01-15,1
+469,BOB JONES  ,Engineering,"$110,000",5,15/01/2023,TRUE
+470,David Lee,  Finance  ,N/A,4.0,28-02-2024,TRUE
+471,  John Doe ,HR,60000,3.5,28-02-2024,0
+472,,SALES,"$110,000",,invalid_date,true
+473,Maria Garcia,Sales,"₹1,200,000",3.5,2023.05.20,true
+474,,HR,-,3.5,15/01/2023,TRUE
+475,  John Doe ,Engineering,,5,28-02-2024,FALSE
+476,  Rahul Kumar  ,Human Resources,52000.50,4.8,invalid_date,1
+477,  John Doe ,SALES,52000.50,3.5,2024-02-28,
+478,Maria Garcia,HR,"$110,000",,2023.05.20,1
+479,BOB JONES  ,Engineering,"₹1,200,000",,2023.05.20,TRUE
+480,  Rahul Kumar  ,Human Resources,N/A,4.0,15/01/2023,1
+481,Maria Garcia,Engineering,,,"Jan 15, 2023",TRUE
+482,Maria Garcia,Sales,52000.50,3.5,15/01/2023,TRUE
+483,,sales,N/A,4.8,15/01/2023,0
+484,Alice Smith,,"₹75,000",4.8,"Jan 15, 2023",
+485,BOB JONES  ,Sales,52000.50,4.0,2023.05.20,0
+486,BOB JONES  ,sales,-,4.8,2023.05.20,1
+487,Alice Smith,SALES,-,4.8,invalid_date,true
+488,,SALES,"₹1,200,000",3.5,invalid_date,true
+489,David Lee,Sales,"₹1,200,000",4.8,"Jan 15, 2023",TRUE
+490,David Lee,sales,N/A,,invalid_date,yes
+491,Alice Smith,  Finance  ,,,15/01/2023,true
+492,David Lee,,N/A,4.8,15/01/2023,FALSE
+493,  John Doe ,SALES,"₹75,000",,2023.05.20,yes
+494,,Sales,N/A,,2023-01-15,0
+495,,Sales,,N/A,15/01/2023,0
+496,Maria Garcia,,"₹1,200,000",3.5,2023-01-15,yes
+497,Alice Smith,sales,-,,2023-01-15,FALSE
+498,,eng,"₹1,200,000",,"Jan 15, 2023",1
+499,,Sales,"$45,000",3.5,"Jan 15, 2023",1
+499,David Lee,Engineering,"₹75,000",,15/01/2023,true
+501,Alice Smith,Human Resources,N/A,N/A,15/01/2023,true
+502,Alice Smith,  Finance  ,60000,4.8,2024-02-28,1
+503,,HR,"$45,000",4.0,invalid_date,FALSE
+504,Alice Smith,eng,"₹1,200,000",5,2024-02-28,1
+505,  Rahul Kumar  ,HR,60000,,15/01/2023,true
+506,,HR,52000.50,,2023.05.20,yes
+507,David Lee,eng,60000,4.0,2024-02-28,yes
+508,,  Finance  ,"₹75,000",5,"Jan 15, 2023",FALSE
+509,BOB JONES  ,Engineering,-,3.5,"Jan 15, 2023",1
+510,BOB JONES  ,Human Resources,60000,5,2023-01-15,1
+511,BOB JONES  ,Engineering,,4.8,"Jan 15, 2023",1
+512,  Rahul Kumar  ,,-,N/A,invalid_date,TRUE
+513,David Lee,,"$45,000",4.0,"Jan 15, 2023",yes
+514,Maria Garcia,eng,N/A,,invalid_date,FALSE
+515,BOB JONES  ,,-,4.0,2024-02-28,FALSE
+516,,sales,"₹75,000",,28-02-2024,
+517,,sales,52000.50,3.5,28-02-2024,FALSE
+518,,Engineering,60000,,28-02-2024,TRUE
+519,Alice Smith,sales,"$110,000",3.5,28-02-2024,
+520,David Lee,  Finance  ,"$110,000",4.0,"Jan 15, 2023",TRUE
+521,,  Finance  ,52000.50,,2024-02-28,TRUE
+522,David Lee,Sales,60000,,2024-02-28,0
+523,  Rahul Kumar  ,,52000.50,4.0,2023-01-15,true
+524,Maria Garcia,HR,60000,,invalid_date,TRUE
+525,  John Doe ,Sales,"₹1,200,000",4.8,28-02-2024,
+526,,,,,2024-02-28,FALSE
+527,Maria Garcia,sales,"$45,000",4.8,"Jan 15, 2023",FALSE
+528,BOB JONES  ,Sales,N/A,,15/01/2023,
+529,,,"$45,000",3.5,invalid_date,yes
+530,Maria Garcia,Human Resources,-,N/A,2024-02-28,TRUE
+531,BOB JONES  ,Engineering,52000.50,5,15/01/2023,true
+532,Alice Smith,Engineering,52000.50,5,"Jan 15, 2023",
+533,Maria Garcia,HR,N/A,N/A,2024-02-28,1
+534,Maria Garcia,HR,60000,3.5,"Jan 15, 2023",1
+535,  Rahul Kumar  ,,,4.8,2023-01-15,yes
+536,Alice Smith,SALES,-,5,invalid_date,TRUE
+537,Maria Garcia,SALES,"$45,000",,2023.05.20,yes
+538,Alice Smith,Human Resources,60000,4.8,15/01/2023,true
+539,Alice Smith,Sales,"$110,000",5,15/01/2023,yes
+540,Alice Smith,HR,"$45,000",5,2023-01-15,TRUE
+541,Alice Smith,Sales,"$45,000",,invalid_date,1
+542,  John Doe ,  Finance  ,-,N/A,invalid_date,true
+543,Alice Smith,SALES,"₹1,200,000",4.0,2024-02-28,1
+544,  Rahul Kumar  ,HR,52000.50,3.5,2023.05.20,FALSE
+545,BOB JONES  ,,"₹1,200,000",N/A,28-02-2024,0
+546,Maria Garcia,Engineering,N/A,3.5,"Jan 15, 2023",true
+547,  Rahul Kumar  ,Human Resources,"₹1,200,000",,2023.05.20,yes
+548,Maria Garcia,Sales,52000.50,,2023.05.20,0
+549,,Engineering,"₹1,200,000",N/A,28-02-2024,yes
+550,Maria Garcia,SALES,,,2023-01-15,true
+551,Maria Garcia,  Finance  ,"₹75,000",,invalid_date,FALSE
+552,  Rahul Kumar  ,eng,"$110,000",,"Jan 15, 2023",
+553,  John Doe ,sales,60000,4.0,"Jan 15, 2023",yes
+554,  Rahul Kumar  ,SALES,60000,4.0,2024-02-28,FALSE
+555,BOB JONES  ,  Finance  ,"$45,000",N/A,15/01/2023,1
+556,  John Doe ,Human Resources,60000,5,15/01/2023,FALSE
+557,BOB JONES  ,Engineering,"$110,000",4.8,"Jan 15, 2023",TRUE
+558,BOB JONES  ,,"₹1,200,000",,2023.05.20,yes
+559,David Lee,eng,-,N/A,2024-02-28,FALSE
+560,BOB JONES  ,sales,,N/A,15/01/2023,yes
+561,  Rahul Kumar  ,Sales,,N/A,28-02-2024,FALSE
+562,  Rahul Kumar  ,Sales,52000.50,4.0,2023-01-15,yes
+563,  Rahul Kumar  ,Human Resources,N/A,4.8,2024-02-28,FALSE
+564,,sales,"₹1,200,000",,"Jan 15, 2023",
+565,BOB JONES  ,SALES,-,,2024-02-28,true
+566,  Rahul Kumar  ,sales,60000,,"Jan 15, 2023",1
+567,Alice Smith,HR,"$45,000",3.5,28-02-2024,
+568,Alice Smith,Sales,,N/A,2024-02-28,
+569,Maria Garcia,Engineering,"₹1,200,000",,2023.05.20,TRUE
+570,David Lee,SALES,"₹1,200,000",N/A,2023.05.20,TRUE
+571,Alice Smith,Engineering,60000,,2023-01-15,
+572,David Lee,HR,,,15/01/2023,0
+573,Maria Garcia,Engineering,"$45,000",4.0,2024-02-28,
+574,  Rahul Kumar  ,SALES,,,"Jan 15, 2023",FALSE
+575,David Lee,Human Resources,"₹1,200,000",4.8,15/01/2023,0
+576,Maria Garcia,Sales,N/A,N/A,2024-02-28,FALSE
+577,  Rahul Kumar  ,,52000.50,4.0,2023.05.20,true
+578,David Lee,,"₹75,000",5,2024-02-28,1
+579,  John Doe ,Human Resources,"$45,000",,invalid_date,1
+580,David Lee,  Finance  ,"₹75,000",N/A,28-02-2024,FALSE
+581,  Rahul Kumar  ,Sales,"$110,000",,invalid_date,0
+582,David Lee,HR,"₹75,000",,15/01/2023,TRUE
+583,  Rahul Kumar  ,sales,N/A,4.0,invalid_date,yes
+584,Maria Garcia,Engineering,"$45,000",5,"Jan 15, 2023",yes
+585,,,"$110,000",,15/01/2023,FALSE
+586,Maria Garcia,eng,"$110,000",,2023-01-15,TRUE
+587,David Lee,  Finance  ,,,28-02-2024,TRUE
+588,Alice Smith,  Finance  ,"₹1,200,000",,invalid_date,1
+589,  Rahul Kumar  ,sales,"₹1,200,000",5,"Jan 15, 2023",
+590,,HR,,N/A,invalid_date,FALSE
+591,Alice Smith,Engineering,"₹75,000",5,2024-02-28,true
+592,Maria Garcia,Sales,N/A,N/A,2023-01-15,1
+593,David Lee,sales,,,28-02-2024,1
+594,Maria Garcia,SALES,52000.50,4.0,15/01/2023,FALSE
+595,,Engineering,"₹75,000",5,2023.05.20,true
+596,  Rahul Kumar  ,Sales,"$45,000",4.0,2023.05.20,true
+597,,eng,"₹1,200,000",,2023-01-15,0
+598,David Lee,eng,"₹75,000",,invalid_date,1
+599,  John Doe ,Engineering,"$45,000",5,"Jan 15, 2023",1
+599,BOB JONES  ,SALES,"$45,000",,2023-01-15,true
+601,BOB JONES  ,SALES,"$45,000",4.8,2023.05.20,0
+602,,Sales,,4.0,invalid_date,0
+603,Alice Smith,SALES,"$110,000",4.0,28-02-2024,0
+604,  John Doe ,Engineering,"$45,000",5,invalid_date,
+605,,Engineering,"₹1,200,000",3.5,28-02-2024,0
+606,Maria Garcia,eng,60000,,invalid_date,1
+607,,Human Resources,"₹75,000",4.0,2024-02-28,1
+608,David Lee,  Finance  ,,,2024-02-28,TRUE
+609,,SALES,52000.50,4.0,28-02-2024,
+610,  John Doe ,Human Resources,"$45,000",,15/01/2023,TRUE
+611,  Rahul Kumar  ,SALES,-,5,15/01/2023,0
+612,  John Doe ,sales,N/A,3.5,28-02-2024,true
+613,David Lee,sales,-,4.0,2023-01-15,FALSE
+614,,Sales,N/A,3.5,15/01/2023,yes
+615,,Human Resources,"₹75,000",5,2023.05.20,FALSE
+616,  John Doe ,SALES,,N/A,15/01/2023,true
+617,Alice Smith,Engineering,N/A,4.8,"Jan 15, 2023",true
+618,David Lee,SALES,52000.50,,2024-02-28,TRUE
+619,David Lee,  Finance  ,"₹1,200,000",N/A,2023-01-15,yes
+620,Alice Smith,sales,N/A,4.0,2023.05.20,yes
+621,BOB JONES  ,Human Resources,-,5,28-02-2024,TRUE
+622,Maria Garcia,Human Resources,60000,3.5,2024-02-28,1
+623,  John Doe ,Human Resources,52000.50,,"Jan 15, 2023",TRUE
+624,David Lee,SALES,"₹75,000",4.8,15/01/2023,TRUE
+625,  John Doe ,Human Resources,"₹75,000",3.5,28-02-2024,1
+626,  John Doe ,Sales,"$110,000",4.8,"Jan 15, 2023",1
+627,  Rahul Kumar  ,SALES,"$45,000",3.5,2024-02-28,FALSE
+628,BOB JONES  ,sales,60000,,"Jan 15, 2023",1
+629,BOB JONES  ,sales,"$110,000",3.5,invalid_date,1
+630,,Human Resources,-,4.0,28-02-2024,yes
+631,  John Doe ,SALES,52000.50,,invalid_date,0
+632,Maria Garcia,,52000.50,,15/01/2023,0
+633,Alice Smith,SALES,52000.50,,2023.05.20,yes
+634,Maria Garcia,Sales,,N/A,28-02-2024,1
+635,Alice Smith,eng,60000,4.8,2024-02-28,
+636,  John Doe ,  Finance  ,"$45,000",3.5,15/01/2023,
+637,David Lee,HR,,N/A,28-02-2024,TRUE
+638,David Lee,SALES,"₹75,000",4.8,"Jan 15, 2023",
+639,BOB JONES  ,SALES,N/A,N/A,invalid_date,FALSE
+640,Alice Smith,Sales,,5,2023-01-15,true
+641,  John Doe ,sales,"$110,000",3.5,28-02-2024,FALSE
+642,  Rahul Kumar  ,Sales,N/A,,28-02-2024,
+643,  John Doe ,sales,60000,,2023-01-15,0
+644,Alice Smith,Human Resources,"₹75,000",3.5,invalid_date,0
+645,David Lee,Sales,"$110,000",,2023-01-15,TRUE
+646,David Lee,SALES,"$110,000",5,"Jan 15, 2023",yes
+647,,  Finance  ,"₹1,200,000",N/A,2023-01-15,true
+648,BOB JONES  ,Engineering,"₹75,000",5,28-02-2024,true
+649,David Lee,Engineering,N/A,N/A,15/01/2023,1
+650,BOB JONES  ,  Finance  ,N/A,N/A,2023-01-15,FALSE
+651,BOB JONES  ,  Finance  ,N/A,5,2023-01-15,yes
+652,Maria Garcia,sales,-,4.8,2023.05.20,1
+653,  Rahul Kumar  ,Human Resources,N/A,4.0,15/01/2023,true
+654,David Lee,eng,"$110,000",N/A,2023.05.20,true
+655,  John Doe ,,"₹75,000",4.8,invalid_date,FALSE
+656,  Rahul Kumar  ,Human Resources,"$45,000",N/A,invalid_date,true
+657,David Lee,SALES,"$110,000",4.0,"Jan 15, 2023",true
+658,  John Doe ,SALES,"$110,000",4.0,2023-01-15,
+659,BOB JONES  ,,60000,4.8,2023-01-15,TRUE
+660,,HR,60000,3.5,2023.05.20,
+661,Alice Smith,,"₹75,000",3.5,2023-01-15,0
+662,  Rahul Kumar  ,  Finance  ,52000.50,,15/01/2023,0
+663,David Lee,SALES,N/A,,2023.05.20,TRUE
+664,BOB JONES  ,SALES,-,N/A,28-02-2024,FALSE
+665,  Rahul Kumar  ,Human Resources,"₹1,200,000",,15/01/2023,FALSE
+666,  John Doe ,Engineering,"₹75,000",,2023.05.20,FALSE
+667,Maria Garcia,SALES,,3.5,invalid_date,
+668,,,-,,28-02-2024,FALSE
+669,BOB JONES  ,Sales,"₹1,200,000",4.0,28-02-2024,
+670,BOB JONES  ,Engineering,"₹75,000",N/A,2023-01-15,
+671,David Lee,,-,,2023.05.20,0
+672,Alice Smith,eng,"$110,000",N/A,28-02-2024,FALSE
+673,David Lee,Human Resources,"₹1,200,000",4.8,2024-02-28,FALSE
+674,,  Finance  ,"$45,000",3.5,"Jan 15, 2023",0
+675,David Lee,eng,60000,,15/01/2023,0
+676,David Lee,  Finance  ,"$45,000",N/A,2024-02-28,
+677,BOB JONES  ,HR,"₹1,200,000",5,2024-02-28,
+678,,SALES,"$45,000",,2023-01-15,0
+679,BOB JONES  ,Engineering,"$110,000",,invalid_date,
+680,  Rahul Kumar  ,Sales,,N/A,2023.05.20,1
+681,Alice Smith,HR,52000.50,,invalid_date,true
+682,  John Doe ,sales,,5,2023.05.20,yes
+683,Maria Garcia,sales,60000,,28-02-2024,FALSE
+684,BOB JONES  ,eng,"₹75,000",3.5,"Jan 15, 2023",true
+685,David Lee,Sales,"₹75,000",4.0,2024-02-28,yes
+686,David Lee,Sales,"₹1,200,000",4.0,2023.05.20,yes
+687,Alice Smith,Sales,"$110,000",,28-02-2024,
+688,Alice Smith,  Finance  ,60000,4.8,"Jan 15, 2023",yes
+689,  John Doe ,Human Resources,"₹1,200,000",4.8,"Jan 15, 2023",TRUE
+690,Maria Garcia,sales,"$110,000",4.0,15/01/2023,FALSE
+691,Alice Smith,HR,60000,5,2024-02-28,1
+692,David Lee,HR,-,,2024-02-28,yes
+693,BOB JONES  ,  Finance  ,"$110,000",,invalid_date,TRUE
+694,  John Doe ,SALES,"$45,000",3.5,28-02-2024,1
+695,Maria Garcia,HR,-,4.8,15/01/2023,TRUE
+696,David Lee,eng,"$45,000",5,28-02-2024,0
+697,BOB JONES  ,Engineering,52000.50,N/A,2023.05.20,true
+698,David Lee,  Finance  ,"$45,000",5,2024-02-28,1
+699,  Rahul Kumar  ,Engineering,52000.50,4.8,invalid_date,0
+699,,SALES,N/A,4.0,15/01/2023,FALSE
+701,BOB JONES  ,eng,,4.0,15/01/2023,0
+702,Alice Smith,,"$45,000",3.5,2024-02-28,yes
+703,  John Doe ,Sales,"$110,000",4.0,2023.05.20,FALSE
+704,  John Doe ,sales,,5,invalid_date,
+705,  Rahul Kumar  ,Engineering,,4.0,invalid_date,0
+706,David Lee,HR,N/A,4.0,"Jan 15, 2023",0
+707,BOB JONES  ,  Finance  ,"₹75,000",4.0,28-02-2024,FALSE
+708,BOB JONES  ,Sales,52000.50,,invalid_date,1
+709,,Sales,-,N/A,invalid_date,yes
+710,,Sales,N/A,,invalid_date,0
+711,  John Doe ,Engineering,"₹75,000",N/A,2024-02-28,yes
+712,Alice Smith,SALES,52000.50,,15/01/2023,1
+713,  John Doe ,HR,"$45,000",N/A,2023.05.20,true
+714,Alice Smith,Engineering,N/A,4.8,2023-01-15,0
+715,BOB JONES  ,Engineering,,,invalid_date,FALSE
+716,Alice Smith,Engineering,52000.50,4.0,2023.05.20,0
+717,  Rahul Kumar  ,  Finance  ,52000.50,,2024-02-28,true
+718,BOB JONES  ,,"$45,000",4.8,28-02-2024,FALSE
+719,Alice Smith,,-,N/A,2024-02-28,FALSE
+720,  John Doe ,eng,,N/A,2023-01-15,1
+721,  Rahul Kumar  ,HR,"₹75,000",4.8,"Jan 15, 2023",yes
+722,Maria Garcia,eng,"$110,000",4.8,15/01/2023,
+723,Alice Smith,  Finance  ,52000.50,3.5,2023-01-15,yes
+724,Alice Smith,Human Resources,N/A,5,2023-01-15,1
+725,,,"₹1,200,000",3.5,"Jan 15, 2023",
+726,Alice Smith,,"$45,000",4.8,2024-02-28,FALSE
+727,  Rahul Kumar  ,sales,60000,N/A,"Jan 15, 2023",0
+728,BOB JONES  ,  Finance  ,"$110,000",4.0,15/01/2023,0
+729,David Lee,  Finance  ,"₹1,200,000",,invalid_date,FALSE
+730,Alice Smith,,"$45,000",4.8,28-02-2024,yes
+731,,Sales,"₹75,000",4.0,28-02-2024,TRUE
+732,Alice Smith,  Finance  ,"$110,000",,2023-01-15,1
+733,  Rahul Kumar  ,sales,"₹75,000",,2023.05.20,FALSE
+734,  Rahul Kumar  ,  Finance  ,"$45,000",,"Jan 15, 2023",yes
+735,  Rahul Kumar  ,  Finance  ,52000.50,3.5,2023-01-15,FALSE
+736,  John Doe ,SALES,"₹1,200,000",,2023-01-15,true
+737,Maria Garcia,SALES,60000,4.8,"Jan 15, 2023",yes
+738,  Rahul Kumar  ,eng,"₹75,000",N/A,2023-01-15,true
+739,Alice Smith,SALES,60000,3.5,2023-01-15,true
+740,,,,5,invalid_date,0
+741,David Lee,sales,,5,2023.05.20,
+742,  John Doe ,  Finance  ,"$45,000",N/A,28-02-2024,1
+743,  John Doe ,HR,"₹1,200,000",4.0,28-02-2024,1
+744,  John Doe ,Human Resources,,4.8,2024-02-28,FALSE
+745,David Lee,eng,-,,28-02-2024,true
+746,David Lee,Human Resources,,,2023-01-15,0
+747,  John Doe ,HR,52000.50,,28-02-2024,1
+748,  John Doe ,HR,52000.50,4.8,2023.05.20,
+749,BOB JONES  ,SALES,52000.50,3.5,2024-02-28,FALSE
+750,  John Doe ,Sales,"₹1,200,000",,invalid_date,FALSE
+751,,Engineering,N/A,4.8,2023.05.20,1
+752,  John Doe ,Engineering,"$45,000",,2023.05.20,0
+753,Alice Smith,Human Resources,"₹1,200,000",,"Jan 15, 2023",
+754,David Lee,HR,52000.50,,15/01/2023,FALSE
+755,Maria Garcia,SALES,-,,invalid_date,FALSE
+756,  Rahul Kumar  ,sales,"₹1,200,000",,invalid_date,
+757,  John Doe ,SALES,"₹1,200,000",3.5,"Jan 15, 2023",true
+758,,SALES,"₹1,200,000",4.0,2023.05.20,
+759,,SALES,60000,5,15/01/2023,
+760,  Rahul Kumar  ,Human Resources,"₹75,000",5,2023-01-15,yes
+761,  Rahul Kumar  ,sales,52000.50,,invalid_date,
+762,Alice Smith,HR,,3.5,28-02-2024,yes
+763,  Rahul Kumar  ,sales,"$45,000",,"Jan 15, 2023",true
+764,BOB JONES  ,HR,"$45,000",4.0,"Jan 15, 2023",yes
+765,David Lee,,52000.50,4.8,"Jan 15, 2023",true
+766,  John Doe ,sales,52000.50,,28-02-2024,0
+767,BOB JONES  ,  Finance  ,"$110,000",3.5,"Jan 15, 2023",1
+768,BOB JONES  ,Sales,"$45,000",4.8,2023.05.20,FALSE
+769,  Rahul Kumar  ,  Finance  ,,4.8,15/01/2023,TRUE
+770,BOB JONES  ,SALES,60000,5,2024-02-28,FALSE
+771,  John Doe ,sales,"$45,000",,2023.05.20,1
+772,Maria Garcia,HR,-,3.5,2023.05.20,1
+773,,Engineering,"$45,000",4.0,2024-02-28,
+774,  John Doe ,Sales,"$110,000",N/A,2024-02-28,yes
+775,,HR,60000,4.0,15/01/2023,TRUE
+776,BOB JONES  ,SALES,"$45,000",,"Jan 15, 2023",true
+777,Alice Smith,eng,"₹1,200,000",,2023-01-15,1
+778,Alice Smith,,N/A,N/A,"Jan 15, 2023",TRUE
+779,  John Doe ,Engineering,"$110,000",5,15/01/2023,1
+780,BOB JONES  ,Sales,,N/A,15/01/2023,true
+781,David Lee,Sales,"$45,000",N/A,"Jan 15, 2023",0
+782,David Lee,,"₹1,200,000",4.8,15/01/2023,TRUE
+783,  Rahul Kumar  ,Engineering,60000,5,invalid_date,1
+784,BOB JONES  ,Human Resources,N/A,4.0,2023-01-15,TRUE
+785,Alice Smith,sales,60000,3.5,invalid_date,yes
+786,Maria Garcia,HR,,4.0,2024-02-28,1
+787,Maria Garcia,sales,"₹1,200,000",N/A,28-02-2024,yes
+788,Alice Smith,Sales,,,invalid_date,true
+789,Maria Garcia,  Finance  ,52000.50,4.8,invalid_date,true
+790,Alice Smith,eng,,3.5,2023.05.20,1
+791,Alice Smith,Human Resources,,N/A,2023-01-15,TRUE
+792,Maria Garcia,HR,"$45,000",3.5,2023.05.20,yes
+793,BOB JONES  ,eng,"₹1,200,000",,"Jan 15, 2023",TRUE
+794,Alice Smith,sales,"$110,000",,28-02-2024,0
+795,,,"₹75,000",4.8,2023.05.20,true
+796,Maria Garcia,Human Resources,N/A,,2023-01-15,0
+797,  Rahul Kumar  ,Human Resources,,3.5,2023-01-15,true
+798,  John Doe ,Sales,52000.50,N/A,2023-01-15,
+799,  Rahul Kumar  ,sales,"₹1,200,000",,2023-01-15,0
+799,BOB JONES  ,  Finance  ,"$110,000",4.8,invalid_date,1
+801,BOB JONES  ,eng,"$45,000",N/A,invalid_date,FALSE
+802,  Rahul Kumar  ,HR,"$45,000",4.0,28-02-2024,yes
+803,Alice Smith,sales,52000.50,3.5,"Jan 15, 2023",
+804,  John Doe ,,"$45,000",N/A,2024-02-28,1
+805,  Rahul Kumar  ,SALES,"$110,000",3.5,2024-02-28,0
+806,BOB JONES  ,Human Resources,60000,3.5,28-02-2024,
+807,  Rahul Kumar  ,  Finance  ,52000.50,,invalid_date,1
+808,Alice Smith,SALES,60000,3.5,"Jan 15, 2023",
+809,Maria Garcia,Engineering,N/A,4.0,invalid_date,0
+810,Maria Garcia,Human Resources,,4.0,2024-02-28,1
+811,Alice Smith,Engineering,,3.5,"Jan 15, 2023",
+812,BOB JONES  ,  Finance  ,N/A,4.0,2024-02-28,true
+813,,HR,-,,2023.05.20,1
+814,BOB JONES  ,Engineering,,4.0,"Jan 15, 2023",TRUE
+815,Maria Garcia,HR,N/A,3.5,15/01/2023,
+816,  Rahul Kumar  ,Sales,"₹1,200,000",,28-02-2024,1
+817,,eng,52000.50,4.0,invalid_date,yes
+818,  Rahul Kumar  ,SALES,"$45,000",4.0,28-02-2024,true
+819,Alice Smith,sales,60000,4.0,2024-02-28,0
+820,Maria Garcia,Sales,52000.50,4.0,2024-02-28,
+821,David Lee,SALES,,N/A,invalid_date,FALSE
+822,David Lee,  Finance  ,"$45,000",,15/01/2023,0
+823,David Lee,Human Resources,"$45,000",3.5,2024-02-28,1
+824,Alice Smith,Sales,"$110,000",,28-02-2024,TRUE
+825,  John Doe ,,N/A,3.5,2023-01-15,
+826,,Human Resources,"₹1,200,000",5,2024-02-28,0
+827,Maria Garcia,HR,52000.50,4.0,15/01/2023,FALSE
+828,Maria Garcia,Engineering,"₹1,200,000",5,15/01/2023,yes
+829,David Lee,eng,60000,3.5,2023.05.20,FALSE
+830,BOB JONES  ,  Finance  ,60000,,15/01/2023,FALSE
+831,David Lee,Sales,N/A,,2024-02-28,true
+832,Maria Garcia,sales,"₹1,200,000",,"Jan 15, 2023",
+833,Alice Smith,Engineering,,3.5,28-02-2024,0
+834,  Rahul Kumar  ,Human Resources,"₹75,000",N/A,2023-01-15,FALSE
+835,  John Doe ,,"₹75,000",5,"Jan 15, 2023",1
+836,BOB JONES  ,SALES,"₹1,200,000",,"Jan 15, 2023",0
+837,Alice Smith,  Finance  ,"$45,000",3.5,"Jan 15, 2023",TRUE
+838,  John Doe ,SALES,52000.50,4.0,28-02-2024,yes
+839,,SALES,,5,"Jan 15, 2023",TRUE
+840,  John Doe ,Human Resources,60000,5,2023.05.20,0
+841,  John Doe ,Engineering,,N/A,15/01/2023,0
+842,David Lee,sales,52000.50,,2024-02-28,yes
+843,David Lee,eng,"$45,000",,15/01/2023,yes
+844,David Lee,HR,"₹1,200,000",3.5,2023.05.20,FALSE
+845,  Rahul Kumar  ,  Finance  ,60000,N/A,2024-02-28,true
+846,  John Doe ,Sales,"₹75,000",3.5,2023-01-15,FALSE
+847,BOB JONES  ,HR,N/A,3.5,"Jan 15, 2023",
+848,Maria Garcia,eng,N/A,N/A,2023.05.20,
+849,  John Doe ,Engineering,,3.5,2024-02-28,yes
+850,  John Doe ,  Finance  ,N/A,5,"Jan 15, 2023",FALSE
+851,  John Doe ,  Finance  ,60000,4.0,15/01/2023,FALSE
+852,BOB JONES  ,Engineering,52000.50,5,15/01/2023,yes
+853,Alice Smith,Engineering,"$45,000",,"Jan 15, 2023",
+854,Maria Garcia,Human Resources,60000,,2024-02-28,TRUE
+855,David Lee,  Finance  ,60000,5,2023.05.20,
+856,  Rahul Kumar  ,Engineering,"₹75,000",N/A,2024-02-28,1
+857,,,-,4.0,2024-02-28,0
+858,  John Doe ,,"$110,000",4.0,"Jan 15, 2023",true
+859,  Rahul Kumar  ,HR,"$110,000",4.0,invalid_date,1
+860,David Lee,,"₹1,200,000",4.8,15/01/2023,true
+861,BOB JONES  ,Engineering,N/A,N/A,2023-01-15,FALSE
+862,,Engineering,N/A,4.0,2023.05.20,
+863,,SALES,"$110,000",4.0,"Jan 15, 2023",1
+864,BOB JONES  ,,52000.50,3.5,"Jan 15, 2023",TRUE
+865,  John Doe ,HR,N/A,4.8,2024-02-28,
+866,  Rahul Kumar  ,Human Resources,"$45,000",3.5,invalid_date,true
+867,David Lee,  Finance  ,"₹1,200,000",,15/01/2023,FALSE
+868,Maria Garcia,  Finance  ,-,,28-02-2024,yes
+869,Maria Garcia,,"$45,000",,2023.05.20,true
+870,BOB JONES  ,HR,"₹1,200,000",,2023-01-15,TRUE
+871,Maria Garcia,sales,"₹1,200,000",N/A,2023-01-15,yes
+872,BOB JONES  ,HR,"$45,000",4.0,2023.05.20,1
+873,Maria Garcia,SALES,60000,4.0,2023-01-15,1
+874,Maria Garcia,eng,60000,3.5,15/01/2023,TRUE
+875,Maria Garcia,Human Resources,-,5,invalid_date,yes
+876,Maria Garcia,  Finance  ,-,N/A,2023-01-15,0
+877,Alice Smith,eng,52000.50,,"Jan 15, 2023",0
+878,BOB JONES  ,  Finance  ,"₹1,200,000",,2024-02-28,yes
+879,David Lee,SALES,52000.50,5,2024-02-28,0
+880,  Rahul Kumar  ,Human Resources,"$110,000",,15/01/2023,yes
+881,  Rahul Kumar  ,Human Resources,"₹75,000",4.0,2023-01-15,
+882,BOB JONES  ,HR,"₹1,200,000",5,28-02-2024,yes
+883,Maria Garcia,eng,"$45,000",4.8,invalid_date,1
+884,,Sales,"$110,000",,2024-02-28,FALSE
+885,Alice Smith,HR,"₹75,000",,invalid_date,0
+886,  John Doe ,sales,-,,"Jan 15, 2023",yes
+887,BOB JONES  ,SALES,60000,5,2024-02-28,FALSE
+888,  John Doe ,Engineering,"$110,000",4.0,"Jan 15, 2023",0
+889,  Rahul Kumar  ,Sales,N/A,5,2023.05.20,yes
+890,  Rahul Kumar  ,Engineering,52000.50,N/A,15/01/2023,FALSE
+891,BOB JONES  ,Sales,60000,,2023.05.20,FALSE
+892,Maria Garcia,SALES,"$110,000",4.0,28-02-2024,0
+893,,sales,N/A,3.5,15/01/2023,1
+894,David Lee,Sales,52000.50,,28-02-2024,FALSE
+895,Maria Garcia,,-,3.5,"Jan 15, 2023",
+896,  John Doe ,SALES,"$45,000",,2023-01-15,TRUE
+897,,Sales,"$110,000",5,2023.05.20,true
+898,,Human Resources,,4.8,15/01/2023,0
+899,Alice Smith,  Finance  ,N/A,5,2023.05.20,TRUE
+899,  John Doe ,HR,-,N/A,2024-02-28,1
+901,  Rahul Kumar  ,  Finance  ,52000.50,N/A,28-02-2024,1
+902,  John Doe ,Sales,,3.5,2023-01-15,
+903,  John Doe ,HR,60000,3.5,15/01/2023,1
+904,  John Doe ,  Finance  ,"$110,000",,2023.05.20,yes
+905,  Rahul Kumar  ,Human Resources,"₹75,000",N/A,invalid_date,yes
+906,,Human Resources,N/A,4.8,15/01/2023,true
+907,  Rahul Kumar  ,Engineering,"₹1,200,000",4.0,15/01/2023,TRUE
+908,  John Doe ,  Finance  ,N/A,5,2023.05.20,TRUE
+909,Alice Smith,sales,"$45,000",5,2023.05.20,yes
+910,Alice Smith,HR,52000.50,4.0,invalid_date,yes
+911,BOB JONES  ,sales,N/A,4.8,2023-01-15,true
+912,Maria Garcia,HR,"₹1,200,000",,28-02-2024,FALSE
+913,  Rahul Kumar  ,,"$45,000",4.0,2023.05.20,
+914,Alice Smith,Sales,52000.50,4.8,15/01/2023,1
+915,  John Doe ,SALES,"$45,000",N/A,invalid_date,yes
+916,,HR,-,4.8,2024-02-28,yes
+917,Maria Garcia,Sales,"$45,000",4.8,2023.05.20,1
+918,David Lee,,"₹1,200,000",3.5,28-02-2024,TRUE
+919,Alice Smith,,"$45,000",N/A,2023.05.20,TRUE
+920,Alice Smith,eng,"₹75,000",3.5,2023.05.20,true
+921,  Rahul Kumar  ,Human Resources,"₹75,000",3.5,2023-01-15,TRUE
+922,  Rahul Kumar  ,Engineering,"$45,000",3.5,"Jan 15, 2023",true
+923,BOB JONES  ,SALES,"₹1,200,000",N/A,2023-01-15,TRUE
+924,,HR,"$110,000",3.5,invalid_date,FALSE
+925,Maria Garcia,Engineering,,,28-02-2024,1
+926,  John Doe ,Human Resources,60000,,invalid_date,1
+927,,sales,N/A,4.8,2023.05.20,1
+928,Maria Garcia,Sales,-,5,invalid_date,true
+929,Alice Smith,SALES,"₹75,000",,invalid_date,true
+930,  Rahul Kumar  ,HR,"₹1,200,000",5,2024-02-28,FALSE
+931,BOB JONES  ,Engineering,,N/A,15/01/2023,true
+932,BOB JONES  ,Human Resources,60000,,"Jan 15, 2023",TRUE
+933,  Rahul Kumar  ,HR,"₹75,000",5,28-02-2024,FALSE
+934,Maria Garcia,Engineering,"₹75,000",N/A,2024-02-28,FALSE
+935,Alice Smith,  Finance  ,,5,invalid_date,
+936,  Rahul Kumar  ,HR,"$110,000",N/A,2023.05.20,0
+937,,Human Resources,"₹1,200,000",,15/01/2023,yes
+938,David Lee,HR,"$110,000",N/A,invalid_date,
+939,  John Doe ,,-,,2024-02-28,FALSE
+940,David Lee,Human Resources,"$110,000",4.8,15/01/2023,TRUE
+941,Maria Garcia,Engineering,N/A,N/A,2023.05.20,FALSE
+942,,Human Resources,N/A,,28-02-2024,FALSE
+943,  John Doe ,sales,"$45,000",4.8,2023-01-15,0
+944,  John Doe ,,N/A,,15/01/2023,0
+945,David Lee,Human Resources,N/A,3.5,2024-02-28,TRUE
+946,Alice Smith,SALES,"$45,000",4.8,invalid_date,true
+947,BOB JONES  ,HR,"₹1,200,000",,invalid_date,FALSE
+948,  John Doe ,,52000.50,4.8,15/01/2023,yes
+949,,SALES,"₹1,200,000",4.0,2024-02-28,FALSE
+950,Alice Smith,  Finance  ,"$110,000",,2023-01-15,yes
+951,David Lee,  Finance  ,"$45,000",5,15/01/2023,1
+952,  John Doe ,sales,"₹1,200,000",,2024-02-28,FALSE
+953,Alice Smith,Human Resources,"₹75,000",3.5,invalid_date,0
+954,  Rahul Kumar  ,Sales,-,5,2024-02-28,TRUE
+955,,Human Resources,52000.50,,15/01/2023,true
+956,Alice Smith,Engineering,"$110,000",5,2024-02-28,true
+957,Maria Garcia,HR,N/A,,2023-01-15,TRUE
+958,,  Finance  ,52000.50,3.5,2023-01-15,TRUE
+959,,SALES,"$45,000",,2024-02-28,true
+960,,  Finance  ,60000,4.0,2023-01-15,yes
+961,Alice Smith,sales,"₹1,200,000",4.8,2024-02-28,0
+962,David Lee,sales,52000.50,N/A,invalid_date,true
+963,David Lee,  Finance  ,52000.50,4.0,"Jan 15, 2023",
+964,  John Doe ,HR,,5,15/01/2023,1
+965,BOB JONES  ,Human Resources,60000,4.0,28-02-2024,true
+966,Maria Garcia,Human Resources,60000,4.8,15/01/2023,FALSE
+967,David Lee,Human Resources,"$110,000",,15/01/2023,FALSE
+968,  John Doe ,  Finance  ,N/A,4.0,2024-02-28,yes
+969,Maria Garcia,Engineering,52000.50,N/A,2024-02-28,FALSE
+970,  John Doe ,SALES,60000,N/A,2023-01-15,TRUE
+971,Alice Smith,Engineering,"₹1,200,000",3.5,2024-02-28,
+972,,Human Resources,"$45,000",N/A,28-02-2024,
+973,David Lee,Engineering,"₹75,000",4.8,2023-01-15,yes
+974,David Lee,Engineering,52000.50,5,2023-01-15,true
+975,Alice Smith,Engineering,52000.50,N/A,2023-01-15,FALSE
+976,  Rahul Kumar  ,eng,-,,"Jan 15, 2023",0
+977,David Lee,  Finance  ,-,,2023-01-15,0
+978,,HR,60000,4.0,28-02-2024,FALSE
+979,David Lee,HR,,N/A,2023.05.20,true
+980,BOB JONES  ,Sales,"$110,000",5,2024-02-28,TRUE
+981,Alice Smith,SALES,60000,,2024-02-28,
+982,Alice Smith,  Finance  ,"$45,000",N/A,2023-01-15,true
+983,  John Doe ,Engineering,N/A,5,"Jan 15, 2023",1
+984,Alice Smith,Sales,"₹75,000",4.8,2024-02-28,
+985,Alice Smith,Engineering,-,N/A,15/01/2023,
+986,Alice Smith,SALES,"$110,000",4.8,2023-01-15,
+987,  Rahul Kumar  ,Sales,"₹75,000",4.0,invalid_date,TRUE
+988,  Rahul Kumar  ,eng,,N/A,15/01/2023,0
+989,Maria Garcia,eng,-,N/A,28-02-2024,
+990,  John Doe ,Engineering,"$45,000",,2023-01-15,yes
+991,Maria Garcia,sales,52000.50,4.8,2023.05.20,FALSE
+992,David Lee,Sales,"$110,000",,28-02-2024,TRUE
+993,Maria Garcia,HR,"$110,000",3.5,15/01/2023,TRUE
+994,David Lee,  Finance  ,N/A,5,15/01/2023,yes
+995,Maria Garcia,SALES,52000.50,4.8,28-02-2024,TRUE
+996,Maria Garcia,,,,2023.05.20,yes
+997,Alice Smith,  Finance  ,-,,15/01/2023,FALSE
+998,Maria Garcia,Human Resources,,N/A,2024-02-28,yes
+999,David Lee,Sales,"₹1,200,000",4.0,28-02-2024,0
+999,BOB JONES  ,SALES,"₹75,000",N/A,2023-01-15,0
+1001,,,52000.50,3.5,2023.05.20,FALSE
+1002,  Rahul Kumar  ,SALES,52000.50,,2023.05.20,FALSE
+1003,,HR,52000.50,,"Jan 15, 2023",true
+1004,David Lee,Sales,-,5,2023.05.20,FALSE
+1005,  John Doe ,  Finance  ,52000.50,4.8,28-02-2024,
+1006,Alice Smith,Human Resources,"₹1,200,000",4.8,2023.05.20,1
+1007,Alice Smith,,"$45,000",4.8,15/01/2023,0
+1008,  John Doe ,Engineering,"$110,000",3.5,2023-01-15,
+1009,  John Doe ,eng,"$110,000",,2023-01-15,
+1010,David Lee,HR,"₹75,000",3.5,2023-01-15,TRUE
+1011,  Rahul Kumar  ,HR,"$45,000",3.5,invalid_date,
+1012,,,"₹1,200,000",4.0,2023.05.20,1
+1013,,Human Resources,60000,5,2023-01-15,yes
+1014,Maria Garcia,HR,60000,,2023-01-15,1
+1015,  Rahul Kumar  ,Engineering,-,,"Jan 15, 2023",TRUE
+1016,BOB JONES  ,  Finance  ,60000,4.0,invalid_date,yes
+1017,BOB JONES  ,SALES,N/A,,2023.05.20,1
+1018,Alice Smith,HR,,N/A,2023-01-15,FALSE
+1019,,HR,"₹1,200,000",,"Jan 15, 2023",yes
+1020,BOB JONES  ,sales,,4.8,2023.05.20,0
+1021,,HR,"$110,000",4.0,2024-02-28,TRUE
+1022,,Human Resources,"$45,000",,15/01/2023,true
+1023,David Lee,,,N/A,invalid_date,1
+1024,David Lee,,"₹1,200,000",N/A,28-02-2024,FALSE
+1025,BOB JONES  ,sales,"₹1,200,000",4.0,2023.05.20,
+1026,Alice Smith,HR,60000,N/A,invalid_date,true
+1027,  Rahul Kumar  ,Sales,,4.0,28-02-2024,true
+1028,  John Doe ,eng,52000.50,,28-02-2024,0
+1029,  John Doe ,SALES,-,4.0,2023-01-15,TRUE
+1030,David Lee,SALES,,N/A,2023-01-15,1
+1031,Alice Smith,Human Resources,,3.5,invalid_date,yes
+1032,  Rahul Kumar  ,SALES,-,4.0,"Jan 15, 2023",yes
+1033,Maria Garcia,Sales,"₹1,200,000",,invalid_date,0
+1034,BOB JONES  ,Sales,"$110,000",3.5,2023.05.20,TRUE
+1035,Alice Smith,sales,60000,3.5,2023.05.20,FALSE
+1036,  Rahul Kumar  ,,,,2024-02-28,0
+1037,  John Doe ,Human Resources,60000,5,2023.05.20,yes
+1038,  Rahul Kumar  ,,"₹1,200,000",4.8,28-02-2024,true
+1039,Alice Smith,Engineering,52000.50,N/A,28-02-2024,1
+1040,BOB JONES  ,eng,"$110,000",3.5,2023-01-15,yes
+1041,  Rahul Kumar  ,HR,N/A,N/A,2024-02-28,1
+1042,David Lee,  Finance  ,"₹75,000",,28-02-2024,TRUE
+1043,Maria Garcia,Sales,N/A,N/A,"Jan 15, 2023",0
+1044,David Lee,eng,"₹75,000",4.8,15/01/2023,yes
+1045,  John Doe ,eng,-,,2023-01-15,0
+1046,David Lee,,52000.50,3.5,28-02-2024,true
+1047,Alice Smith,sales,,3.5,2024-02-28,yes
+1048,,  Finance  ,"$45,000",4.8,28-02-2024,FALSE
+1049,  John Doe ,HR,"$110,000",,2023-01-15,TRUE
+1050,  John Doe ,  Finance  ,60000,5,2023-01-15,yes
+1051,Maria Garcia,,-,3.5,2023.05.20,1
+1052,David Lee,Sales,"$110,000",4.8,2023-01-15,TRUE
+1053,BOB JONES  ,,N/A,4.8,"Jan 15, 2023",TRUE
+1054,David Lee,SALES,,4.0,2023.05.20,
+1055,Alice Smith,eng,60000,N/A,invalid_date,FALSE
+1056,  John Doe ,sales,"$110,000",5,28-02-2024,
+1057,BOB JONES  ,  Finance  ,60000,,"Jan 15, 2023",FALSE
+1058,David Lee,Engineering,60000,4.8,28-02-2024,FALSE
+1059,BOB JONES  ,  Finance  ,N/A,,invalid_date,1
+1060,  Rahul Kumar  ,sales,52000.50,4.0,2023.05.20,1
+1061,  Rahul Kumar  ,Engineering,52000.50,4.8,"Jan 15, 2023",
+1062,  Rahul Kumar  ,SALES,52000.50,N/A,invalid_date,TRUE
+1063,  Rahul Kumar  ,  Finance  ,"₹75,000",5,invalid_date,1
+1064,Maria Garcia,  Finance  ,-,5,invalid_date,
+1065,  Rahul Kumar  ,SALES,60000,4.8,2024-02-28,
+1066,Maria Garcia,Human Resources,,3.5,2023.05.20,true
+1067,BOB JONES  ,  Finance  ,"₹1,200,000",4.8,28-02-2024,0
+1068,  John Doe ,Engineering,"₹75,000",4.8,2024-02-28,1
+1069,Maria Garcia,Engineering,"$110,000",5,2024-02-28,yes
+1070,Alice Smith,sales,52000.50,,2023.05.20,
+1071,  John Doe ,Human Resources,60000,N/A,"Jan 15, 2023",
+1072,David Lee,eng,N/A,5,2024-02-28,true
+1073,,  Finance  ,60000,4.8,"Jan 15, 2023",1
+1074,David Lee,  Finance  ,"$110,000",N/A,invalid_date,FALSE
+1075,  Rahul Kumar  ,  Finance  ,-,3.5,2023-01-15,FALSE
+1076,BOB JONES  ,,52000.50,,15/01/2023,0
+1077,Alice Smith,Human Resources,52000.50,N/A,invalid_date,
+1078,,Human Resources,"$45,000",3.5,"Jan 15, 2023",1
+1079,Maria Garcia,sales,-,,2024-02-28,FALSE
+1080,  Rahul Kumar  ,  Finance  ,"₹1,200,000",,28-02-2024,TRUE
+1081,  Rahul Kumar  ,eng,N/A,4.8,invalid_date,1
+1082,David Lee,Human Resources,"₹75,000",4.8,2023-01-15,FALSE
+1083,,  Finance  ,"₹1,200,000",,"Jan 15, 2023",TRUE
+1084,  Rahul Kumar  ,eng,"₹75,000",,15/01/2023,yes
+1085,BOB JONES  ,Sales,-,,15/01/2023,1
+1086,Alice Smith,Engineering,60000,4.0,2023.05.20,yes
+1087,  Rahul Kumar  ,  Finance  ,52000.50,,2024-02-28,TRUE
+1088,BOB JONES  ,  Finance  ,60000,3.5,invalid_date,yes
+1089,BOB JONES  ,HR,52000.50,4.0,2024-02-28,yes
+1090,  John Doe ,Human Resources,"₹75,000",5,28-02-2024,1
+1091,  Rahul Kumar  ,Engineering,N/A,4.8,2024-02-28,true
+1092,Alice Smith,  Finance  ,"₹75,000",N/A,28-02-2024,TRUE
+1093,BOB JONES  ,HR,N/A,,2023.05.20,TRUE
+1094,  John Doe ,Human Resources,,N/A,2023.05.20,true
+1095,,Sales,60000,,invalid_date,yes
+1096,David Lee,SALES,"$45,000",,"Jan 15, 2023",0
+1097,Maria Garcia,Engineering,52000.50,5,28-02-2024,1
+1098,  John Doe ,  Finance  ,"$110,000",4.0,28-02-2024,FALSE
+1099,,SALES,"₹1,200,000",3.5,2024-02-28,true
+1099,David Lee,,,4.0,28-02-2024,
+1101,,Human Resources,52000.50,3.5,2023-01-15,0
+1102,  Rahul Kumar  ,Human Resources,,5,15/01/2023,1
+1103,BOB JONES  ,Sales,"₹1,200,000",5,28-02-2024,0
+1104,BOB JONES  ,,,,28-02-2024,
+1105,  John Doe ,Human Resources,,4.0,2023-01-15,1
+1106,Alice Smith,SALES,,3.5,15/01/2023,yes
+1107,Maria Garcia,Engineering,"₹75,000",,2023.05.20,
+1108,Maria Garcia,eng,60000,,2023.05.20,FALSE
+1109,  Rahul Kumar  ,eng,52000.50,5,invalid_date,0
+1110,  Rahul Kumar  ,  Finance  ,60000,4.8,15/01/2023,yes
+1111,BOB JONES  ,,"₹75,000",4.8,2023-01-15,0
+1112,Maria Garcia,HR,"$45,000",,"Jan 15, 2023",FALSE
+1113,  John Doe ,HR,52000.50,3.5,2023.05.20,1
+1114,Maria Garcia,Sales,-,N/A,2024-02-28,1
+1115,  Rahul Kumar  ,,"₹1,200,000",4.8,15/01/2023,0
+1116,BOB JONES  ,Sales,"₹1,200,000",,2024-02-28,0
+1117,Alice Smith,SALES,,,"Jan 15, 2023",1
+1118,Maria Garcia,,,,invalid_date,true
+1119,Alice Smith,SALES,,3.5,2024-02-28,yes
+1120,  John Doe ,Sales,,4.0,15/01/2023,
+1121,,,"₹75,000",N/A,"Jan 15, 2023",TRUE
+1122,Alice Smith,Engineering,N/A,N/A,2024-02-28,yes
+1123,Maria Garcia,HR,52000.50,4.0,2023.05.20,yes
+1124,,,52000.50,4.8,invalid_date,FALSE
+1125,,eng,-,4.8,invalid_date,TRUE
+1126,David Lee,,"$110,000",5,2024-02-28,
+1127,  Rahul Kumar  ,sales,52000.50,N/A,2024-02-28,
+1128,Alice Smith,Engineering,"₹75,000",,2024-02-28,0
+1129,  John Doe ,Human Resources,"₹1,200,000",,2024-02-28,yes
+1130,David Lee,eng,"₹1,200,000",4.8,2024-02-28,FALSE
+1131,David Lee,Engineering,52000.50,4.8,2023.05.20,yes
+1132,Alice Smith,,,,28-02-2024,true
+1133,  Rahul Kumar  ,SALES,60000,5,2023-01-15,yes
+1134,David Lee,  Finance  ,"₹1,200,000",5,2023.05.20,true
+1135,  John Doe ,,N/A,4.0,invalid_date,
+1136,  Rahul Kumar  ,HR,"$45,000",5,28-02-2024,yes
+1137,  John Doe ,SALES,52000.50,5,invalid_date,TRUE
+1138,David Lee,Sales,N/A,,2023.05.20,
+1139,Alice Smith,Human Resources,52000.50,4.0,2024-02-28,TRUE
+1140,  John Doe ,HR,N/A,5,2023-01-15,true
+1141,  John Doe ,eng,"₹75,000",,15/01/2023,0
+1142,Alice Smith,,"$110,000",,2023.05.20,true
+1143,  John Doe ,eng,"₹75,000",,2024-02-28,0
+1144,  Rahul Kumar  ,eng,60000,,2023.05.20,0
+1145,David Lee,HR,"₹75,000",3.5,invalid_date,1
+1146,David Lee,,"$45,000",,15/01/2023,TRUE
+1147,Alice Smith,Engineering,"₹75,000",4.8,2024-02-28,
+1148,David Lee,SALES,"₹75,000",,2024-02-28,0
+1149,David Lee,,"$45,000",N/A,2023.05.20,TRUE
+1150,Alice Smith,eng,60000,3.5,2023-01-15,FALSE
+1151,David Lee,eng,52000.50,4.8,2024-02-28,0
+1152,  Rahul Kumar  ,  Finance  ,52000.50,3.5,28-02-2024,FALSE
+1153,  Rahul Kumar  ,Sales,"$110,000",4.8,2023.05.20,true
+1154,Maria Garcia,Engineering,,3.5,2023-01-15,yes
+1155,David Lee,HR,,4.8,28-02-2024,1
+1156,Maria Garcia,Engineering,60000,,"Jan 15, 2023",
+1157,BOB JONES  ,eng,"$45,000",,"Jan 15, 2023",true
+1158,Maria Garcia,Sales,"$110,000",4.8,2023.05.20,FALSE
+1159,  John Doe ,HR,N/A,,2023-01-15,
+1160,  Rahul Kumar  ,,-,,15/01/2023,TRUE
+1161,Maria Garcia,  Finance  ,60000,,28-02-2024,FALSE
+1162,Maria Garcia,SALES,60000,N/A,15/01/2023,true
+1163,David Lee,eng,"$110,000",5,2023-01-15,FALSE
+1164,BOB JONES  ,eng,"$110,000",3.5,2024-02-28,yes
+1165,Alice Smith,SALES,"₹1,200,000",4.8,15/01/2023,TRUE
+1166,David Lee,  Finance  ,"$110,000",,2024-02-28,0
+1167,David Lee,Human Resources,"₹1,200,000",,2024-02-28,1
+1168,David Lee,Sales,"$45,000",3.5,2024-02-28,FALSE
+1169,David Lee,eng,"₹1,200,000",,2024-02-28,
+1170,David Lee,Human Resources,"$110,000",N/A,invalid_date,
+1171,David Lee,HR,52000.50,4.8,invalid_date,yes
+1172,  John Doe ,  Finance  ,"₹75,000",4.0,"Jan 15, 2023",
+1173,  John Doe ,,N/A,,2023.05.20,yes
+1174,BOB JONES  ,SALES,"$45,000",,2024-02-28,1
+1175,Maria Garcia,SALES,60000,,"Jan 15, 2023",
+1176,Maria Garcia,sales,,3.5,15/01/2023,0
+1177,,,,,2023-01-15,
+1178,David Lee,eng,52000.50,5,2023-01-15,TRUE
+1179,BOB JONES  ,HR,,4.0,2023.05.20,TRUE
+1180,  Rahul Kumar  ,Human Resources,"$45,000",3.5,2024-02-28,yes
+1181,BOB JONES  ,Sales,"₹1,200,000",,28-02-2024,FALSE
+1182,Maria Garcia,HR,60000,4.0,28-02-2024,TRUE
+1183,Maria Garcia,,"$45,000",5,2023.05.20,yes
+1184,Maria Garcia,eng,,3.5,invalid_date,FALSE
+1185,Alice Smith,Sales,"₹75,000",5,15/01/2023,0
+1186,David Lee,Human Resources,,4.8,15/01/2023,
+1187,,Human Resources,52000.50,4.0,2023.05.20,TRUE
+1188,  Rahul Kumar  ,sales,52000.50,4.8,"Jan 15, 2023",FALSE
+1189,,Human Resources,-,5,15/01/2023,yes
+1190,Alice Smith,,"₹1,200,000",,invalid_date,TRUE
+1191,David Lee,,N/A,,2023-01-15,0
+1192,BOB JONES  ,  Finance  ,"$110,000",4.0,28-02-2024,
+1193,David Lee,Engineering,,3.5,15/01/2023,yes
+1194,,  Finance  ,"$45,000",,28-02-2024,FALSE
+1195,BOB JONES  ,Human Resources,"₹75,000",N/A,2023.05.20,yes
+1196,David Lee,  Finance  ,"₹75,000",,2023.05.20,
+1197,BOB JONES  ,sales,,3.5,"Jan 15, 2023",yes
+1198,  John Doe ,eng,"₹75,000",4.0,invalid_date,0
+1199,Alice Smith,Human Resources,52000.50,,15/01/2023,true
+1199,  Rahul Kumar  ,Sales,60000,N/A,2023.05.20,FALSE
+1201,,,"$45,000",,28-02-2024,TRUE
+1202,Alice Smith,eng,"₹1,200,000",4.0,2024-02-28,
+1203,  John Doe ,Human Resources,"₹1,200,000",4.0,invalid_date,0
+1204,Maria Garcia,Human Resources,"₹1,200,000",4.8,2023-01-15,FALSE
+1205,Maria Garcia,HR,52000.50,5,28-02-2024,yes
+1206,Maria Garcia,Sales,52000.50,,invalid_date,
+1207,David Lee,SALES,"₹1,200,000",4.8,invalid_date,FALSE
+1208,  John Doe ,eng,52000.50,N/A,15/01/2023,FALSE
+1209,Maria Garcia,HR,"$45,000",4.8,15/01/2023,TRUE
+1210,  Rahul Kumar  ,Engineering,52000.50,,2023.05.20,
+1211,,Sales,"₹75,000",4.8,2023.05.20,
+1212,,  Finance  ,"₹75,000",4.8,2023-01-15,TRUE
+1213,David Lee,,,N/A,invalid_date,0
+1214,Alice Smith,  Finance  ,"$45,000",4.0,15/01/2023,0
+1215,,SALES,N/A,,invalid_date,FALSE
+1216,  John Doe ,Engineering,"$110,000",3.5,"Jan 15, 2023",true
+1217,Maria Garcia,eng,-,4.8,2023.05.20,0
+1218,Maria Garcia,Human Resources,52000.50,N/A,28-02-2024,1
+1219,  John Doe ,,"₹75,000",N/A,15/01/2023,yes
+1220,BOB JONES  ,,N/A,,invalid_date,true
+1221,Maria Garcia,  Finance  ,-,N/A,"Jan 15, 2023",
+1222,Maria Garcia,SALES,60000,5,2024-02-28,
+1223,  John Doe ,sales,60000,4.8,2024-02-28,yes
+1224,Maria Garcia,HR,-,5,28-02-2024,FALSE
+1225,David Lee,Human Resources,52000.50,4.0,2023.05.20,TRUE
+1226,David Lee,sales,52000.50,4.8,2023-01-15,
+1227,Maria Garcia,Sales,,5,2023-01-15,yes
+1228,BOB JONES  ,Sales,,,2023-01-15,yes
+1229,  John Doe ,Engineering,"₹1,200,000",5,2023-01-15,true
+1230,BOB JONES  ,SALES,N/A,4.0,invalid_date,TRUE
+1231,Maria Garcia,eng,-,4.0,28-02-2024,0
+1232,David Lee,,N/A,4.8,"Jan 15, 2023",1
+1233,Alice Smith,  Finance  ,60000,4.8,"Jan 15, 2023",0
+1234,,  Finance  ,-,,15/01/2023,
+1235,  Rahul Kumar  ,,"₹1,200,000",,2024-02-28,FALSE
+1236,David Lee,SALES,"$45,000",3.5,"Jan 15, 2023",FALSE
+1237,Alice Smith,SALES,52000.50,5,invalid_date,
+1238,,SALES,-,,invalid_date,0
+1239,David Lee,Human Resources,,5,2024-02-28,1
+1240,  John Doe ,Human Resources,"$110,000",3.5,2023-01-15,
+1241,  John Doe ,Human Resources,-,4.8,invalid_date,yes
+1242,BOB JONES  ,sales,"₹75,000",4.8,2023-01-15,true
+1243,BOB JONES  ,HR,-,N/A,2023-01-15,
+1244,,,"$45,000",,2024-02-28,0
+1245,,Sales,"$110,000",5,2024-02-28,TRUE
+1246,BOB JONES  ,Human Resources,"₹1,200,000",5,2024-02-28,
+1247,Alice Smith,sales,52000.50,5,2023-01-15,TRUE
+1248,  Rahul Kumar  ,eng,52000.50,N/A,2023-01-15,TRUE
+1249,David Lee,Human Resources,52000.50,,invalid_date,FALSE
+1250,Alice Smith,  Finance  ,,4.0,28-02-2024,
+1251,Alice Smith,Human Resources,"₹75,000",3.5,invalid_date,0
+1252,  Rahul Kumar  ,  Finance  ,,5,15/01/2023,
+1253,  John Doe ,sales,"$110,000",4.0,2024-02-28,TRUE
+1254,David Lee,sales,"$110,000",4.8,2023-01-15,yes
+1255,  Rahul Kumar  ,Sales,"$45,000",4.8,28-02-2024,yes
+1256,Alice Smith,sales,-,4.0,"Jan 15, 2023",yes
+1257,David Lee,Sales,"$45,000",N/A,15/01/2023,1
+1258,  Rahul Kumar  ,  Finance  ,"₹75,000",5,2023-01-15,true
+1259,  John Doe ,Sales,-,4.8,2024-02-28,1
+1260,  John Doe ,sales,,5,invalid_date,FALSE
+1261,  John Doe ,Sales,-,4.0,invalid_date,FALSE
+1262,,eng,60000,4.0,15/01/2023,1
+1263,BOB JONES  ,eng,52000.50,,15/01/2023,1
+1264,  Rahul Kumar  ,SALES,52000.50,4.0,2024-02-28,
+1265,  John Doe ,SALES,N/A,4.0,28-02-2024,TRUE
+1266,Alice Smith,HR,,,2024-02-28,true
+1267,Alice Smith,Sales,52000.50,5,2024-02-28,TRUE
+1268,Alice Smith,SALES,60000,5,2023.05.20,0
+1269,  Rahul Kumar  ,Sales,N/A,,2024-02-28,0
+1270,David Lee,  Finance  ,N/A,4.8,2023.05.20,0
+1271,,Engineering,"$45,000",N/A,2024-02-28,0
+1272,  Rahul Kumar  ,sales,"₹75,000",,2023-01-15,
+1273,David Lee,  Finance  ,,3.5,28-02-2024,0
+1274,,,"₹1,200,000",5,28-02-2024,yes
+1275,Maria Garcia,,N/A,4.8,15/01/2023,true
+1276,BOB JONES  ,Engineering,52000.50,4.8,2024-02-28,
+1277,Maria Garcia,,N/A,4.0,2023.05.20,TRUE
+1278,,sales,"₹75,000",N/A,28-02-2024,0
+1279,  John Doe ,Engineering,52000.50,,2023.05.20,
+1280,  John Doe ,Engineering,"$110,000",4.0,2023.05.20,0
+1281,BOB JONES  ,Sales,"$110,000",3.5,"Jan 15, 2023",TRUE
+1282,Alice Smith,Engineering,-,3.5,28-02-2024,
+1283,  John Doe ,Human Resources,52000.50,,2024-02-28,0
+1284,,  Finance  ,,,28-02-2024,1
+1285,,HR,"₹1,200,000",,15/01/2023,yes
+1286,,SALES,-,,15/01/2023,TRUE
+1287,Alice Smith,eng,60000,,2023.05.20,
+1288,,Sales,60000,5,28-02-2024,true
+1289,Alice Smith,SALES,"$110,000",N/A,invalid_date,true
+1290,Maria Garcia,SALES,,5,2023-01-15,true
+1291,Alice Smith,eng,"$45,000",3.5,invalid_date,0
+1292,Maria Garcia,HR,"₹75,000",,2023-01-15,TRUE
+1293,,SALES,52000.50,N/A,2024-02-28,
+1294,David Lee,eng,"$45,000",N/A,28-02-2024,
+1295,  Rahul Kumar  ,Human Resources,-,5,2023.05.20,
+1296,,,-,,2023.05.20,1
+1297,David Lee,HR,,,2023-01-15,
+1298,,  Finance  ,"₹75,000",4.0,2023-01-15,true
+1299,Alice Smith,SALES,,4.8,"Jan 15, 2023",true
+1299,David Lee,SALES,"₹75,000",4.0,invalid_date,1
+1301,David Lee,Engineering,52000.50,4.0,2023-01-15,
+1302,Alice Smith,Engineering,"$45,000",3.5,2024-02-28,TRUE
+1303,BOB JONES  ,SALES,-,5,2023-01-15,true
+1304,  John Doe ,SALES,52000.50,,2023-01-15,FALSE
+1305,BOB JONES  ,,"₹1,200,000",,15/01/2023,TRUE
+1306,Alice Smith,Sales,"₹1,200,000",4.8,15/01/2023,TRUE
+1307,  John Doe ,SALES,-,4.8,2023.05.20,FALSE
+1308,Alice Smith,sales,,5,2023-01-15,yes
+1309,David Lee,SALES,52000.50,,2024-02-28,
+1310,  John Doe ,eng,52000.50,N/A,2023.05.20,1
+1311,BOB JONES  ,Engineering,"₹1,200,000",,15/01/2023,TRUE
+1312,BOB JONES  ,Engineering,-,N/A,2023.05.20,true
+1313,Maria Garcia,Human Resources,52000.50,3.5,2023-01-15,0
+1314,  Rahul Kumar  ,  Finance  ,"$110,000",,15/01/2023,
+1315,David Lee,SALES,-,4.0,2023.05.20,0
+1316,Alice Smith,  Finance  ,"$110,000",5,28-02-2024,1
+1317,  Rahul Kumar  ,,"₹75,000",4.0,invalid_date,TRUE
+1318,BOB JONES  ,SALES,"$45,000",4.0,2023.05.20,1
+1319,,Human Resources,N/A,3.5,28-02-2024,1
+1320,Alice Smith,sales,N/A,3.5,2023-01-15,true
+1321,  Rahul Kumar  ,,,5,2024-02-28,FALSE
+1322,BOB JONES  ,SALES,-,4.0,2024-02-28,
+1323,Alice Smith,  Finance  ,"₹75,000",N/A,invalid_date,1
+1324,,SALES,,4.8,2023-01-15,
+1325,  Rahul Kumar  ,,,4.8,2023.05.20,0
+1326,Alice Smith,,"$45,000",4.0,2024-02-28,FALSE
+1327,,HR,60000,3.5,15/01/2023,
+1328,  John Doe ,Sales,N/A,,2023-01-15,yes
+1329,BOB JONES  ,,-,,2023-01-15,
+1330,BOB JONES  ,HR,"$110,000",4.8,invalid_date,yes
+1331,,Sales,52000.50,,28-02-2024,true
+1332,  John Doe ,,"₹1,200,000",3.5,15/01/2023,FALSE
+1333,BOB JONES  ,Sales,,,28-02-2024,FALSE
+1334,  Rahul Kumar  ,,N/A,4.0,28-02-2024,true
+1335,David Lee,HR,N/A,3.5,15/01/2023,0
+1336,,sales,"$110,000",N/A,invalid_date,0
+1337,  John Doe ,Human Resources,,3.5,15/01/2023,1
+1338,David Lee,Human Resources,52000.50,,2024-02-28,yes
+1339,,SALES,60000,4.8,2024-02-28,1
+1340,Maria Garcia,SALES,"$110,000",4.8,"Jan 15, 2023",yes
+1341,  John Doe ,HR,"₹1,200,000",,2023.05.20,true
+1342,,Engineering,-,,"Jan 15, 2023",
+1343,  John Doe ,  Finance  ,60000,5,"Jan 15, 2023",0
+1344,  Rahul Kumar  ,eng,"₹1,200,000",N/A,2024-02-28,true
+1345,Maria Garcia,Sales,-,N/A,invalid_date,1
+1346,BOB JONES  ,Human Resources,"₹75,000",5,15/01/2023,1
+1347,Alice Smith,Human Resources,"$45,000",5,2024-02-28,FALSE
+1348,BOB JONES  ,eng,"₹1,200,000",,2024-02-28,TRUE
+1349,Maria Garcia,  Finance  ,N/A,3.5,invalid_date,0
+1350,  John Doe ,SALES,"$110,000",3.5,15/01/2023,0
+1351,  Rahul Kumar  ,  Finance  ,"$45,000",3.5,2024-02-28,yes
+1352,,sales,"₹75,000",3.5,2023.05.20,1
+1353,  Rahul Kumar  ,Sales,60000,,15/01/2023,true
+1354,BOB JONES  ,,"$110,000",N/A,invalid_date,
+1355,David Lee,,"$45,000",3.5,28-02-2024,FALSE
+1356,  Rahul Kumar  ,sales,N/A,N/A,"Jan 15, 2023",FALSE
+1357,David Lee,eng,"$110,000",,28-02-2024,1
+1358,BOB JONES  ,sales,"₹75,000",4.0,"Jan 15, 2023",0
+1359,Alice Smith,SALES,"$110,000",3.5,2023.05.20,
+1360,  Rahul Kumar  ,sales,52000.50,,invalid_date,true
+1361,,sales,"₹1,200,000",,15/01/2023,0
+1362,,HR,60000,,2023-01-15,FALSE
+1363,Maria Garcia,Human Resources,"₹1,200,000",N/A,28-02-2024,true
+1364,Alice Smith,Human Resources,"₹1,200,000",4.8,2023.05.20,0
+1365,Maria Garcia,Human Resources,-,N/A,"Jan 15, 2023",0
+1366,  Rahul Kumar  ,Human Resources,52000.50,5,invalid_date,yes
+1367,,,-,4.8,invalid_date,0
+1368,Maria Garcia,sales,"₹75,000",,invalid_date,FALSE
+1369,Maria Garcia,SALES,N/A,,invalid_date,TRUE
+1370,  Rahul Kumar  ,  Finance  ,"$45,000",5,15/01/2023,true
+1371,Maria Garcia,,"₹1,200,000",4.8,2023.05.20,true
+1372,David Lee,Human Resources,"₹1,200,000",,15/01/2023,true
+1373,,Human Resources,,3.5,15/01/2023,yes
+1374,  John Doe ,HR,52000.50,5,"Jan 15, 2023",TRUE
+1375,Maria Garcia,Human Resources,60000,3.5,2024-02-28,0
+1376,,SALES,,4.0,28-02-2024,0
+1377,  John Doe ,  Finance  ,N/A,,invalid_date,1
+1378,David Lee,Human Resources,60000,,28-02-2024,1
+1379,  John Doe ,Engineering,60000,4.8,"Jan 15, 2023",FALSE
+1380,David Lee,sales,60000,4.0,2024-02-28,
+1381,  John Doe ,eng,"₹75,000",4.8,15/01/2023,TRUE
+1382,,HR,,4.0,"Jan 15, 2023",
+1383,,eng,-,,28-02-2024,0
+1384,,sales,N/A,4.0,"Jan 15, 2023",true
+1385,  Rahul Kumar  ,SALES,-,3.5,2023-01-15,FALSE
+1386,David Lee,Human Resources,60000,3.5,"Jan 15, 2023",TRUE
+1387,  John Doe ,Engineering,N/A,,28-02-2024,TRUE
+1388,BOB JONES  ,eng,60000,,invalid_date,true
+1389,BOB JONES  ,eng,60000,N/A,15/01/2023,1
+1390,,SALES,"₹1,200,000",3.5,2023.05.20,TRUE
+1391,Maria Garcia,  Finance  ,"₹75,000",4.8,invalid_date,
+1392,Maria Garcia,Human Resources,N/A,4.0,15/01/2023,yes
+1393,  Rahul Kumar  ,sales,"₹1,200,000",,2024-02-28,TRUE
+1394,Alice Smith,SALES,N/A,4.0,15/01/2023,true
+1395,BOB JONES  ,sales,"₹1,200,000",,2023.05.20,FALSE
+1396,David Lee,SALES,"₹75,000",,2023-01-15,yes
+1397,  John Doe ,Sales,-,4.0,"Jan 15, 2023",1
+1398,,Human Resources,"$45,000",N/A,2023-01-15,TRUE
+1399,Alice Smith,  Finance  ,"₹75,000",5,15/01/2023,
+1399,  John Doe ,,N/A,3.5,15/01/2023,yes
+1401,,Sales,N/A,4.0,2023-01-15,1
+1402,Alice Smith,sales,"₹75,000",,28-02-2024,FALSE
+1403,,  Finance  ,"₹75,000",5,invalid_date,
+1404,Maria Garcia,SALES,-,,2023.05.20,0
+1405,,sales,-,5,15/01/2023,yes
+1406,  Rahul Kumar  ,,"$110,000",4.8,2024-02-28,yes
+1407,David Lee,HR,"$45,000",4.8,28-02-2024,1
+1408,Maria Garcia,Human Resources,"$45,000",,2024-02-28,yes
+1409,Alice Smith,,-,4.0,2023.05.20,
+1410,,  Finance  ,N/A,N/A,15/01/2023,FALSE
+1411,David Lee,sales,,5,2023-01-15,
+1412,,sales,52000.50,,2023.05.20,true
+1413,BOB JONES  ,eng,52000.50,3.5,15/01/2023,true
+1414,  John Doe ,sales,60000,,2023.05.20,0
+1415,  John Doe ,Human Resources,N/A,4.8,"Jan 15, 2023",yes
+1416,  Rahul Kumar  ,Engineering,"$45,000",4.8,28-02-2024,FALSE
+1417,Maria Garcia,sales,"$45,000",4.0,2023-01-15,0
+1418,Alice Smith,Engineering,"₹1,200,000",N/A,invalid_date,TRUE
+1419,Maria Garcia,sales,,4.8,2024-02-28,TRUE
+1420,Alice Smith,  Finance  ,"$110,000",5,2023-01-15,
+1421,Maria Garcia,eng,N/A,,2023-01-15,FALSE
+1422,Alice Smith,Sales,-,5,2023.05.20,yes
+1423,,sales,N/A,3.5,2023.05.20,FALSE
+1424,David Lee,SALES,"$110,000",3.5,2023-01-15,1
+1425,BOB JONES  ,SALES,,5,15/01/2023,1
+1426,Maria Garcia,eng,"$45,000",,invalid_date,FALSE
+1427,,HR,"₹75,000",5,"Jan 15, 2023",1
+1428,BOB JONES  ,eng,"₹75,000",4.0,28-02-2024,FALSE
+1429,  Rahul Kumar  ,SALES,-,N/A,2024-02-28,true
+1430,David Lee,Engineering,-,4.8,15/01/2023,yes
+1431,Alice Smith,  Finance  ,52000.50,4.0,invalid_date,
+1432,  John Doe ,Human Resources,"₹75,000",5,2023.05.20,FALSE
+1433,  Rahul Kumar  ,,"$45,000",4.8,28-02-2024,
+1434,Alice Smith,,"₹75,000",3.5,2023-01-15,yes
+1435,Alice Smith,sales,"$45,000",4.8,invalid_date,0
+1436,David Lee,HR,"$45,000",5,28-02-2024,yes
+1437,  John Doe ,eng,"$45,000",,"Jan 15, 2023",FALSE
+1438,Maria Garcia,,"₹1,200,000",3.5,28-02-2024,0
+1439,Maria Garcia,Sales,"₹1,200,000",,15/01/2023,
+1440,Alice Smith,,60000,,2023-01-15,TRUE
+1441,  Rahul Kumar  ,SALES,"$45,000",3.5,invalid_date,TRUE
+1442,  John Doe ,eng,,N/A,15/01/2023,TRUE
+1443,David Lee,Human Resources,,4.8,2023-01-15,FALSE
+1444,  Rahul Kumar  ,eng,"₹1,200,000",N/A,15/01/2023,FALSE
+1445,  Rahul Kumar  ,Engineering,"$110,000",4.8,2023.05.20,FALSE
+1446,  John Doe ,Human Resources,"₹75,000",3.5,invalid_date,yes
+1447,  John Doe ,Engineering,52000.50,N/A,2024-02-28,true
+1448,,SALES,52000.50,N/A,2024-02-28,0
+1449,Alice Smith,SALES,52000.50,4.8,15/01/2023,yes
+1450,BOB JONES  ,HR,"₹1,200,000",4.0,2023.05.20,0
+1451,  John Doe ,HR,60000,,2024-02-28,1
+1452,  John Doe ,sales,,,2024-02-28,
+1453,  Rahul Kumar  ,  Finance  ,60000,3.5,2023.05.20,FALSE
+1454,Maria Garcia,HR,"₹1,200,000",5,2023.05.20,yes
+1455,David Lee,  Finance  ,,,invalid_date,yes
+1456,  John Doe ,Engineering,"$45,000",N/A,2024-02-28,1
+1457,,,52000.50,N/A,2023.05.20,true
+1458,  John Doe ,Sales,"$110,000",,2023.05.20,true
+1459,Alice Smith,HR,"$110,000",N/A,invalid_date,FALSE
+1460,Maria Garcia,HR,"₹1,200,000",4.8,invalid_date,
+1461,  Rahul Kumar  ,Engineering,"$110,000",5,28-02-2024,
+1462,David Lee,Sales,"$110,000",,2023-01-15,FALSE
+1463,David Lee,  Finance  ,-,3.5,2023-01-15,true
+1464,  Rahul Kumar  ,sales,N/A,,2023-01-15,1
+1465,Alice Smith,,,3.5,2023-01-15,1
+1466,,Engineering,"₹75,000",4.8,2023-01-15,TRUE
+1467,,HR,,4.0,"Jan 15, 2023",0
+1468,Alice Smith,eng,,4.8,2024-02-28,FALSE
+1469,BOB JONES  ,SALES,-,4.8,2023.05.20,TRUE
+1470,BOB JONES  ,sales,"₹1,200,000",N/A,"Jan 15, 2023",true
+1471,,  Finance  ,"$110,000",3.5,2023-01-15,
+1472,  Rahul Kumar  ,Engineering,60000,,"Jan 15, 2023",yes
+1473,David Lee,,"₹75,000",,2023.05.20,FALSE
+1474,BOB JONES  ,Engineering,-,4.0,"Jan 15, 2023",0
+1475,David Lee,Human Resources,52000.50,,2024-02-28,yes
+1476,  John Doe ,eng,60000,4.8,invalid_date,FALSE
+1477,  John Doe ,eng,"$45,000",3.5,invalid_date,true
+1478,  Rahul Kumar  ,HR,,N/A,invalid_date,TRUE
+1479,David Lee,,N/A,4.0,2024-02-28,true
+1480,BOB JONES  ,eng,-,5,2024-02-28,1
+1481,,Engineering,N/A,,15/01/2023,1
+1482,  Rahul Kumar  ,HR,"₹75,000",4.0,15/01/2023,FALSE
+1483,Maria Garcia,HR,60000,N/A,28-02-2024,0
+1484,Alice Smith,,60000,3.5,2023-01-15,yes
+1485,Alice Smith,,"$110,000",N/A,28-02-2024,1
+1486,Alice Smith,sales,"$45,000",3.5,2024-02-28,yes
+1487,Alice Smith,HR,"$45,000",3.5,15/01/2023,true
+1488,David Lee,HR,"₹1,200,000",3.5,2024-02-28,
+1489,BOB JONES  ,eng,"₹75,000",,"Jan 15, 2023",FALSE
+1490,Alice Smith,SALES,N/A,,15/01/2023,
+1491,  John Doe ,SALES,-,N/A,"Jan 15, 2023",FALSE
+1492,  Rahul Kumar  ,,-,,"Jan 15, 2023",yes
+1493,Alice Smith,Engineering,"₹1,200,000",4.8,15/01/2023,0
+1494,Maria Garcia,Sales,,4.8,"Jan 15, 2023",TRUE
+1495,Alice Smith,Human Resources,60000,,28-02-2024,1
+1496,,sales,N/A,,2024-02-28,
+1497,,Engineering,-,4.0,28-02-2024,FALSE
+1498,,HR,-,5,invalid_date,
+1499,  John Doe ,  Finance  ,60000,3.5,2023.05.20,TRUE
+1499,Alice Smith,Human Resources,"₹1,200,000",N/A,invalid_date,
+1501,,,52000.50,5,15/01/2023,yes
+1502,Alice Smith,Sales,"₹75,000",4.8,2024-02-28,true
+1503,Maria Garcia,  Finance  ,52000.50,5,"Jan 15, 2023",0
+1504,  Rahul Kumar  ,sales,"₹75,000",N/A,"Jan 15, 2023",1
+1505,  Rahul Kumar  ,  Finance  ,,N/A,28-02-2024,TRUE
+1506,BOB JONES  ,SALES,"₹75,000",N/A,28-02-2024,1
+1507,BOB JONES  ,Sales,"$45,000",3.5,28-02-2024,true
+1508,BOB JONES  ,HR,,5,invalid_date,true
+1509,BOB JONES  ,  Finance  ,52000.50,3.5,15/01/2023,TRUE
+1510,Alice Smith,SALES,"$45,000",4.0,2023.05.20,
+1511,,Engineering,-,4.8,2023-01-15,
+1512,,HR,52000.50,4.0,2024-02-28,0
+1513,BOB JONES  ,Sales,"₹75,000",5,"Jan 15, 2023",
+1514,,  Finance  ,,,"Jan 15, 2023",0
+1515,  John Doe ,Human Resources,"$45,000",N/A,2024-02-28,true
+1516,Alice Smith,  Finance  ,"₹75,000",N/A,invalid_date,yes
+1517,BOB JONES  ,,-,3.5,2023-01-15,true
+1518,David Lee,sales,N/A,5,"Jan 15, 2023",1
+1519,  Rahul Kumar  ,sales,52000.50,4.0,28-02-2024,true
+1520,,Sales,"$110,000",3.5,"Jan 15, 2023",true
+1521,David Lee,HR,"$45,000",3.5,invalid_date,
+1522,  John Doe ,  Finance  ,"₹1,200,000",N/A,invalid_date,0
+1523,Maria Garcia,HR,"$45,000",,"Jan 15, 2023",yes
+1524,David Lee,Sales,"$45,000",,2023.05.20,true
+1525,Alice Smith,HR,"$45,000",3.5,2023.05.20,
+1526,Maria Garcia,HR,"₹75,000",5,2024-02-28,1
+1527,,,"$45,000",N/A,15/01/2023,true
+1528,,Engineering,"$110,000",3.5,2024-02-28,1
+1529,David Lee,eng,"₹1,200,000",3.5,2023.05.20,0
+1530,,Sales,"$110,000",5,2023-01-15,0
+1531,BOB JONES  ,  Finance  ,"$110,000",4.8,15/01/2023,yes
+1532,Alice Smith,,52000.50,3.5,2024-02-28,TRUE
+1533,Alice Smith,HR,,,15/01/2023,true
+1534,,sales,,,invalid_date,FALSE
+1535,Maria Garcia,Sales,"₹75,000",5,15/01/2023,0
+1536,BOB JONES  ,eng,N/A,4.8,2023-01-15,yes
+1537,  Rahul Kumar  ,Human Resources,"₹75,000",4.0,2023.05.20,TRUE
+1538,Alice Smith,eng,"$45,000",,invalid_date,0
+1539,BOB JONES  ,  Finance  ,,4.8,15/01/2023,TRUE
+1540,BOB JONES  ,Sales,60000,,2023.05.20,0
+1541,BOB JONES  ,Engineering,52000.50,N/A,2024-02-28,TRUE
+1542,,sales,"$110,000",4.8,"Jan 15, 2023",1
+1543,  Rahul Kumar  ,eng,,3.5,2023.05.20,true
+1544,  John Doe ,HR,60000,,28-02-2024,yes
+1545,  Rahul Kumar  ,HR,,,28-02-2024,yes
+1546,  John Doe ,  Finance  ,60000,4.8,2023-01-15,
+1547,,Engineering,52000.50,,2024-02-28,0
+1548,Alice Smith,Sales,60000,3.5,28-02-2024,yes
+1549,,,60000,,15/01/2023,TRUE
+1550,BOB JONES  ,Engineering,,4.8,"Jan 15, 2023",
+1551,Alice Smith,,"₹75,000",4.0,"Jan 15, 2023",FALSE
+1552,Maria Garcia,,-,,28-02-2024,yes
+1553,BOB JONES  ,SALES,52000.50,4.0,2023.05.20,yes
+1554,  John Doe ,Sales,52000.50,N/A,15/01/2023,TRUE
+1555,  John Doe ,,"$110,000",4.0,2023-01-15,
+1556,BOB JONES  ,Sales,60000,4.8,28-02-2024,
+1557,BOB JONES  ,sales,52000.50,3.5,invalid_date,
+1558,David Lee,Human Resources,60000,N/A,"Jan 15, 2023",true
+1559,,Human Resources,N/A,,invalid_date,yes
+1560,,  Finance  ,"$45,000",5,2023-01-15,true
+1561,BOB JONES  ,HR,"$110,000",4.0,2023-01-15,1
+1562,BOB JONES  ,HR,60000,5,"Jan 15, 2023",true
+1563,,sales,"$110,000",N/A,2023-01-15,FALSE
+1564,BOB JONES  ,  Finance  ,-,,invalid_date,
+1565,,eng,"₹75,000",,invalid_date,0
+1566,  John Doe ,eng,-,4.8,28-02-2024,FALSE
+1567,  John Doe ,Human Resources,-,4.8,2024-02-28,
+1568,Maria Garcia,,60000,N/A,15/01/2023,1
+1569,  John Doe ,,,5,28-02-2024,yes
+1570,Maria Garcia,sales,"₹75,000",,invalid_date,
+1571,,  Finance  ,"$45,000",,2023-01-15,yes
+1572,BOB JONES  ,,"$45,000",3.5,2023.05.20,TRUE
+1573,  Rahul Kumar  ,Sales,60000,,2023-01-15,true
+1574,  John Doe ,HR,-,5,2023.05.20,yes
+1575,,HR,60000,3.5,2023.05.20,true
+1576,BOB JONES  ,SALES,N/A,,"Jan 15, 2023",1
+1577,,HR,"$45,000",5,2023.05.20,1
+1578,BOB JONES  ,  Finance  ,,N/A,invalid_date,TRUE
+1579,,HR,-,N/A,15/01/2023,FALSE
+1580,  Rahul Kumar  ,  Finance  ,"₹1,200,000",4.8,2024-02-28,0
+1581,  John Doe ,eng,60000,4.8,2024-02-28,FALSE
+1582,  John Doe ,  Finance  ,N/A,4.0,15/01/2023,TRUE
+1583,Alice Smith,Sales,52000.50,,2023.05.20,0
+1584,Alice Smith,Human Resources,"$45,000",3.5,2023-01-15,1
+1585,BOB JONES  ,SALES,52000.50,4.0,15/01/2023,true
+1586,,sales,N/A,4.0,2024-02-28,TRUE
+1587,BOB JONES  ,sales,"₹1,200,000",N/A,15/01/2023,0
+1588,  Rahul Kumar  ,HR,52000.50,N/A,"Jan 15, 2023",true
+1589,  John Doe ,  Finance  ,"₹75,000",,invalid_date,1
+1590,Maria Garcia,Human Resources,"$45,000",N/A,2023-01-15,true
+1591,David Lee,HR,"₹75,000",,"Jan 15, 2023",FALSE
+1592,  John Doe ,Engineering,52000.50,4.0,2023-01-15,true
+1593,  Rahul Kumar  ,Engineering,"$110,000",,2023-01-15,
+1594,BOB JONES  ,  Finance  ,60000,,28-02-2024,TRUE
+1595,David Lee,  Finance  ,52000.50,3.5,2023-01-15,1
+1596,,Human Resources,"₹1,200,000",,2023.05.20,0
+1597,Alice Smith,Engineering,,,2023.05.20,1
+1598,  Rahul Kumar  ,SALES,"$110,000",4.0,2023-01-15,
+1599,  John Doe ,Human Resources,"₹75,000",N/A,2023-01-15,true
+1599,  John Doe ,Engineering,,5,28-02-2024,FALSE
+1601,,eng,60000,5,15/01/2023,0
+1602,BOB JONES  ,Sales,-,4.8,28-02-2024,yes
+1603,BOB JONES  ,HR,"₹75,000",4.8,28-02-2024,
+1604,David Lee,Human Resources,,4.0,15/01/2023,true
+1605,  Rahul Kumar  ,sales,,3.5,15/01/2023,FALSE
+1606,David Lee,Sales,"₹75,000",,invalid_date,TRUE
+1607,Maria Garcia,  Finance  ,"$45,000",3.5,invalid_date,
+1608,David Lee,,60000,,2023.05.20,yes
+1609,David Lee,sales,"₹1,200,000",N/A,"Jan 15, 2023",yes
+1610,Maria Garcia,,-,,invalid_date,yes
+1611,,Human Resources,"$110,000",3.5,15/01/2023,TRUE
+1612,David Lee,  Finance  ,"₹1,200,000",,2024-02-28,0
+1613,BOB JONES  ,eng,N/A,3.5,"Jan 15, 2023",
+1614,Maria Garcia,HR,"₹1,200,000",4.8,15/01/2023,
+1615,,  Finance  ,-,,invalid_date,FALSE
+1616,Alice Smith,eng,,3.5,15/01/2023,true
+1617,  Rahul Kumar  ,sales,,3.5,28-02-2024,TRUE
+1618,Alice Smith,HR,-,N/A,"Jan 15, 2023",0
+1619,BOB JONES  ,HR,"₹1,200,000",4.0,"Jan 15, 2023",true
+1620,Maria Garcia,eng,"$45,000",,2023.05.20,TRUE
+1621,David Lee,eng,"₹75,000",4.0,2023-01-15,TRUE
+1622,BOB JONES  ,Human Resources,-,4.0,2023.05.20,1
+1623,  John Doe ,eng,-,5,"Jan 15, 2023",1
+1624,BOB JONES  ,Engineering,"₹75,000",,15/01/2023,FALSE
+1625,  John Doe ,Engineering,,,15/01/2023,yes
+1626,BOB JONES  ,sales,60000,,invalid_date,1
+1627,Maria Garcia,SALES,60000,5,28-02-2024,true
+1628,Alice Smith,  Finance  ,"$45,000",,2023-01-15,FALSE
+1629,BOB JONES  ,sales,"₹75,000",4.0,28-02-2024,0
+1630,  Rahul Kumar  ,sales,60000,,15/01/2023,true
+1631,Maria Garcia,Human Resources,"₹75,000",4.8,invalid_date,1
+1632,,SALES,-,,2023-01-15,TRUE
+1633,  Rahul Kumar  ,  Finance  ,N/A,4.0,15/01/2023,true
+1634,  John Doe ,,-,N/A,15/01/2023,TRUE
+1635,David Lee,Engineering,60000,N/A,2023.05.20,1
+1636,Maria Garcia,Sales,52000.50,4.8,2023-01-15,FALSE
+1637,Maria Garcia,sales,,3.5,"Jan 15, 2023",
+1638,  Rahul Kumar  ,HR,N/A,4.0,2023.05.20,true
+1639,David Lee,  Finance  ,N/A,N/A,28-02-2024,0
+1640,  John Doe ,,"₹1,200,000",4.0,2023-01-15,yes
+1641,David Lee,,-,4.0,invalid_date,yes
+1642,Maria Garcia,eng,60000,,invalid_date,1
+1643,David Lee,Human Resources,,4.8,2023-01-15,FALSE
+1644,Alice Smith,Human Resources,"₹75,000",5,2024-02-28,0
+1645,,HR,,,28-02-2024,yes
+1646,,SALES,"₹1,200,000",,2024-02-28,1
+1647,Alice Smith,Sales,"$45,000",4.0,invalid_date,
+1648,  John Doe ,Human Resources,"₹75,000",3.5,15/01/2023,FALSE
+1649,  John Doe ,sales,"₹75,000",3.5,2023.05.20,TRUE
+1650,BOB JONES  ,Sales,N/A,,2023.05.20,FALSE
+1651,David Lee,  Finance  ,52000.50,5,"Jan 15, 2023",FALSE
+1652,  John Doe ,HR,60000,3.5,2024-02-28,0
+1653,Maria Garcia,Sales,60000,3.5,2023.05.20,true
+1654,  Rahul Kumar  ,  Finance  ,"$45,000",,2023-01-15,yes
+1655,David Lee,Engineering,"₹75,000",5,15/01/2023,FALSE
+1656,BOB JONES  ,,"₹75,000",3.5,28-02-2024,yes
+1657,Maria Garcia,sales,"$110,000",,2023.05.20,yes
+1658,Maria Garcia,eng,"₹75,000",,2023.05.20,yes
+1659,,Sales,"$110,000",4.8,invalid_date,1
+1660,,,,N/A,2024-02-28,1
+1661,,eng,N/A,,15/01/2023,1
+1662,BOB JONES  ,Sales,N/A,,invalid_date,0
+1663,  Rahul Kumar  ,,"$110,000",4.8,28-02-2024,1
+1664,Alice Smith,,"$110,000",N/A,2024-02-28,1
+1665,BOB JONES  ,sales,60000,5,"Jan 15, 2023",true
+1666,Maria Garcia,Human Resources,"$110,000",5,15/01/2023,TRUE
+1667,BOB JONES  ,HR,60000,4.8,28-02-2024,1
+1668,  John Doe ,  Finance  ,,4.0,15/01/2023,TRUE
+1669,  John Doe ,SALES,"$110,000",N/A,2023-01-15,FALSE
+1670,Maria Garcia,,-,3.5,28-02-2024,yes
+1671,Alice Smith,eng,-,N/A,2024-02-28,1
+1672,Maria Garcia,  Finance  ,"₹1,200,000",3.5,2023-01-15,1
+1673,BOB JONES  ,Human Resources,,,2024-02-28,FALSE
+1674,Alice Smith,Human Resources,52000.50,4.8,15/01/2023,
+1675,BOB JONES  ,SALES,52000.50,4.8,invalid_date,true
+1676,  Rahul Kumar  ,,"₹1,200,000",3.5,2023-01-15,1
+1677,Alice Smith,HR,"₹75,000",,15/01/2023,yes
+1678,Alice Smith,  Finance  ,60000,4.8,invalid_date,
+1679,Maria Garcia,sales,,4.0,2023-01-15,TRUE
+1680,David Lee,eng,"$45,000",,invalid_date,1
+1681,David Lee,,"₹1,200,000",4.8,15/01/2023,yes
+1682,  John Doe ,HR,N/A,5,2023-01-15,
+1683,Alice Smith,sales,"$110,000",4.0,2023.05.20,1
+1684,Maria Garcia,Engineering,52000.50,,15/01/2023,TRUE
+1685,  John Doe ,Human Resources,"₹75,000",3.5,28-02-2024,0
+1686,David Lee,Engineering,"$110,000",N/A,invalid_date,1
+1687,Alice Smith,  Finance  ,N/A,,28-02-2024,FALSE
+1688,  John Doe ,SALES,52000.50,4.0,2024-02-28,
+1689,BOB JONES  ,SALES,52000.50,4.8,28-02-2024,FALSE
+1690,David Lee,eng,-,N/A,2023.05.20,true
+1691,,,52000.50,,2024-02-28,FALSE
+1692,BOB JONES  ,Human Resources,"$45,000",5,"Jan 15, 2023",FALSE
+1693,  John Doe ,Human Resources,,,2023-01-15,1
+1694,BOB JONES  ,HR,"$110,000",3.5,15/01/2023,
+1695,  Rahul Kumar  ,Human Resources,"$45,000",,2024-02-28,1
+1696,Maria Garcia,HR,"₹75,000",,2024-02-28,TRUE
+1697,BOB JONES  ,SALES,N/A,,15/01/2023,1
+1698,  Rahul Kumar  ,eng,"$110,000",4.8,invalid_date,FALSE
+1699,  Rahul Kumar  ,Engineering,52000.50,4.0,28-02-2024,
+1699,BOB JONES  ,  Finance  ,"₹75,000",5,2023.05.20,FALSE
+1701,,HR,52000.50,N/A,28-02-2024,
+1702,BOB JONES  ,eng,"$45,000",N/A,2024-02-28,
+1703,BOB JONES  ,  Finance  ,"₹1,200,000",4.0,2023.05.20,FALSE
+1704,Maria Garcia,SALES,,3.5,invalid_date,
+1705,Alice Smith,  Finance  ,"₹1,200,000",,2023-01-15,1
+1706,  John Doe ,Sales,N/A,,2023.05.20,1
+1707,  John Doe ,,"₹1,200,000",N/A,invalid_date,TRUE
+1708,Maria Garcia,Engineering,"$110,000",3.5,invalid_date,FALSE
+1709,BOB JONES  ,  Finance  ,-,4.0,"Jan 15, 2023",1
+1710,Alice Smith,sales,"$110,000",4.8,15/01/2023,0
+1711,  John Doe ,sales,"₹75,000",,invalid_date,TRUE
+1712,  Rahul Kumar  ,SALES,-,4.8,2024-02-28,FALSE
+1713,David Lee,HR,60000,3.5,2024-02-28,TRUE
+1714,David Lee,SALES,"₹75,000",,2024-02-28,1
+1715,  Rahul Kumar  ,eng,"$110,000",4.0,15/01/2023,true
+1716,  Rahul Kumar  ,sales,"₹1,200,000",N/A,2024-02-28,FALSE
+1717,BOB JONES  ,SALES,"₹1,200,000",5,invalid_date,TRUE
+1718,  John Doe ,  Finance  ,"₹1,200,000",3.5,2023.05.20,FALSE
+1719,David Lee,Sales,-,4.0,15/01/2023,yes
+1720,  John Doe ,sales,52000.50,5,15/01/2023,FALSE
+1721,,,"$110,000",,"Jan 15, 2023",TRUE
+1722,BOB JONES  ,Engineering,"$110,000",4.8,2023.05.20,true
+1723,  Rahul Kumar  ,Human Resources,"$45,000",4.8,"Jan 15, 2023",0
+1724,BOB JONES  ,SALES,"₹75,000",N/A,2023-01-15,
+1725,  Rahul Kumar  ,SALES,"$110,000",5,2023-01-15,true
+1726,BOB JONES  ,,N/A,3.5,"Jan 15, 2023",
+1727,Maria Garcia,Human Resources,"$45,000",N/A,2024-02-28,true
+1728,,Sales,"₹1,200,000",4.0,"Jan 15, 2023",1
+1729,Maria Garcia,Sales,"$45,000",,2023.05.20,FALSE
+1730,Maria Garcia,eng,"$45,000",,28-02-2024,yes
+1731,,Human Resources,,4.8,28-02-2024,yes
+1732,BOB JONES  ,eng,60000,4.8,28-02-2024,1
+1733,  Rahul Kumar  ,Engineering,52000.50,4.8,invalid_date,FALSE
+1734,Maria Garcia,HR,N/A,5,invalid_date,TRUE
+1735,  John Doe ,SALES,60000,3.5,2024-02-28,FALSE
+1736,Maria Garcia,Human Resources,N/A,5,"Jan 15, 2023",true
+1737,  John Doe ,  Finance  ,-,,invalid_date,1
+1738,  Rahul Kumar  ,Human Resources,60000,,2024-02-28,0
+1739,Maria Garcia,eng,60000,,15/01/2023,true
+1740,BOB JONES  ,sales,60000,N/A,2024-02-28,true
+1741,BOB JONES  ,Engineering,"₹1,200,000",3.5,15/01/2023,yes
+1742,BOB JONES  ,SALES,"$110,000",,invalid_date,
+1743,Maria Garcia,,-,5,"Jan 15, 2023",true
+1744,  Rahul Kumar  ,sales,"$110,000",,invalid_date,TRUE
+1745,Alice Smith,eng,"$110,000",N/A,28-02-2024,FALSE
+1746,Alice Smith,Engineering,60000,5,2023.05.20,yes
+1747,,sales,"$110,000",4.0,invalid_date,FALSE
+1748,BOB JONES  ,,"₹75,000",,2023-01-15,yes
+1749,Alice Smith,SALES,-,3.5,15/01/2023,
+1750,BOB JONES  ,  Finance  ,N/A,N/A,2023-01-15,
+1751,BOB JONES  ,Engineering,60000,4.8,2023.05.20,0
+1752,  John Doe ,Human Resources,52000.50,N/A,invalid_date,TRUE
+1753,David Lee,,"$45,000",N/A,"Jan 15, 2023",1
+1754,BOB JONES  ,SALES,"$45,000",,2023.05.20,TRUE
+1755,  Rahul Kumar  ,Engineering,"$110,000",3.5,2023-01-15,0
+1756,Maria Garcia,,N/A,N/A,28-02-2024,
+1757,Alice Smith,HR,"$45,000",5,2023-01-15,yes
+1758,Maria Garcia,SALES,52000.50,N/A,15/01/2023,TRUE
+1759,Maria Garcia,HR,"₹75,000",3.5,15/01/2023,1
+1760,  Rahul Kumar  ,Human Resources,-,5,invalid_date,yes
+1761,David Lee,,"₹75,000",3.5,15/01/2023,true
+1762,  John Doe ,SALES,60000,4.8,2023-01-15,TRUE
+1763,Maria Garcia,Engineering,60000,N/A,2023-01-15,1
+1764,  Rahul Kumar  ,HR,N/A,4.0,2023-01-15,true
+1765,BOB JONES  ,Human Resources,"₹1,200,000",4.8,2023-01-15,0
+1766,  John Doe ,eng,"$45,000",4.8,15/01/2023,yes
+1767,  Rahul Kumar  ,sales,N/A,3.5,2023-01-15,FALSE
+1768,BOB JONES  ,,"₹1,200,000",,28-02-2024,true
+1769,Maria Garcia,Sales,"$110,000",,28-02-2024,true
+1770,BOB JONES  ,Sales,-,,2023-01-15,true
+1771,  John Doe ,Sales,-,5,15/01/2023,true
+1772,  Rahul Kumar  ,HR,52000.50,4.0,2023.05.20,FALSE
+1773,  John Doe ,,60000,4.0,15/01/2023,
+1774,  John Doe ,Human Resources,"₹1,200,000",3.5,2023.05.20,true
+1775,  Rahul Kumar  ,Human Resources,,3.5,2024-02-28,yes
+1776,,HR,N/A,N/A,2023-01-15,1
+1777,BOB JONES  ,SALES,52000.50,4.0,"Jan 15, 2023",
+1778,Alice Smith,sales,-,5,2023-01-15,true
+1779,Alice Smith,SALES,N/A,,28-02-2024,
+1780,,  Finance  ,N/A,5,invalid_date,yes
+1781,  Rahul Kumar  ,SALES,"₹1,200,000",3.5,invalid_date,1
+1782,BOB JONES  ,sales,52000.50,5,2023-01-15,true
+1783,David Lee,HR,"₹1,200,000",,invalid_date,yes
+1784,,,"$45,000",N/A,2023.05.20,FALSE
+1785,David Lee,eng,"₹75,000",5,invalid_date,yes
+1786,Maria Garcia,Engineering,52000.50,5,invalid_date,true
+1787,  Rahul Kumar  ,eng,-,,2023.05.20,true
+1788,  John Doe ,SALES,"$45,000",4.0,"Jan 15, 2023",true
+1789,  John Doe ,Sales,N/A,N/A,2023-01-15,TRUE
+1790,,eng,"$110,000",N/A,2024-02-28,TRUE
+1791,Alice Smith,,52000.50,4.0,2023-01-15,true
+1792,  Rahul Kumar  ,Human Resources,52000.50,,2024-02-28,1
+1793,  Rahul Kumar  ,SALES,52000.50,,"Jan 15, 2023",0
+1794,David Lee,SALES,N/A,N/A,15/01/2023,yes
+1795,David Lee,sales,"$45,000",4.8,2023-01-15,yes
+1796,Maria Garcia,SALES,,4.8,28-02-2024,0
+1797,  John Doe ,Sales,52000.50,,2023-01-15,
+1798,,sales,"$110,000",4.8,28-02-2024,TRUE
+1799,David Lee,eng,"$45,000",4.0,invalid_date,0
+1799,Maria Garcia,Human Resources,60000,3.5,2023-01-15,FALSE
+1801,  Rahul Kumar  ,Sales,"$110,000",N/A,2023-01-15,1
+1802,Alice Smith,,"₹75,000",3.5,"Jan 15, 2023",0
+1803,  Rahul Kumar  ,SALES,"₹75,000",N/A,invalid_date,
+1804,  John Doe ,SALES,"$45,000",5,15/01/2023,
+1805,BOB JONES  ,eng,"₹75,000",N/A,"Jan 15, 2023",
+1806,  John Doe ,sales,"$110,000",,2023.05.20,0
+1807,BOB JONES  ,sales,-,,2023-01-15,FALSE
+1808,  Rahul Kumar  ,HR,"₹1,200,000",,28-02-2024,1
+1809,Maria Garcia,,"₹75,000",3.5,2024-02-28,true
+1810,BOB JONES  ,Engineering,"₹75,000",4.8,15/01/2023,
+1811,Alice Smith,Engineering,"₹75,000",4.8,invalid_date,true
+1812,  Rahul Kumar  ,SALES,,,15/01/2023,
+1813,Alice Smith,Engineering,-,,invalid_date,
+1814,Maria Garcia,Engineering,N/A,,2023.05.20,
+1815,Alice Smith,Human Resources,60000,,"Jan 15, 2023",
+1816,Maria Garcia,sales,52000.50,N/A,2023-01-15,yes
+1817,BOB JONES  ,SALES,"₹1,200,000",,2023.05.20,
+1818,David Lee,Engineering,"$45,000",N/A,2023.05.20,0
+1819,Alice Smith,eng,"$45,000",4.0,2023.05.20,1
+1820,  Rahul Kumar  ,Sales,"$45,000",,15/01/2023,0
+1821,BOB JONES  ,eng,"$45,000",5,2024-02-28,1
+1822,,Human Resources,"₹1,200,000",5,"Jan 15, 2023",TRUE
+1823,Maria Garcia,SALES,"₹1,200,000",,2023.05.20,0
+1824,BOB JONES  ,Engineering,60000,N/A,2023-01-15,true
+1825,Alice Smith,Human Resources,-,,"Jan 15, 2023",yes
+1826,BOB JONES  ,eng,"₹75,000",4.8,invalid_date,true
+1827,  John Doe ,Sales,"₹75,000",,28-02-2024,1
+1828,  Rahul Kumar  ,Sales,52000.50,N/A,15/01/2023,1
+1829,  John Doe ,Engineering,"$45,000",N/A,15/01/2023,true
+1830,David Lee,,52000.50,,"Jan 15, 2023",true
+1831,Maria Garcia,eng,N/A,4.8,2023.05.20,yes
+1832,Alice Smith,Sales,"$45,000",5,2023.05.20,FALSE
+1833,BOB JONES  ,,"$45,000",,"Jan 15, 2023",
+1834,  Rahul Kumar  ,eng,"$45,000",5,2023.05.20,
+1835,BOB JONES  ,eng,"$110,000",,"Jan 15, 2023",TRUE
+1836,BOB JONES  ,  Finance  ,"₹75,000",5,2024-02-28,FALSE
+1837,Alice Smith,Engineering,"$45,000",3.5,15/01/2023,FALSE
+1838,  Rahul Kumar  ,Engineering,N/A,N/A,2024-02-28,true
+1839,  Rahul Kumar  ,eng,N/A,4.8,"Jan 15, 2023",
+1840,  John Doe ,  Finance  ,N/A,,2024-02-28,
+1841,Alice Smith,,60000,,invalid_date,TRUE
+1842,Alice Smith,  Finance  ,N/A,4.8,2023-01-15,TRUE
+1843,  John Doe ,sales,"$45,000",4.8,2023.05.20,FALSE
+1844,  Rahul Kumar  ,  Finance  ,"₹1,200,000",N/A,2023-01-15,true
+1845,David Lee,Human Resources,N/A,N/A,2023.05.20,1
+1846,BOB JONES  ,SALES,60000,,2023-01-15,
+1847,Maria Garcia,Human Resources,,N/A,28-02-2024,true
+1848,David Lee,,"$110,000",N/A,2023.05.20,FALSE
+1849,,  Finance  ,52000.50,,"Jan 15, 2023",FALSE
+1850,,HR,"$110,000",4.0,28-02-2024,1
+1851,Maria Garcia,SALES,60000,,2024-02-28,true
+1852,David Lee,sales,-,4.0,28-02-2024,0
+1853,Maria Garcia,Sales,-,,2023.05.20,FALSE
+1854,BOB JONES  ,,"₹75,000",4.8,2023.05.20,1
+1855,  Rahul Kumar  ,sales,"$45,000",3.5,2023-01-15,0
+1856,BOB JONES  ,eng,N/A,5,"Jan 15, 2023",TRUE
+1857,Alice Smith,eng,-,5,15/01/2023,yes
+1858,David Lee,,N/A,N/A,28-02-2024,TRUE
+1859,David Lee,Sales,60000,,2023-01-15,
+1860,David Lee,Engineering,60000,,invalid_date,yes
+1861,,Sales,"₹1,200,000",N/A,28-02-2024,FALSE
+1862,,Human Resources,"₹75,000",5,invalid_date,0
+1863,,Engineering,60000,,28-02-2024,true
+1864,BOB JONES  ,Sales,"₹75,000",,"Jan 15, 2023",0
+1865,,HR,"₹1,200,000",4.0,15/01/2023,true
+1866,Alice Smith,SALES,52000.50,,15/01/2023,yes
+1867,  John Doe ,sales,"₹1,200,000",4.8,"Jan 15, 2023",true
+1868,Maria Garcia,,,,15/01/2023,true
+1869,  John Doe ,sales,60000,4.8,15/01/2023,true
+1870,BOB JONES  ,,52000.50,,invalid_date,0
+1871,,Sales,"$110,000",3.5,2024-02-28,FALSE
+1872,BOB JONES  ,HR,"$110,000",,2024-02-28,yes
+1873,Alice Smith,  Finance  ,,4.8,2023.05.20,true
+1874,  John Doe ,SALES,52000.50,,2024-02-28,FALSE
+1875,,eng,,4.8,2023.05.20,0
+1876,Maria Garcia,sales,N/A,5,2023.05.20,true
+1877,Alice Smith,Sales,60000,3.5,15/01/2023,0
+1878,Maria Garcia,Sales,"₹75,000",N/A,15/01/2023,
+1879,Alice Smith,  Finance  ,N/A,3.5,28-02-2024,true
+1880,  John Doe ,Human Resources,N/A,,28-02-2024,0
+1881,Maria Garcia,eng,52000.50,4.8,2023-01-15,FALSE
+1882,  Rahul Kumar  ,sales,-,,2024-02-28,yes
+1883,David Lee,Human Resources,-,3.5,"Jan 15, 2023",TRUE
+1884,Alice Smith,sales,,5,"Jan 15, 2023",1
+1885,  Rahul Kumar  ,,60000,3.5,invalid_date,1
+1886,  John Doe ,HR,"₹75,000",5,2023.05.20,
+1887,Alice Smith,,"$110,000",3.5,invalid_date,0
+1888,  Rahul Kumar  ,Sales,,4.8,"Jan 15, 2023",TRUE
+1889,David Lee,Engineering,"$45,000",4.0,15/01/2023,1
+1890,Alice Smith,HR,-,4.8,invalid_date,FALSE
+1891,David Lee,HR,52000.50,N/A,2023.05.20,true
+1892,  John Doe ,HR,"$110,000",3.5,2023-01-15,0
+1893,Maria Garcia,eng,60000,3.5,invalid_date,true
+1894,,SALES,-,N/A,2023.05.20,
+1895,Alice Smith,Human Resources,"₹1,200,000",,2023-01-15,yes
+1896,,sales,"$45,000",5,2024-02-28,
+1897,  John Doe ,sales,"₹75,000",,15/01/2023,0
+1898,,Sales,52000.50,4.0,15/01/2023,true
+1899,David Lee,SALES,52000.50,4.8,2024-02-28,1
+1899,Alice Smith,Engineering,"₹1,200,000",,"Jan 15, 2023",1
+1901,Alice Smith,Human Resources,-,5,2023-01-15,
+1902,Alice Smith,Human Resources,"₹1,200,000",,"Jan 15, 2023",TRUE
+1903,,SALES,"₹75,000",,2023.05.20,true
+1904,  Rahul Kumar  ,SALES,N/A,4.8,invalid_date,yes
+1905,Alice Smith,SALES,52000.50,N/A,2024-02-28,yes
+1906,Alice Smith,eng,,,"Jan 15, 2023",true
+1907,  Rahul Kumar  ,Human Resources,"$45,000",N/A,invalid_date,yes
+1908,David Lee,Sales,"₹1,200,000",N/A,15/01/2023,FALSE
+1909,,sales,"$45,000",4.8,2023-01-15,1
+1910,David Lee,Sales,"₹1,200,000",3.5,2024-02-28,
+1911,  John Doe ,,"₹75,000",5,28-02-2024,
+1912,,HR,52000.50,,28-02-2024,1
+1913,  Rahul Kumar  ,,-,,2024-02-28,TRUE
+1914,,HR,52000.50,,28-02-2024,true
+1915,  John Doe ,SALES,,4.0,2024-02-28,1
+1916,Alice Smith,eng,60000,,"Jan 15, 2023",0
+1917,  Rahul Kumar  ,HR,"$45,000",,2023-01-15,1
+1918,Alice Smith,,"$45,000",3.5,2024-02-28,
+1919,Maria Garcia,eng,,5,2023-01-15,0
+1920,BOB JONES  ,  Finance  ,"₹1,200,000",,invalid_date,FALSE
+1921,Alice Smith,SALES,N/A,5,2024-02-28,FALSE
+1922,David Lee,Human Resources,N/A,N/A,28-02-2024,true
+1923,  Rahul Kumar  ,Human Resources,52000.50,,invalid_date,FALSE
+1924,David Lee,Human Resources,,3.5,2023-01-15,true
+1925,David Lee,Human Resources,"$110,000",N/A,2024-02-28,FALSE
+1926,Alice Smith,Sales,"$45,000",4.8,"Jan 15, 2023",yes
+1927,Maria Garcia,eng,60000,,"Jan 15, 2023",FALSE
+1928,BOB JONES  ,eng,60000,,invalid_date,true
+1929,,,"₹75,000",N/A,15/01/2023,true
+1930,BOB JONES  ,HR,"₹75,000",,15/01/2023,yes
+1931,Maria Garcia,sales,"₹1,200,000",,invalid_date,true
+1932,,  Finance  ,60000,N/A,2023.05.20,
+1933,Alice Smith,sales,52000.50,5,invalid_date,0
+1934,  John Doe ,,"$110,000",5,2023-01-15,true
+1935,Alice Smith,Human Resources,52000.50,3.5,2023.05.20,1
+1936,,Sales,"₹75,000",,15/01/2023,1
+1937,,Sales,N/A,,2023-01-15,0
+1938,David Lee,Engineering,N/A,3.5,2023.05.20,yes
+1939,  John Doe ,  Finance  ,"₹75,000",4.0,2023.05.20,yes
+1940,Maria Garcia,Engineering,,5,"Jan 15, 2023",TRUE
+1941,BOB JONES  ,  Finance  ,"$45,000",4.8,28-02-2024,true
+1942,  John Doe ,,"$110,000",,2023.05.20,0
+1943,BOB JONES  ,  Finance  ,,5,15/01/2023,1
+1944,David Lee,eng,52000.50,3.5,2024-02-28,0
+1945,  John Doe ,SALES,60000,5,invalid_date,1
+1946,  John Doe ,HR,52000.50,,"Jan 15, 2023",1
+1947,,Engineering,"₹75,000",N/A,2023.05.20,
+1948,  John Doe ,HR,"$45,000",N/A,invalid_date,
+1949,Alice Smith,SALES,"₹75,000",,2023.05.20,
+1950,Alice Smith,HR,52000.50,4.0,28-02-2024,true
+1951,BOB JONES  ,Sales,,,"Jan 15, 2023",0
+1952,  John Doe ,  Finance  ,N/A,N/A,15/01/2023,FALSE
+1953,Alice Smith,eng,"₹75,000",5,15/01/2023,true
+1954,,SALES,-,,28-02-2024,true
+1955,  Rahul Kumar  ,  Finance  ,N/A,4.8,2023-01-15,true
+1956,  Rahul Kumar  ,sales,52000.50,4.0,15/01/2023,true
+1957,Maria Garcia,Human Resources,"$45,000",,15/01/2023,FALSE
+1958,Alice Smith,sales,"₹75,000",5,28-02-2024,1
+1959,  Rahul Kumar  ,Sales,"$110,000",4.8,15/01/2023,0
+1960,  Rahul Kumar  ,HR,-,,2023-01-15,true
+1961,  Rahul Kumar  ,,"$110,000",5,2024-02-28,true
+1962,,sales,,,2023-01-15,1
+1963,  Rahul Kumar  ,Engineering,"$45,000",N/A,2023.05.20,yes
+1964,  Rahul Kumar  ,Sales,N/A,5,15/01/2023,
+1965,BOB JONES  ,Sales,"₹1,200,000",5,15/01/2023,0
+1966,  John Doe ,,,4.8,invalid_date,true
+1967,,  Finance  ,"₹1,200,000",4.8,15/01/2023,true
+1968,BOB JONES  ,eng,"$45,000",N/A,28-02-2024,1
+1969,David Lee,Engineering,52000.50,4.0,2024-02-28,1
+1970,David Lee,Engineering,52000.50,,2024-02-28,1
+1971,,Sales,"$110,000",N/A,28-02-2024,FALSE
+1972,,eng,N/A,4.0,15/01/2023,0
+1973,  Rahul Kumar  ,Sales,60000,4.8,"Jan 15, 2023",yes
+1974,David Lee,sales,60000,5,invalid_date,TRUE
+1975,,Human Resources,"$110,000",4.8,28-02-2024,1
+1976,  Rahul Kumar  ,HR,"$110,000",,2023.05.20,
+1977,  Rahul Kumar  ,Human Resources,,N/A,15/01/2023,yes
+1978,David Lee,,-,,"Jan 15, 2023",TRUE
+1979,Alice Smith,  Finance  ,"$45,000",,2023-01-15,TRUE
+1980,  Rahul Kumar  ,Engineering,"$110,000",3.5,2023.05.20,true
+1981,,  Finance  ,"$45,000",,2024-02-28,0
+1982,David Lee,HR,-,4.8,"Jan 15, 2023",yes
+1983,David Lee,HR,"₹75,000",4.8,"Jan 15, 2023",0
+1984,  John Doe ,eng,60000,4.0,2024-02-28,FALSE
+1985,Maria Garcia,sales,N/A,4.8,2023-01-15,FALSE
+1986,BOB JONES  ,sales,52000.50,,2024-02-28,FALSE
+1987,Alice Smith,SALES,-,,invalid_date,TRUE
+1988,BOB JONES  ,Sales,"₹75,000",,2023-01-15,TRUE
+1989,David Lee,sales,"$45,000",4.8,2023-01-15,0
+1990,BOB JONES  ,eng,60000,,invalid_date,TRUE
+1991,Maria Garcia,eng,-,N/A,2024-02-28,0
+1992,  John Doe ,,"₹75,000",3.5,2024-02-28,0
+1993,Maria Garcia,Engineering,-,4.8,2023-01-15,FALSE
+1994,Maria Garcia,SALES,"$110,000",4.0,"Jan 15, 2023",0
+1995,BOB JONES  ,HR,-,5,"Jan 15, 2023",
+1996,  Rahul Kumar  ,SALES,N/A,5,2023.05.20,FALSE
+1997,Alice Smith,HR,,,"Jan 15, 2023",1
+1998,  Rahul Kumar  ,  Finance  ,60000,4.0,2023-01-15,1
+1999,  John Doe ,sales,"₹75,000",5,2023-01-15,TRUE
+1999,Alice Smith,Human Resources,,4.8,2024-02-28,FALSE
